@@ -1,0 +1,2 @@
+# Binary ML model artefacts are larger than GitHub's regular-file limit.
+models/*.pkl filter=lfs diff=lfs merge=lfs -text

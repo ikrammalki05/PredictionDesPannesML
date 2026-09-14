@@ -1,0 +1,181 @@
+technician_id,name,specialization,experience_years,company,city
+TCH-0001,Omar Tazi,SCADA & Water Instrumentation,12,Siemens Field Services,Oujda
+TCH-0002,Hind Squalli,Hydraulic Instrumentation,10,ONEE - Direction Régionale,Casablanca
+TCH-0003,Yassine El Fassi,Distribution Networks,8,ONEE - Direction Régionale,Rabat
+TCH-0004,Rachid Naciri,SCADA & Water Instrumentation,5,Cegelec Maroc,Meknes
+TCH-0005,Nadia Mansouri,Smart Metering,10,Redal Technique,Laayoune
+TCH-0006,Ahmed Squalli,SCADA & Water Instrumentation,6,GTR Maroc,Meknes
+TCH-0007,Hind El Fassi,Water Pumping Systems,12,ONEE - Direction Régionale,Meknes
+TCH-0008,Ahmed Naciri,Distribution Networks,0,Schneider Electric Services Maroc,Casablanca
+TCH-0009,Laila Tazi,Smart Metering,6,Lydec Maintenance,Casablanca
+TCH-0010,Khadija Naciri,Pipeline & Leak Detection,4,ONEE - Direction Régionale,Dakhla
+TCH-0011,Rachid Cherkaoui,SCADA & Water Instrumentation,1,Lydec Maintenance,Marrakech
+TCH-0012,Omar Alaoui,Smart Metering,7,Siemens Field Services,Oujda
+TCH-0013,Karim Lahlou,Hydraulic Instrumentation,3,Veolia Maroc,Marrakech
+TCH-0014,Khadija Naciri,High-Voltage Transformers,11,Siemens Field Services,Oujda
+TCH-0015,Salma Idrissi,Pipeline & Leak Detection,3,Redal Technique,Rabat
+TCH-0016,Zineb Bennani,High-Voltage Transformers,9,Redal Technique,Dakhla
+TCH-0017,Meryem Lahlou,Water Pumping Systems,9,Siemens Field Services,Casablanca
+TCH-0018,Youssef Cherkaoui,Hydraulic Instrumentation,13,Amendis Technique,Agadir
+TCH-0019,Imane Idrissi,SCADA & Electrical Instrumentation,6,Amendis Technique,Meknes
+TCH-0020,Meryem Zouiten,Water Tanks & Reservoirs,11,Redal Technique,Meknes
+TCH-0021,Rachid Mansouri,Pipeline & Leak Detection,14,Veolia Maroc,Fès
+TCH-0022,Salma Bouzid,Smart Metering,22,Cegelec Maroc,Fès
+TCH-0023,Meryem Lahlou,Smart Metering,7,Schneider Electric Services Maroc,Laayoune
+TCH-0024,Meryem Lahlou,High-Voltage Transformers,12,GTR Maroc,Agadir
+TCH-0025,Said Tazi,Distribution Networks,20,Schneider Electric Services Maroc,Agadir
+TCH-0026,Khadija Mansouri,Water Tanks & Reservoirs,0,Schneider Electric Services Maroc,Tangier
+TCH-0027,Ahmed Naciri,Hydraulic Instrumentation,8,Cegelec Maroc,Laayoune
+TCH-0028,Youssef Sebti,Water Tanks & Reservoirs,0,Lydec Maintenance,Fès
+TCH-0029,Salma Cherkaoui,SCADA & Water Instrumentation,8,Redal Technique,Oujda
+TCH-0030,Zineb Idrissi,High-Voltage Transformers,16,Lydec Maintenance,Tangier
+TCH-0031,Hamza Lahlou,SCADA & Electrical Instrumentation,4,Siemens Field Services,Dakhla
+TCH-0032,Laila Zouiten,Substation Systems,9,Veolia Maroc,Fès
+TCH-0033,Hind Berrada,Substation Systems,9,Amendis Technique,Dakhla
+TCH-0034,Meryem Lahlou,Smart Metering,11,Siemens Field Services,Tangier
+TCH-0035,Said Berrada,Hydraulic Instrumentation,13,GTR Maroc,Marrakech
+TCH-0036,Hamza Cherkaoui,Pipeline & Leak Detection,3,Amendis Technique,Laayoune
+TCH-0037,Rachid Benjelloun,Distribution Networks,11,Siemens Field Services,Dakhla
+TCH-0038,Zineb Benjelloun,Water Pumping Systems,10,GTR Maroc,Marrakech
+TCH-0039,Omar Fassi,Hydraulic Instrumentation,16,Lydec Maintenance,Marrakech
+TCH-0040,Sara Cherkaoui,SCADA & Electrical Instrumentation,9,Cegelec Maroc,Dakhla
+TCH-0041,Yassine Fassi,SCADA & Water Instrumentation,2,Cegelec Maroc,Fès
+TCH-0042,Zineb Naciri,Water Tanks & Reservoirs,16,Amendis Technique,Tangier
+TCH-0043,Laila Tazi,Water Pumping Systems,13,GTR Maroc,Casablanca
+TCH-0044,Laila Alaoui,SCADA & Electrical Instrumentation,14,Schneider Electric Services Maroc,Laayoune
+TCH-0045,Omar Cherkaoui,Pipeline & Leak Detection,9,Veolia Maroc,Marrakech
+TCH-0046,Karim Cherkaoui,Distribution Networks,11,Redal Technique,Dakhla
+TCH-0047,Imane Zouiten,Hydraulic Instrumentation,12,Amendis Technique,Meknes
+TCH-0048,Youssef Bouzid,SCADA & Electrical Instrumentation,2,Siemens Field Services,Casablanca
+TCH-0049,Fatima Sebti,SCADA & Electrical Instrumentation,9,Redal Technique,Meknes
+TCH-0050,Salma Bouzid,Pipeline & Leak Detection,13,Siemens Field Services,Fès
+TCH-0051,Fatima Cherkaoui,Water Pumping Systems,0,Veolia Maroc,Dakhla
+TCH-0052,Said Ouazzani,Water Tanks & Reservoirs,3,Schneider Electric Services Maroc,Meknes
+TCH-0053,Sara Tazi,Distribution Networks,2,Redal Technique,Tangier
+TCH-0054,Salma El Fassi,Distribution Networks,7,ONEE - Direction Régionale,Dakhla
+TCH-0055,Zineb Mansouri,Distribution Networks,6,Redal Technique,Dakhla
+TCH-0056,Meryem Cherkaoui,Smart Metering,2,Redal Technique,Laayoune
+TCH-0057,Karim Idrissi,SCADA & Electrical Instrumentation,0,Cegelec Maroc,Rabat
+TCH-0058,Sara Alaoui,Water Pumping Systems,9,Siemens Field Services,Oujda
+TCH-0059,Karim Bennani,Smart Metering,11,Veolia Maroc,Meknes
+TCH-0060,Youssef Bennani,Smart Metering,9,Amendis Technique,Rabat
+TCH-0061,Ahmed Tazi,SCADA & Water Instrumentation,4,Redal Technique,Dakhla
+TCH-0062,Yassine Zouiten,Pipeline & Leak Detection,2,Schneider Electric Services Maroc,Tangier
+TCH-0063,Yassine Berrada,Water Tanks & Reservoirs,4,Lydec Maintenance,Tangier
+TCH-0064,Yassine Ouazzani,Hydraulic Instrumentation,0,Amendis Technique,Tangier
+TCH-0065,Khadija Berrada,Substation Systems,7,Cegelec Maroc,Laayoune
+TCH-0066,Sara Bennani,Distribution Networks,17,ONEE - Direction Régionale,Oujda
+TCH-0067,Sara Idrissi,Substation Systems,12,Schneider Electric Services Maroc,Rabat
+TCH-0068,Salma Alaoui,High-Voltage Transformers,12,Lydec Maintenance,Oujda
+TCH-0069,Ahmed Idrissi,SCADA & Electrical Instrumentation,0,Schneider Electric Services Maroc,Agadir
+TCH-0070,Hind Bennani,Distribution Networks,9,Redal Technique,Marrakech
+TCH-0071,Nadia Idrissi,Distribution Networks,15,Amendis Technique,Rabat
+TCH-0072,Yassine Squalli,Water Tanks & Reservoirs,13,Siemens Field Services,Tangier
+TCH-0073,Ahmed Squalli,SCADA & Water Instrumentation,10,ONEE - Direction Régionale,Casablanca
+TCH-0074,Salma Kettani,Pipeline & Leak Detection,1,Siemens Field Services,Dakhla
+TCH-0075,Yassine Berrada,Distribution Networks,12,Lydec Maintenance,Fès
+TCH-0076,Said Alaoui,Substation Systems,5,Siemens Field Services,Laayoune
+TCH-0077,Hamza Mansouri,Smart Metering,8,Lydec Maintenance,Dakhla
+TCH-0078,Imane Kettani,Substation Systems,3,Veolia Maroc,Agadir
+TCH-0079,Karim Fassi,SCADA & Electrical Instrumentation,4,Veolia Maroc,Casablanca
+TCH-0080,Omar Tazi,Water Pumping Systems,2,Redal Technique,Oujda
+TCH-0081,Sara Bouzid,Substation Systems,0,GTR Maroc,Casablanca
+TCH-0082,Said El Fassi,Water Pumping Systems,17,Siemens Field Services,Casablanca
+TCH-0083,Omar Tazi,Pipeline & Leak Detection,0,Siemens Field Services,Marrakech
+TCH-0084,Omar Idrissi,Distribution Networks,5,GTR Maroc,Laayoune
+TCH-0085,Omar Naciri,SCADA & Electrical Instrumentation,13,Redal Technique,Marrakech
+TCH-0086,Hamza Benjelloun,Water Tanks & Reservoirs,12,Siemens Field Services,Oujda
+TCH-0087,Karim Zouiten,Substation Systems,10,GTR Maroc,Tangier
+TCH-0088,Said Squalli,Smart Metering,0,Redal Technique,Dakhla
+TCH-0089,Omar Bouzid,Substation Systems,5,Amendis Technique,Oujda
+TCH-0090,Khadija Alaoui,SCADA & Electrical Instrumentation,9,Cegelec Maroc,Rabat
+TCH-0091,Yassine Sebti,Water Pumping Systems,3,Cegelec Maroc,Oujda
+TCH-0092,Imane Bouzid,Distribution Networks,14,Lydec Maintenance,Casablanca
+TCH-0093,Amine Tazi,Substation Systems,13,ONEE - Direction Régionale,Dakhla
+TCH-0094,Hind Sebti,Water Tanks & Reservoirs,6,Redal Technique,Meknes
+TCH-0095,Yassine Squalli,Smart Metering,3,ONEE - Direction Régionale,Oujda
+TCH-0096,Meryem Squalli,Water Pumping Systems,16,Schneider Electric Services Maroc,Casablanca
+TCH-0097,Salma Bouzid,Water Pumping Systems,6,Siemens Field Services,Agadir
+TCH-0098,Mohamed Idrissi,SCADA & Electrical Instrumentation,12,Schneider Electric Services Maroc,Rabat
+TCH-0099,Nadia Naciri,SCADA & Electrical Instrumentation,0,Redal Technique,Tangier
+TCH-0100,Sara Kettani,High-Voltage Transformers,10,Siemens Field Services,Agadir
+TCH-0101,Ahmed Berrada,Pipeline & Leak Detection,20,Lydec Maintenance,Meknes
+TCH-0102,Hamza Zouiten,High-Voltage Transformers,19,Cegelec Maroc,Laayoune
+TCH-0103,Amine Naciri,SCADA & Electrical Instrumentation,9,GTR Maroc,Oujda
+TCH-0104,Laila Naciri,Hydraulic Instrumentation,15,Lydec Maintenance,Meknes
+TCH-0105,Mohamed Alaoui,Substation Systems,6,Lydec Maintenance,Marrakech
+TCH-0106,Mohamed Sebti,Water Pumping Systems,5,Schneider Electric Services Maroc,Dakhla
+TCH-0107,Meryem Berrada,Distribution Networks,12,Schneider Electric Services Maroc,Rabat
+TCH-0108,Amine Naciri,SCADA & Electrical Instrumentation,12,Siemens Field Services,Fès
+TCH-0109,Karim Bouzid,Hydraulic Instrumentation,12,GTR Maroc,Meknes
+TCH-0110,Khadija Benjelloun,Pipeline & Leak Detection,12,Cegelec Maroc,Oujda
+TCH-0111,Karim Lahlou,SCADA & Electrical Instrumentation,14,Amendis Technique,Casablanca
+TCH-0112,Hamza Idrissi,Substation Systems,24,Cegelec Maroc,Casablanca
+TCH-0113,Said Bouzid,SCADA & Water Instrumentation,4,GTR Maroc,Meknes
+TCH-0114,Rachid Zouiten,Water Pumping Systems,3,Redal Technique,Oujda
+TCH-0115,Omar Idrissi,Water Pumping Systems,0,Veolia Maroc,Casablanca
+TCH-0116,Hind Benjelloun,Substation Systems,4,Redal Technique,Casablanca
+TCH-0117,Imane Cherkaoui,Hydraulic Instrumentation,13,Schneider Electric Services Maroc,Laayoune
+TCH-0118,Said Bouzid,Substation Systems,21,GTR Maroc,Fès
+TCH-0119,Youssef Fassi,Water Tanks & Reservoirs,2,Redal Technique,Meknes
+TCH-0120,Omar Chraibi,Hydraulic Instrumentation,21,Siemens Field Services,Laayoune
+TCH-0121,Nadia Alaoui,Water Pumping Systems,18,Lydec Maintenance,Marrakech
+TCH-0122,Sara Benjelloun,Hydraulic Instrumentation,8,Redal Technique,Meknes
+TCH-0123,Youssef Cherkaoui,Hydraulic Instrumentation,1,Cegelec Maroc,Laayoune
+TCH-0124,Meryem El Amrani,Pipeline & Leak Detection,13,GTR Maroc,Marrakech
+TCH-0125,Meryem Lahlou,Distribution Networks,5,Schneider Electric Services Maroc,Tangier
+TCH-0126,Salma El Fassi,Hydraulic Instrumentation,6,Redal Technique,Oujda
+TCH-0127,Yassine Mansouri,Distribution Networks,7,Redal Technique,Marrakech
+TCH-0128,Ahmed Lahlou,Pipeline & Leak Detection,4,Schneider Electric Services Maroc,Laayoune
+TCH-0129,Hamza Benjelloun,Pipeline & Leak Detection,12,Redal Technique,Casablanca
+TCH-0130,Mohamed Benjelloun,SCADA & Water Instrumentation,3,Redal Technique,Dakhla
+TCH-0131,Amine Mansouri,Hydraulic Instrumentation,8,Lydec Maintenance,Rabat
+TCH-0132,Omar Bouzid,Pipeline & Leak Detection,5,Lydec Maintenance,Dakhla
+TCH-0133,Ahmed Benjelloun,Pipeline & Leak Detection,6,GTR Maroc,Laayoune
+TCH-0134,Hind El Amrani,Hydraulic Instrumentation,4,ONEE - Direction Régionale,Dakhla
+TCH-0135,Khadija Squalli,High-Voltage Transformers,4,Siemens Field Services,Fès
+TCH-0136,Salma Fassi,Pipeline & Leak Detection,5,Schneider Electric Services Maroc,Laayoune
+TCH-0137,Meryem Mansouri,SCADA & Electrical Instrumentation,22,GTR Maroc,Dakhla
+TCH-0138,Said Benjelloun,Pipeline & Leak Detection,13,Veolia Maroc,Marrakech
+TCH-0139,Fatima Zouiten,Water Pumping Systems,3,Amendis Technique,Oujda
+TCH-0140,Said Idrissi,Substation Systems,5,Redal Technique,Oujda
+TCH-0141,Hind Kettani,Distribution Networks,19,Redal Technique,Marrakech
+TCH-0142,Omar Chraibi,Smart Metering,10,Siemens Field Services,Casablanca
+TCH-0143,Omar Naciri,SCADA & Electrical Instrumentation,2,ONEE - Direction Régionale,Casablanca
+TCH-0144,Amine Tazi,SCADA & Electrical Instrumentation,10,Siemens Field Services,Agadir
+TCH-0145,Yassine Lahlou,Pipeline & Leak Detection,4,Cegelec Maroc,Tangier
+TCH-0146,Laila Lahlou,Water Pumping Systems,12,GTR Maroc,Meknes
+TCH-0147,Amine Tazi,Substation Systems,6,Schneider Electric Services Maroc,Oujda
+TCH-0148,Salma Naciri,Smart Metering,8,Siemens Field Services,Meknes
+TCH-0149,Youssef Mansouri,Distribution Networks,3,Redal Technique,Fès
+TCH-0150,Salma Alaoui,Smart Metering,18,Redal Technique,Dakhla
+TCH-0151,Imane Alaoui,SCADA & Electrical Instrumentation,5,Veolia Maroc,Tangier
+TCH-0152,Rachid Benjelloun,Water Pumping Systems,16,Siemens Field Services,Marrakech
+TCH-0153,Rachid Cherkaoui,Smart Metering,4,Lydec Maintenance,Laayoune
+TCH-0154,Khadija Zouiten,Pipeline & Leak Detection,21,Siemens Field Services,Tangier
+TCH-0155,Khadija Kettani,Distribution Networks,13,Amendis Technique,Laayoune
+TCH-0156,Yassine Cherkaoui,SCADA & Water Instrumentation,10,Amendis Technique,Meknes
+TCH-0157,Nadia Cherkaoui,Water Tanks & Reservoirs,7,Redal Technique,Dakhla
+TCH-0158,Laila Bouzid,SCADA & Water Instrumentation,8,Schneider Electric Services Maroc,Agadir
+TCH-0159,Meryem Chraibi,Smart Metering,13,GTR Maroc,Meknes
+TCH-0160,Hind Alaoui,Smart Metering,19,Veolia Maroc,Fès
+TCH-0161,Zineb El Amrani,SCADA & Electrical Instrumentation,6,Amendis Technique,Agadir
+TCH-0162,Youssef Sebti,SCADA & Water Instrumentation,0,Cegelec Maroc,Tangier
+TCH-0163,Youssef Fassi,Water Tanks & Reservoirs,5,ONEE - Direction Régionale,Tangier
+TCH-0164,Yassine Bennani,Substation Systems,6,Siemens Field Services,Oujda
+TCH-0165,Amine Bennani,High-Voltage Transformers,6,Siemens Field Services,Tangier
+TCH-0166,Hind Naciri,Pipeline & Leak Detection,6,Schneider Electric Services Maroc,Dakhla
+TCH-0167,Rachid Naciri,Hydraulic Instrumentation,9,Siemens Field Services,Fès
+TCH-0168,Rachid Idrissi,Water Pumping Systems,16,Siemens Field Services,Fès
+TCH-0169,Amine Alaoui,SCADA & Water Instrumentation,17,Redal Technique,Oujda
+TCH-0170,Meryem Ouazzani,SCADA & Electrical Instrumentation,13,Lydec Maintenance,Agadir
+TCH-0171,Imane Lahlou,Water Tanks & Reservoirs,0,Schneider Electric Services Maroc,Oujda
+TCH-0172,Yassine Zouiten,SCADA & Water Instrumentation,8,Amendis Technique,Tangier
+TCH-0173,Khadija Kettani,Water Tanks & Reservoirs,10,Schneider Electric Services Maroc,Rabat
+TCH-0174,Imane Fassi,High-Voltage Transformers,9,Lydec Maintenance,Dakhla
+TCH-0175,Rachid Bouzid,Pipeline & Leak Detection,14,Cegelec Maroc,Meknes
+TCH-0176,Nadia Berrada,High-Voltage Transformers,11,Cegelec Maroc,Rabat
+TCH-0177,Karim Mansouri,Water Pumping Systems,0,Cegelec Maroc,Dakhla
+TCH-0178,Karim Tazi,Water Tanks & Reservoirs,9,Siemens Field Services,Tangier
+TCH-0179,Salma Fassi,High-Voltage Transformers,2,Schneider Electric Services Maroc,Dakhla
+TCH-0180,Youssef El Fassi,SCADA & Water Instrumentation,7,ONEE - Direction Régionale,Casablanca

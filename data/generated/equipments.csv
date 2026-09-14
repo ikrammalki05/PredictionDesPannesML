@@ -1,0 +1,723 @@
+equipment_id,city,district,network_type,equipment_type,installation_date,manufacturer_id,capacity,capacity_unit,expected_lifetime_years,current_condition,GPS_latitude,GPS_longitude,owner
+EQP-00001,Agadir,District_1,Electricity,distribution_box,2001-02-25,MFR-08,129.1,A,24,Fair,30.40382,-9.553274,ONEE - Branche Électricité
+EQP-00002,Agadir,District_1,Electricity,smart_meter,2000-01-10,MFR-05,282.7,A,10,Poor,30.401211,-9.627516,ONEE - Branche Électricité
+EQP-00003,Agadir,District_1,Electricity,smart_meter,2019-08-20,MFR-04,313.0,A,12,Excellent,30.462919,-9.583438,ONEE - Branche Électricité
+EQP-00004,Agadir,District_1,Electricity,substation,2017-11-13,MFR-04,353.3,A,39,Excellent,30.429587,-9.602155,ONEE - Branche Électricité
+EQP-00005,Agadir,District_1,Electricity,substation,2016-06-26,MFR-04,3240.4,A,39,Excellent,30.397502,-9.656685,ONEE - Branche Électricité
+EQP-00006,Agadir,District_1,Electricity,transformer,2019-07-21,MFR-02,315.9,A,30,Excellent,30.469458,-9.581334,ONEE - Branche Électricité
+EQP-00007,Agadir,District_1,Electricity,transformer,1999-06-20,MFR-01,288.5,A,30,Fair,30.472361,-9.614748,ONEE - Branche Électricité
+EQP-00008,Agadir,District_1,Electricity,transformer,2015-05-09,MFR-01,340.3,A,26,Good,30.385824,-9.560139,ONEE - Branche Électricité
+EQP-00009,Agadir,District_1,Electricity,transformer,2016-04-11,MFR-08,497.4,A,31,Excellent,30.44436,-9.576926,ONEE - Branche Électricité
+EQP-00010,Agadir,District_1,Electricity,transformer,2012-08-26,MFR-03,216.0,A,31,Good,30.379404,-9.541961,ONEE - Branche Électricité
+EQP-00011,Agadir,District_1,Water,pipeline,2024-04-04,MFR-09,675.9,L_min,40,Excellent,30.383594,-9.556691,ONEE - Branche Eau
+EQP-00012,Agadir,District_1,Water,pipeline,2006-03-29,MFR-13,2722.0,L_min,46,Good,30.390896,-9.546751,ONEE - Branche Eau
+EQP-00013,Agadir,District_1,Water,pumping_station,2013-06-04,MFR-09,835.2,L_min,23,Good,30.396539,-9.653533,ONEE - Branche Eau
+EQP-00014,Agadir,District_1,Water,pumping_station,2010-05-05,MFR-13,1058.1,L_min,25,Fair,30.457959,-9.655076,ONEE - Branche Eau
+EQP-00015,Agadir,District_1,Water,water_tank,2007-03-02,MFR-13,951.0,L_min,34,Good,30.430649,-9.553363,ONEE - Branche Eau
+EQP-00016,Agadir,District_1,Water,water_tank,2022-04-10,MFR-10,1010.7,L_min,30,Excellent,30.430092,-9.56627,ONEE - Branche Eau
+EQP-00017,Agadir,District_2,Electricity,distribution_box,2002-06-30,MFR-02,395.1,A,20,Poor,30.465063,-9.641688,ONEE - Branche Électricité
+EQP-00018,Agadir,District_2,Electricity,smart_meter,2018-09-10,MFR-03,496.2,A,10,Good,30.454902,-9.630929,ONEE - Branche Électricité
+EQP-00019,Agadir,District_2,Electricity,substation,2013-05-25,MFR-02,447.0,A,31,Good,30.408608,-9.625517,ONEE - Branche Électricité
+EQP-00020,Agadir,District_2,Electricity,substation,2008-11-22,MFR-02,501.1,A,40,Good,30.43034,-9.550515,ONEE - Branche Électricité
+EQP-00021,Agadir,District_2,Electricity,transformer,2011-11-13,MFR-04,420.5,A,31,Good,30.417198,-9.547369,ONEE - Branche Électricité
+EQP-00022,Agadir,District_2,Water,pipeline,2016-01-16,MFR-13,437.4,L_min,45,Excellent,30.448977,-9.57205,ONEE - Branche Eau
+EQP-00023,Agadir,District_2,Water,pipeline,2009-10-02,MFR-13,603.3,L_min,50,Good,30.392149,-9.652016,ONEE - Branche Eau
+EQP-00024,Agadir,District_2,Water,pipeline,2015-05-11,MFR-13,922.1,L_min,43,Good,30.425304,-9.586738,ONEE - Branche Eau
+EQP-00025,Agadir,District_2,Water,pipeline,2011-08-29,MFR-09,127.6,L_min,44,Good,30.443172,-9.581873,ONEE - Branche Eau
+EQP-00026,Agadir,District_2,Water,pumping_station,2024-05-27,MFR-09,496.9,L_min,24,Excellent,30.465627,-9.570501,ONEE - Branche Eau
+EQP-00027,Agadir,District_2,Water,water_tank,2009-01-17,MFR-10,613.9,L_min,39,Good,30.371435,-9.655674,ONEE - Branche Eau
+EQP-00028,Agadir,District_2,Water,water_tank,2003-02-11,MFR-09,395.3,L_min,37,Fair,30.372478,-9.587253,ONEE - Branche Eau
+EQP-00029,Agadir,District_2,Water,water_tank,2024-02-07,MFR-13,651.1,L_min,31,Excellent,30.480401,-9.593492,ONEE - Branche Eau
+EQP-00030,Agadir,District_3,Electricity,distribution_box,2007-01-21,MFR-04,517.6,A,21,Fair,30.372562,-9.5619,ONEE - Branche Électricité
+EQP-00031,Agadir,District_3,Electricity,distribution_box,2017-04-17,MFR-08,235.8,A,25,Excellent,30.40596,-9.644574,ONEE - Branche Électricité
+EQP-00032,Agadir,District_3,Electricity,smart_meter,2018-05-01,MFR-05,418.9,A,12,Good,30.473714,-9.634426,ONEE - Branche Électricité
+EQP-00033,Agadir,District_3,Electricity,smart_meter,2014-07-19,MFR-04,284.3,A,12,Good,30.447143,-9.582265,ONEE - Branche Électricité
+EQP-00034,Agadir,District_3,Electricity,smart_meter,2013-07-29,MFR-05,143.0,A,14,Good,30.471873,-9.550946,ONEE - Branche Électricité
+EQP-00035,Agadir,District_3,Electricity,substation,2013-01-22,MFR-04,101.2,A,32,Good,30.398133,-9.603319,ONEE - Branche Électricité
+EQP-00036,Agadir,District_3,Electricity,substation,2002-09-11,MFR-04,385.4,A,37,Fair,30.447294,-9.558434,ONEE - Branche Électricité
+EQP-00037,Agadir,District_3,Electricity,transformer,2010-03-31,MFR-02,449.1,A,28,Good,30.422691,-9.648316,ONEE - Branche Électricité
+EQP-00038,Agadir,District_3,Electricity,transformer,2005-02-12,MFR-04,295.1,A,33,Fair,30.459382,-9.642371,ONEE - Branche Électricité
+EQP-00039,Agadir,District_3,Electricity,transformer,2009-11-06,MFR-01,283.4,A,34,Good,30.400109,-9.621331,ONEE - Branche Électricité
+EQP-00040,Agadir,District_3,Water,pipeline,2011-02-01,MFR-09,1348.3,L_min,46,Good,30.412845,-9.572794,ONEE - Branche Eau
+EQP-00041,Agadir,District_3,Water,pumping_station,2008-08-22,MFR-10,1020.8,L_min,24,Fair,30.430053,-9.567205,ONEE - Branche Eau
+EQP-00042,Agadir,District_3,Water,pumping_station,2024-05-17,MFR-13,923.4,L_min,21,Excellent,30.47539,-9.643011,ONEE - Branche Eau
+EQP-00043,Agadir,District_3,Water,water_tank,2022-03-04,MFR-10,700.5,L_min,34,Excellent,30.480502,-9.556937,ONEE - Branche Eau
+EQP-00044,Agadir,District_3,Water,water_tank,2011-06-21,MFR-10,248.7,L_min,36,Good,30.458939,-9.567177,ONEE - Branche Eau
+EQP-00045,Agadir,District_3,Water,water_tank,2015-11-12,MFR-10,638.6,L_min,32,Excellent,30.371801,-9.556782,ONEE - Branche Eau
+EQP-00046,Agadir,District_3,Water,water_tank,2010-11-05,MFR-10,739.4,L_min,31,Good,30.413575,-9.558423,ONEE - Branche Eau
+EQP-00047,Agadir,District_4,Electricity,distribution_box,2004-09-21,MFR-08,3768.7,A,20,Fair,30.453321,-9.559061,ONEE - Branche Électricité
+EQP-00048,Agadir,District_4,Electricity,distribution_box,2012-07-11,MFR-03,296.2,A,25,Good,30.381811,-9.636883,ONEE - Branche Électricité
+EQP-00049,Agadir,District_4,Electricity,smart_meter,2014-03-02,MFR-05,415.5,A,15,Fair,30.393863,-9.565807,ONEE - Branche Électricité
+EQP-00050,Agadir,District_4,Electricity,smart_meter,1999-10-16,MFR-03,1835.9,A,11,Poor,30.405268,-9.57173,ONEE - Branche Électricité
+EQP-00051,Agadir,District_4,Electricity,substation,2017-10-04,MFR-08,545.1,A,40,Excellent,30.397389,-9.610807,ONEE - Branche Électricité
+EQP-00052,Agadir,District_4,Electricity,transformer,2014-03-06,MFR-04,455.9,A,26,Good,30.389844,-9.577716,ONEE - Branche Électricité
+EQP-00053,Agadir,District_4,Electricity,transformer,2012-05-19,MFR-05,238.8,A,27,Good,30.443224,-9.593755,ONEE - Branche Électricité
+EQP-00054,Agadir,District_4,Water,pipeline,2013-12-29,MFR-09,850.8,L_min,44,Good,30.384157,-9.644517,ONEE - Branche Eau
+EQP-00055,Agadir,District_4,Water,pumping_station,2012-02-10,MFR-13,1060.8,L_min,21,Good,30.427486,-9.548305,ONEE - Branche Eau
+EQP-00056,Agadir,District_4,Water,water_tank,2010-03-04,MFR-10,173.5,L_min,30,Good,30.396186,-9.602292,ONEE - Branche Eau
+EQP-00057,Agadir,District_5,Electricity,distribution_box,2014-09-03,MFR-08,514.0,A,24,Good,30.449577,-9.569818,ONEE - Branche Électricité
+EQP-00058,Agadir,District_5,Electricity,distribution_box,2006-05-16,MFR-01,146.6,A,21,Fair,30.478135,-9.586503,ONEE - Branche Électricité
+EQP-00059,Agadir,District_5,Electricity,smart_meter,2010-09-10,MFR-04,226.4,A,11,Poor,30.378786,-9.542249,ONEE - Branche Électricité
+EQP-00060,Agadir,District_5,Electricity,substation,2023-10-29,MFR-01,270.9,A,36,Excellent,30.452141,-9.580858,ONEE - Branche Électricité
+EQP-00061,Agadir,District_5,Electricity,transformer,2020-10-15,MFR-03,370.8,A,27,Excellent,30.468007,-9.617891,ONEE - Branche Électricité
+EQP-00062,Agadir,District_5,Water,pipeline,2002-03-11,MFR-13,443.6,L_min,48,Fair,30.42404,-9.609011,ONEE - Branche Eau
+EQP-00063,Agadir,District_5,Water,pipeline,2021-05-13,MFR-10,954.4,L_min,45,Excellent,30.435335,-9.591127,ONEE - Branche Eau
+EQP-00064,Agadir,District_5,Water,pipeline,2019-08-04,MFR-09,960.3,L_min,46,Excellent,30.43389,-9.649201,ONEE - Branche Eau
+EQP-00065,Agadir,District_5,Water,pipeline,2004-10-25,MFR-09,631.1,L_min,43,Good,30.391541,-9.603585,ONEE - Branche Eau
+EQP-00066,Agadir,District_5,Water,pipeline,2021-11-13,MFR-13,779.1,L_min,50,Excellent,30.423698,-9.583654,ONEE - Branche Eau
+EQP-00067,Agadir,District_5,Water,pumping_station,2015-02-27,MFR-09,885.5,L_min,23,Good,30.457115,-9.612448,ONEE - Branche Eau
+EQP-00068,Agadir,District_5,Water,pumping_station,2015-10-31,MFR-13,907.3,L_min,22,Good,30.467018,-9.612384,ONEE - Branche Eau
+EQP-00069,Agadir,District_5,Water,water_tank,2020-09-24,MFR-09,7517.0,L_min,39,Excellent,30.437345,-9.591161,ONEE - Branche Eau
+EQP-00070,Agadir,District_5,Water,water_tank,2010-02-09,MFR-13,394.5,L_min,38,Good,30.389818,-9.622983,ONEE - Branche Eau
+EQP-00071,Casablanca,District_1,Electricity,distribution_box,2018-01-07,MFR-03,310.0,A,21,Excellent,33.566786,-7.605205,Lydec (Groupe Suez)
+EQP-00072,Casablanca,District_1,Electricity,smart_meter,2012-08-12,MFR-03,305.2,A,15,Fair,33.57236,-7.567535,Lydec (Groupe Suez)
+EQP-00073,Casablanca,District_1,Electricity,smart_meter,2011-05-26,MFR-02,456.6,A,10,Fair,33.536863,-7.599371,Lydec (Groupe Suez)
+EQP-00074,Casablanca,District_1,Electricity,transformer,2016-09-03,MFR-05,177.8,A,30,Excellent,33.568068,-7.604997,Lydec (Groupe Suez)
+EQP-00075,Casablanca,District_1,Electricity,transformer,2011-02-23,MFR-02,59.9,A,28,Good,33.605562,-7.642995,Lydec (Groupe Suez)
+EQP-00076,Casablanca,District_1,Water,pipeline,2002-10-07,MFR-13,841.8,L_min,46,Good,33.59505,-7.62026,Lydec (Groupe Suez)
+EQP-00077,Casablanca,District_1,Water,pumping_station,2002-06-05,MFR-13,976.7,L_min,22,Fair,33.576061,-7.574078,Lydec (Groupe Suez)
+EQP-00078,Casablanca,District_1,Water,water_tank,2010-07-06,MFR-09,3609.3,L_min,34,Good,33.598248,-7.626331,Lydec (Groupe Suez)
+EQP-00079,Casablanca,District_1,Water,water_tank,2023-07-02,MFR-09,1022.3,L_min,30,Excellent,33.623882,-7.571034,Lydec (Groupe Suez)
+EQP-00080,Casablanca,District_1,Water,water_tank,2020-12-14,MFR-13,821.4,L_min,38,Excellent,33.543941,-7.597285,Lydec (Groupe Suez)
+EQP-00081,Casablanca,District_1,Water,water_tank,2011-11-03,MFR-09,1002.1,L_min,30,Good,33.529386,-7.633235,Lydec (Groupe Suez)
+EQP-00082,Casablanca,District_1,Water,water_tank,2001-02-25,MFR-09,676.3,L_min,40,Fair,33.535149,-7.629994,Lydec (Groupe Suez)
+EQP-00083,Casablanca,District_1,Water,water_tank,2024-11-01,MFR-09,976.7,L_min,39,Excellent,33.545457,-7.554707,Lydec (Groupe Suez)
+EQP-00084,Casablanca,District_2,Electricity,distribution_box,2009-10-02,MFR-03,5101.8,A,20,Fair,33.53241,-7.538943,Lydec (Groupe Suez)
+EQP-00085,Casablanca,District_2,Electricity,distribution_box,2013-03-08,MFR-05,368.5,A,23,Good,33.585142,-7.557135,Lydec (Groupe Suez)
+EQP-00086,Casablanca,District_2,Electricity,smart_meter,2012-03-01,MFR-02,346.7,A,10,Fair,33.622911,-7.531023,Lydec (Groupe Suez)
+EQP-00087,Casablanca,District_2,Electricity,smart_meter,1999-01-10,MFR-05,541.1,A,13,Poor,33.627391,-7.576857,Lydec (Groupe Suez)
+EQP-00088,Casablanca,District_2,Electricity,smart_meter,2023-06-21,MFR-02,46.9,A,12,Excellent,33.596371,-7.599274,Lydec (Groupe Suez)
+EQP-00089,Casablanca,District_2,Electricity,substation,2011-11-10,MFR-04,366.5,A,38,Good,33.535213,-7.61333,Lydec (Groupe Suez)
+EQP-00090,Casablanca,District_2,Electricity,transformer,2004-01-17,MFR-03,434.4,A,35,Good,33.615519,-7.60141,Lydec (Groupe Suez)
+EQP-00091,Casablanca,District_2,Electricity,transformer,2022-07-10,MFR-08,171.2,A,25,Excellent,33.609039,-7.567441,Lydec (Groupe Suez)
+EQP-00092,Casablanca,District_2,Water,pipeline,2009-02-08,MFR-09,756.0,L_min,42,Good,33.597389,-7.634254,Lydec (Groupe Suez)
+EQP-00093,Casablanca,District_2,Water,pumping_station,2008-07-10,MFR-09,990.4,L_min,20,Fair,33.546011,-7.558037,Lydec (Groupe Suez)
+EQP-00094,Casablanca,District_2,Water,pumping_station,2011-11-16,MFR-10,744.5,L_min,23,Fair,33.616583,-7.614647,Lydec (Groupe Suez)
+EQP-00095,Casablanca,District_2,Water,water_tank,2012-04-15,MFR-13,790.7,L_min,32,Good,33.596911,-7.603301,Lydec (Groupe Suez)
+EQP-00096,Casablanca,District_2,Water,water_tank,2001-12-27,MFR-13,645.6,L_min,33,Fair,33.600797,-7.616358,Lydec (Groupe Suez)
+EQP-00097,Casablanca,District_3,Electricity,distribution_box,2019-05-14,MFR-04,380.7,A,22,Excellent,33.539441,-7.617267,Lydec (Groupe Suez)
+EQP-00098,Casablanca,District_3,Electricity,distribution_box,2005-03-16,MFR-05,445.5,A,21,Fair,33.601752,-7.539097,Lydec (Groupe Suez)
+EQP-00099,Casablanca,District_3,Electricity,smart_meter,2016-06-19,MFR-04,400.8,A,10,Fair,33.528085,-7.543626,Lydec (Groupe Suez)
+EQP-00100,Casablanca,District_3,Electricity,transformer,2012-04-21,MFR-01,1154.8,A,28,Fair,33.617148,-7.649113,Lydec (Groupe Suez)
+EQP-00101,Casablanca,District_3,Water,pipeline,2014-11-02,MFR-09,772.2,L_min,40,Excellent,33.567478,-7.533573,Lydec (Groupe Suez)
+EQP-00102,Casablanca,District_3,Water,pipeline,2005-04-18,MFR-13,7447.0,L_min,43,Good,33.522927,-7.581657,Lydec (Groupe Suez)
+EQP-00103,Casablanca,District_3,Water,pumping_station,2020-06-29,MFR-10,347.5,L_min,23,Excellent,33.583814,-7.553467,Lydec (Groupe Suez)
+EQP-00104,Casablanca,District_3,Water,pumping_station,2009-07-17,MFR-10,241.3,L_min,23,Good,33.533012,-7.5755,Lydec (Groupe Suez)
+EQP-00105,Casablanca,District_3,Water,pumping_station,2009-03-08,MFR-13,744.6,L_min,24,Fair,33.561462,-7.617394,Lydec (Groupe Suez)
+EQP-00106,Casablanca,District_3,Water,water_tank,2013-07-29,MFR-10,678.9,L_min,37,Good,33.525943,-7.551654,Lydec (Groupe Suez)
+EQP-00107,Casablanca,District_4,Electricity,distribution_box,2015-03-10,MFR-01,297.7,A,23,Good,33.614999,-7.540567,Lydec (Groupe Suez)
+EQP-00108,Casablanca,District_4,Electricity,smart_meter,2019-04-16,MFR-02,353.8,A,13,Excellent,33.623691,-7.641379,Lydec (Groupe Suez)
+EQP-00109,Casablanca,District_4,Electricity,substation,2020-07-02,MFR-04,503.7,A,35,Excellent,33.530036,-7.607367,Lydec (Groupe Suez)
+EQP-00110,Casablanca,District_4,Electricity,substation,2005-12-13,MFR-05,213.9,A,40,Good,33.550411,-7.556032,Lydec (Groupe Suez)
+EQP-00111,Casablanca,District_4,Electricity,transformer,2008-01-14,MFR-03,237.2,A,34,Good,33.574044,-7.629952,Lydec (Groupe Suez)
+EQP-00112,Casablanca,District_4,Electricity,transformer,2007-12-10,MFR-08,442.6,A,26,Good,33.528713,-7.594024,Lydec (Groupe Suez)
+EQP-00113,Casablanca,District_4,Water,pipeline,2012-09-16,MFR-13,827.6,L_min,43,Good,33.552833,-7.559178,Lydec (Groupe Suez)
+EQP-00114,Casablanca,District_4,Water,pumping_station,2005-01-11,MFR-13,775.4,L_min,21,Fair,33.601416,-7.619426,Lydec (Groupe Suez)
+EQP-00115,Casablanca,District_4,Water,pumping_station,2022-10-19,MFR-10,1014.9,L_min,25,Excellent,33.530608,-7.564316,Lydec (Groupe Suez)
+EQP-00116,Casablanca,District_4,Water,pumping_station,2009-02-01,MFR-09,787.4,L_min,25,Good,33.528563,-7.541109,Lydec (Groupe Suez)
+EQP-00117,Casablanca,District_4,Water,water_tank,2009-11-08,MFR-13,798.8,L_min,30,Good,33.586493,-7.641754,Lydec (Groupe Suez)
+EQP-00118,Casablanca,District_4,Water,water_tank,1997-06-13,MFR-10,287.4,L_min,40,Fair,33.594534,-7.530133,Lydec (Groupe Suez)
+EQP-00119,Casablanca,District_5,Electricity,distribution_box,2019-11-26,MFR-05,289.5,A,25,Excellent,33.620114,-7.53076,Lydec (Groupe Suez)
+EQP-00120,Casablanca,District_5,Electricity,smart_meter,2010-03-24,MFR-08,425.9,A,12,Fair,33.566884,-7.603466,Lydec (Groupe Suez)
+EQP-00121,Casablanca,District_5,Electricity,smart_meter,2013-10-31,MFR-01,328.7,A,14,Fair,33.58084,-7.569173,Lydec (Groupe Suez)
+EQP-00122,Casablanca,District_5,Electricity,smart_meter,2022-11-15,MFR-02,189.6,A,13,Excellent,33.549571,-7.558517,Lydec (Groupe Suez)
+EQP-00123,Casablanca,District_5,Electricity,smart_meter,2006-01-10,MFR-02,47.4,A,12,Fair,33.52587,-7.566144,Lydec (Groupe Suez)
+EQP-00124,Casablanca,District_5,Electricity,substation,2021-01-07,MFR-04,286.5,A,35,Excellent,33.582455,-7.61939,Lydec (Groupe Suez)
+EQP-00125,Casablanca,District_5,Electricity,substation,2001-06-04,MFR-04,510.6,A,39,Good,33.59789,-7.640196,Lydec (Groupe Suez)
+EQP-00126,Casablanca,District_5,Electricity,transformer,2011-10-22,MFR-02,52.1,A,32,Good,33.547491,-7.577165,Lydec (Groupe Suez)
+EQP-00127,Casablanca,District_5,Electricity,transformer,2006-10-17,MFR-08,100.1,A,30,Good,33.585257,-7.565513,Lydec (Groupe Suez)
+EQP-00128,Casablanca,District_5,Electricity,transformer,2015-04-28,MFR-02,315.3,A,31,Excellent,33.579107,-7.640694,Lydec (Groupe Suez)
+EQP-00129,Casablanca,District_5,Water,pipeline,2012-12-14,MFR-09,897.2,L_min,46,Good,33.565325,-7.625214,Lydec (Groupe Suez)
+EQP-00130,Casablanca,District_5,Water,pumping_station,2010-11-09,MFR-09,2470.9,L_min,25,Good,33.539403,-7.646748,Lydec (Groupe Suez)
+EQP-00131,Casablanca,District_5,Water,pumping_station,2018-10-19,MFR-10,381.1,L_min,24,Good,33.621437,-7.609546,Lydec (Groupe Suez)
+EQP-00132,Casablanca,District_5,Water,pumping_station,2021-06-21,MFR-09,1182.1,L_min,21,Excellent,33.578756,-7.57565,Lydec (Groupe Suez)
+EQP-00133,Casablanca,District_5,Water,pumping_station,2009-08-06,MFR-09,661.5,L_min,25,Fair,33.611156,-7.572913,Lydec (Groupe Suez)
+EQP-00134,Casablanca,District_5,Water,pumping_station,2012-07-17,MFR-09,1101.6,L_min,21,Good,33.52859,-7.566631,Lydec (Groupe Suez)
+EQP-00135,Casablanca,District_5,Water,water_tank,2005-07-30,MFR-13,254.0,L_min,33,Fair,33.561404,-7.612439,Lydec (Groupe Suez)
+EQP-00136,Casablanca,District_5,Water,water_tank,2007-11-03,MFR-09,639.3,L_min,33,Good,33.598595,-7.589491,Lydec (Groupe Suez)
+EQP-00137,Casablanca,District_5,Water,water_tank,2001-07-31,MFR-13,702.9,L_min,39,Fair,33.625796,-7.58932,Lydec (Groupe Suez)
+EQP-00138,Casablanca,District_5,Water,water_tank,2008-12-29,MFR-09,749.7,L_min,32,Fair,33.519639,-7.588449,Lydec (Groupe Suez)
+EQP-00139,Casablanca,District_5,Water,water_tank,2004-11-02,MFR-10,423.4,L_min,37,Good,33.528096,-7.631594,Lydec (Groupe Suez)
+EQP-00140,Casablanca,District_5,Water,water_tank,2019-05-01,MFR-13,1048.6,L_min,37,Good,33.582227,-7.624593,Lydec (Groupe Suez)
+EQP-00141,Casablanca,District_5,Water,water_tank,2001-02-15,MFR-09,545.0,L_min,34,Fair,33.569631,-7.532784,Lydec (Groupe Suez)
+EQP-00142,Dakhla,District_1,Electricity,distribution_box,2014-09-14,MFR-04,394.8,A,23,Good,23.689608,-15.971223,ONEE - Branche Électricité
+EQP-00143,Dakhla,District_1,Electricity,distribution_box,2008-11-18,MFR-08,537.5,A,23,Fair,23.733598,-15.90179,ONEE - Branche Électricité
+EQP-00144,Dakhla,District_1,Electricity,distribution_box,2013-03-11,MFR-04,139.4,A,22,Good,23.721173,-15.982523,ONEE - Branche Électricité
+EQP-00145,Dakhla,District_1,Electricity,smart_meter,2007-01-06,MFR-03,427.2,A,13,Poor,23.631319,-15.920129,ONEE - Branche Électricité
+EQP-00146,Dakhla,District_1,Electricity,substation,2010-07-11,MFR-03,984.5,A,40,Good,23.699576,-16.005289,ONEE - Branche Électricité
+EQP-00147,Dakhla,District_1,Electricity,substation,2002-08-29,MFR-08,536.4,A,30,Fair,23.721593,-15.995646,ONEE - Branche Électricité
+EQP-00148,Dakhla,District_1,Electricity,transformer,2017-04-04,MFR-08,402.5,A,31,Good,23.648851,-15.954664,ONEE - Branche Électricité
+EQP-00149,Dakhla,District_1,Electricity,transformer,2022-07-07,MFR-01,248.0,A,31,Excellent,23.735488,-15.999976,ONEE - Branche Électricité
+EQP-00150,Dakhla,District_1,Water,pipeline,2009-09-06,MFR-10,464.2,L_min,42,Good,23.704551,-15.982259,ONEE - Branche Eau
+EQP-00151,Dakhla,District_1,Water,pipeline,2012-03-24,MFR-10,1139.8,L_min,50,Good,23.71104,-15.979876,ONEE - Branche Eau
+EQP-00152,Dakhla,District_1,Water,pumping_station,2011-10-08,MFR-13,982.6,L_min,25,Good,23.743688,-16.013507,ONEE - Branche Eau
+EQP-00153,Dakhla,District_1,Water,pumping_station,2014-12-17,MFR-10,988.5,L_min,21,Good,23.650404,-16.006633,ONEE - Branche Eau
+EQP-00154,Dakhla,District_1,Water,pumping_station,2011-06-12,MFR-09,355.2,L_min,22,Fair,23.722115,-15.920463,ONEE - Branche Eau
+EQP-00155,Dakhla,District_1,Water,pumping_station,2023-12-07,MFR-09,453.9,L_min,23,Excellent,23.676195,-15.913336,ONEE - Branche Eau
+EQP-00156,Dakhla,District_1,Water,pumping_station,2019-02-20,MFR-13,612.1,L_min,22,Good,23.716774,-15.929249,ONEE - Branche Eau
+EQP-00157,Dakhla,District_1,Water,water_tank,2009-06-30,MFR-13,530.1,L_min,35,Good,23.718319,-15.995918,ONEE - Branche Eau
+EQP-00158,Dakhla,District_2,Electricity,distribution_box,2004-10-05,MFR-04,276.8,A,23,Fair,23.658962,-15.906675,ONEE - Branche Électricité
+EQP-00159,Dakhla,District_2,Electricity,distribution_box,1999-06-24,MFR-08,133.9,A,21,Poor,23.738555,-16.013396,ONEE - Branche Électricité
+EQP-00160,Dakhla,District_2,Electricity,smart_meter,1998-03-12,MFR-04,437.8,A,12,Fair,23.630737,-15.951133,ONEE - Branche Électricité
+EQP-00161,Dakhla,District_2,Electricity,smart_meter,2003-09-15,MFR-03,1614.3,A,13,Poor,23.723483,-15.904616,ONEE - Branche Électricité
+EQP-00162,Dakhla,District_2,Electricity,substation,2012-08-01,MFR-03,4167.3,A,38,Excellent,23.729179,-15.938699,ONEE - Branche Électricité
+EQP-00163,Dakhla,District_2,Electricity,substation,2002-10-26,MFR-05,266.7,A,32,Fair,23.634731,-16.002721,ONEE - Branche Électricité
+EQP-00164,Dakhla,District_2,Electricity,substation,2023-03-03,MFR-03,320.0,A,36,Excellent,23.660436,-15.951082,ONEE - Branche Électricité
+EQP-00165,Dakhla,District_2,Electricity,transformer,2006-10-18,MFR-08,347.7,A,34,Fair,23.679976,-15.924652,ONEE - Branche Électricité
+EQP-00166,Dakhla,District_2,Water,pumping_station,2004-10-13,MFR-13,394.8,L_min,24,Fair,23.710663,-15.993362,ONEE - Branche Eau
+EQP-00167,Dakhla,District_2,Water,pumping_station,2004-08-11,MFR-09,472.0,L_min,25,Fair,23.736573,-16.015474,ONEE - Branche Eau
+EQP-00168,Dakhla,District_2,Water,pumping_station,1999-01-20,MFR-10,8305.2,L_min,22,Poor,23.686239,-15.925778,ONEE - Branche Eau
+EQP-00169,Dakhla,District_2,Water,pumping_station,2014-10-03,MFR-09,440.1,L_min,24,Good,23.73042,-15.945223,ONEE - Branche Eau
+EQP-00170,Dakhla,District_2,Water,pumping_station,2016-03-10,MFR-10,558.6,L_min,21,Good,23.695255,-15.90284,ONEE - Branche Eau
+EQP-00171,Dakhla,District_2,Water,water_tank,2004-01-31,MFR-13,944.5,L_min,31,Good,23.683037,-15.901377,ONEE - Branche Eau
+EQP-00172,Dakhla,District_2,Water,water_tank,2009-01-06,MFR-09,952.8,L_min,30,Fair,23.726488,-15.943871,ONEE - Branche Eau
+EQP-00173,Dakhla,District_2,Water,water_tank,2010-02-02,MFR-09,312.4,L_min,39,Good,23.740618,-15.911763,ONEE - Branche Eau
+EQP-00174,Dakhla,District_3,Electricity,distribution_box,2010-01-07,MFR-01,123.2,A,20,Fair,23.639785,-15.957177,ONEE - Branche Électricité
+EQP-00175,Dakhla,District_3,Electricity,smart_meter,2010-09-23,MFR-04,578.8,A,10,Poor,23.644121,-15.95972,ONEE - Branche Électricité
+EQP-00176,Dakhla,District_3,Electricity,substation,2020-10-04,MFR-03,983.4,A,30,Excellent,23.656206,-15.950288,ONEE - Branche Électricité
+EQP-00177,Dakhla,District_3,Electricity,transformer,2017-12-02,MFR-08,415.7,A,26,Excellent,23.634865,-15.931573,ONEE - Branche Électricité
+EQP-00178,Dakhla,District_3,Water,pipeline,2021-05-31,MFR-09,357.6,L_min,47,Excellent,23.716449,-16.009841,ONEE - Branche Eau
+EQP-00179,Dakhla,District_3,Water,pipeline,2017-05-12,MFR-13,917.2,L_min,47,Good,23.728359,-15.915996,ONEE - Branche Eau
+EQP-00180,Dakhla,District_3,Water,pipeline,2022-08-16,MFR-09,362.6,L_min,50,Excellent,23.670904,-15.897512,ONEE - Branche Eau
+EQP-00181,Dakhla,District_3,Water,pumping_station,2009-04-22,MFR-13,922.2,L_min,21,Good,23.664069,-16.001812,ONEE - Branche Eau
+EQP-00182,Dakhla,District_3,Water,pumping_station,2009-12-09,MFR-09,613.3,L_min,25,Good,23.696574,-15.936378,ONEE - Branche Eau
+EQP-00183,Dakhla,District_3,Water,water_tank,2006-11-03,MFR-09,386.1,L_min,35,Good,23.703689,-15.943002,ONEE - Branche Eau
+EQP-00184,Dakhla,District_3,Water,water_tank,2019-11-29,MFR-09,601.7,L_min,30,Excellent,23.688787,-16.010994,ONEE - Branche Eau
+EQP-00185,Dakhla,District_3,Water,water_tank,2000-06-07,MFR-10,282.8,L_min,40,Fair,23.711038,-15.904506,ONEE - Branche Eau
+EQP-00186,Dakhla,District_4,Electricity,distribution_box,2011-10-01,MFR-02,276.1,A,22,Good,23.626842,-15.924038,ONEE - Branche Électricité
+EQP-00187,Dakhla,District_4,Electricity,smart_meter,1997-12-05,MFR-04,173.0,A,12,Poor,23.707288,-15.969914,ONEE - Branche Électricité
+EQP-00188,Dakhla,District_4,Electricity,smart_meter,2001-06-16,MFR-04,235.2,A,14,Fair,23.684009,-15.983258,ONEE - Branche Électricité
+EQP-00189,Dakhla,District_4,Electricity,substation,2008-12-19,MFR-03,2278.8,A,34,Good,23.726547,-15.975735,ONEE - Branche Électricité
+EQP-00190,Dakhla,District_4,Electricity,substation,2017-02-25,MFR-08,197.6,A,31,Excellent,23.678027,-15.938968,ONEE - Branche Électricité
+EQP-00191,Dakhla,District_4,Electricity,transformer,2003-10-14,MFR-02,1415.6,A,35,Good,23.729238,-15.977851,ONEE - Branche Électricité
+EQP-00192,Dakhla,District_4,Electricity,transformer,2014-04-10,MFR-03,357.3,A,32,Good,23.648935,-16.009661,ONEE - Branche Électricité
+EQP-00193,Dakhla,District_4,Water,pipeline,2009-01-22,MFR-10,774.1,L_min,43,Good,23.693944,-15.942935,ONEE - Branche Eau
+EQP-00194,Dakhla,District_4,Water,pipeline,2025-01-04,MFR-13,648.1,L_min,44,Excellent,23.714246,-15.973298,ONEE - Branche Eau
+EQP-00195,Dakhla,District_4,Water,pipeline,2011-08-24,MFR-13,1134.2,L_min,40,Good,23.731331,-16.010142,ONEE - Branche Eau
+EQP-00196,Dakhla,District_4,Water,pumping_station,2016-10-15,MFR-10,842.0,L_min,24,Good,23.663449,-15.958406,ONEE - Branche Eau
+EQP-00197,Dakhla,District_4,Water,water_tank,2007-08-23,MFR-13,412.7,L_min,37,Fair,23.670889,-15.935719,ONEE - Branche Eau
+EQP-00198,Dakhla,District_4,Water,water_tank,2002-09-21,MFR-10,671.1,L_min,36,Fair,23.626905,-15.957146,ONEE - Branche Eau
+EQP-00199,Dakhla,District_5,Electricity,distribution_box,2007-10-24,MFR-05,4065.8,A,20,Good,23.637408,-15.942568,ONEE - Branche Électricité
+EQP-00200,Dakhla,District_5,Electricity,distribution_box,2019-10-05,MFR-02,197.8,A,20,Good,23.684159,-16.002855,ONEE - Branche Électricité
+EQP-00201,Dakhla,District_5,Electricity,smart_meter,2016-07-15,MFR-04,220.9,A,12,Fair,23.676726,-15.982418,ONEE - Branche Électricité
+EQP-00202,Dakhla,District_5,Electricity,smart_meter,2008-12-08,MFR-08,460.7,A,14,Fair,23.723141,-15.897908,ONEE - Branche Électricité
+EQP-00203,Dakhla,District_5,Electricity,smart_meter,2014-03-17,MFR-05,535.7,A,13,Good,23.702168,-15.990451,ONEE - Branche Électricité
+EQP-00204,Dakhla,District_5,Electricity,smart_meter,2009-05-22,MFR-01,352.3,A,12,Poor,23.672225,-16.014332,ONEE - Branche Électricité
+EQP-00205,Dakhla,District_5,Electricity,transformer,1999-05-03,MFR-05,4216.3,A,35,Fair,23.705571,-15.961281,ONEE - Branche Électricité
+EQP-00206,Dakhla,District_5,Electricity,transformer,2022-05-28,MFR-03,257.9,A,27,Excellent,23.635605,-15.961466,ONEE - Branche Électricité
+EQP-00207,Dakhla,District_5,Water,pipeline,1997-09-13,MFR-09,162.3,L_min,48,Good,23.702493,-15.994554,ONEE - Branche Eau
+EQP-00208,Dakhla,District_5,Water,pipeline,2018-02-01,MFR-09,987.9,L_min,49,Excellent,23.724403,-15.981259,ONEE - Branche Eau
+EQP-00209,Dakhla,District_5,Water,pumping_station,2003-01-04,MFR-13,889.8,L_min,22,Fair,23.669046,-15.966418,ONEE - Branche Eau
+EQP-00210,Dakhla,District_5,Water,pumping_station,2022-01-13,MFR-10,977.6,L_min,25,Excellent,23.650939,-15.956053,ONEE - Branche Eau
+EQP-00211,Dakhla,District_5,Water,pumping_station,2022-08-22,MFR-09,1079.8,L_min,20,Excellent,23.715727,-15.913148,ONEE - Branche Eau
+EQP-00212,Dakhla,District_5,Water,water_tank,2014-05-23,MFR-13,4894.0,L_min,37,Good,23.685488,-15.993631,ONEE - Branche Eau
+EQP-00213,Fès,District_1,Electricity,distribution_box,2004-12-01,MFR-02,481.6,A,20,Fair,34.000564,-4.947528,ONEE - Branche Électricité
+EQP-00214,Fès,District_1,Electricity,smart_meter,2009-01-31,MFR-05,536.8,A,13,Fair,33.985541,-5.018403,ONEE - Branche Électricité
+EQP-00215,Fès,District_1,Electricity,smart_meter,2012-05-24,MFR-04,2429.4,A,12,Poor,34.059607,-5.042745,ONEE - Branche Électricité
+EQP-00216,Fès,District_1,Electricity,smart_meter,2000-05-21,MFR-05,472.6,A,13,Poor,34.013642,-5.03755,ONEE - Branche Électricité
+EQP-00217,Fès,District_1,Electricity,substation,2009-11-23,MFR-04,336.7,A,38,Good,34.058922,-5.029498,ONEE - Branche Électricité
+EQP-00218,Fès,District_1,Electricity,transformer,2005-01-11,MFR-02,245.2,A,30,Fair,34.068845,-5.052008,ONEE - Branche Électricité
+EQP-00219,Fès,District_1,Electricity,transformer,2017-06-25,MFR-02,112.3,A,30,Excellent,34.002874,-4.945133,ONEE - Branche Électricité
+EQP-00220,Fès,District_1,Water,pipeline,2012-07-06,MFR-13,755.9,L_min,40,Good,34.025982,-5.025091,ONEE - Branche Eau
+EQP-00221,Fès,District_1,Water,pipeline,1997-02-17,MFR-13,131.5,L_min,40,Fair,34.030583,-4.979153,ONEE - Branche Eau
+EQP-00222,Fès,District_1,Water,pumping_station,2013-05-25,MFR-09,690.5,L_min,20,Good,34.063771,-4.941102,ONEE - Branche Eau
+EQP-00223,Fès,District_1,Water,pumping_station,2002-12-17,MFR-09,433.0,L_min,25,Poor,34.084021,-4.988911,ONEE - Branche Eau
+EQP-00224,Fès,District_1,Water,water_tank,2018-05-01,MFR-10,751.9,L_min,33,Excellent,33.989597,-4.958157,ONEE - Branche Eau
+EQP-00225,Fès,District_1,Water,water_tank,2007-09-08,MFR-13,647.1,L_min,37,Good,34.068585,-4.980955,ONEE - Branche Eau
+EQP-00226,Fès,District_1,Water,water_tank,1997-12-28,MFR-10,770.6,L_min,39,Fair,34.027303,-5.03772,ONEE - Branche Eau
+EQP-00227,Fès,District_2,Electricity,distribution_box,2004-07-15,MFR-05,425.7,A,21,Fair,34.001503,-5.052737,ONEE - Branche Électricité
+EQP-00228,Fès,District_2,Electricity,distribution_box,2015-02-08,MFR-02,176.7,A,24,Good,34.016606,-4.962274,ONEE - Branche Électricité
+EQP-00229,Fès,District_2,Electricity,smart_meter,2015-04-11,MFR-04,425.5,A,11,Fair,34.038178,-5.033712,ONEE - Branche Électricité
+EQP-00230,Fès,District_2,Electricity,smart_meter,2011-08-19,MFR-05,284.9,A,12,Fair,34.07962,-5.024459,ONEE - Branche Électricité
+EQP-00231,Fès,District_2,Electricity,substation,2013-06-16,MFR-08,226.3,A,32,Fair,34.031796,-4.959225,ONEE - Branche Électricité
+EQP-00232,Fès,District_2,Electricity,transformer,2008-05-02,MFR-02,146.4,A,35,Good,34.065158,-4.960495,ONEE - Branche Électricité
+EQP-00233,Fès,District_2,Water,pipeline,2007-05-09,MFR-10,483.4,L_min,46,Fair,34.086103,-4.944255,ONEE - Branche Eau
+EQP-00234,Fès,District_2,Water,pipeline,2022-05-13,MFR-13,910.6,L_min,40,Excellent,33.973422,-4.960345,ONEE - Branche Eau
+EQP-00235,Fès,District_2,Water,pumping_station,1998-02-16,MFR-10,614.1,L_min,21,Poor,34.000702,-4.952724,ONEE - Branche Eau
+EQP-00236,Fès,District_2,Water,pumping_station,2005-11-10,MFR-10,695.7,L_min,25,Fair,34.078112,-4.969013,ONEE - Branche Eau
+EQP-00237,Fès,District_2,Water,water_tank,2006-11-27,MFR-10,458.0,L_min,37,Good,34.021865,-5.006454,ONEE - Branche Eau
+EQP-00238,Fès,District_2,Water,water_tank,2012-04-25,MFR-10,913.8,L_min,35,Good,34.047384,-5.00062,ONEE - Branche Eau
+EQP-00239,Fès,District_2,Water,water_tank,2009-09-15,MFR-13,650.6,L_min,31,Fair,34.058701,-4.970043,ONEE - Branche Eau
+EQP-00240,Fès,District_3,Electricity,distribution_box,2011-04-30,MFR-05,189.7,A,24,Good,34.05701,-5.029765,ONEE - Branche Électricité
+EQP-00241,Fès,District_3,Electricity,smart_meter,2006-03-13,MFR-03,583.5,A,12,Poor,34.062872,-4.967234,ONEE - Branche Électricité
+EQP-00242,Fès,District_3,Electricity,smart_meter,1998-08-07,MFR-04,45.6,A,10,Poor,33.996304,-5.028167,ONEE - Branche Électricité
+EQP-00243,Fès,District_3,Electricity,substation,2023-11-01,MFR-02,172.7,A,33,Excellent,34.051713,-4.996541,ONEE - Branche Électricité
+EQP-00244,Fès,District_3,Electricity,transformer,2004-10-05,MFR-02,444.7,A,33,Good,34.059736,-5.052086,ONEE - Branche Électricité
+EQP-00245,Fès,District_3,Water,pipeline,2017-08-28,MFR-10,363.5,L_min,46,Excellent,34.035232,-5.030545,ONEE - Branche Eau
+EQP-00246,Fès,District_3,Water,pumping_station,2000-02-11,MFR-10,605.8,L_min,23,Poor,33.977736,-5.006035,ONEE - Branche Eau
+EQP-00247,Fès,District_3,Water,pumping_station,2012-07-04,MFR-09,456.9,L_min,24,Good,34.0376,-5.017316,ONEE - Branche Eau
+EQP-00248,Fès,District_3,Water,water_tank,2013-07-20,MFR-13,5586.8,L_min,32,Good,34.017937,-5.040234,ONEE - Branche Eau
+EQP-00249,Fès,District_4,Electricity,distribution_box,2012-06-16,MFR-05,232.5,A,21,Good,33.975199,-5.032748,ONEE - Branche Électricité
+EQP-00250,Fès,District_4,Electricity,substation,2003-08-04,MFR-05,306.9,A,37,Good,33.975926,-5.028069,ONEE - Branche Électricité
+EQP-00251,Fès,District_4,Electricity,transformer,2009-07-29,MFR-08,139.9,A,28,Good,34.023076,-4.982357,ONEE - Branche Électricité
+EQP-00252,Fès,District_4,Water,pipeline,2012-12-15,MFR-13,968.2,L_min,49,Good,34.078907,-5.036142,ONEE - Branche Eau
+EQP-00253,Fès,District_4,Water,pipeline,2009-01-13,MFR-10,927.0,L_min,48,Good,34.043437,-5.000417,ONEE - Branche Eau
+EQP-00254,Fès,District_4,Water,pumping_station,2018-12-21,MFR-10,331.8,L_min,24,Excellent,34.027651,-5.011613,ONEE - Branche Eau
+EQP-00255,Fès,District_4,Water,pumping_station,2009-01-01,MFR-09,2047.0,L_min,20,Good,34.067039,-5.046615,ONEE - Branche Eau
+EQP-00256,Fès,District_4,Water,water_tank,2007-04-07,MFR-13,550.4,L_min,33,Good,34.05402,-4.943633,ONEE - Branche Eau
+EQP-00257,Fès,District_4,Water,water_tank,2006-12-07,MFR-13,725.2,L_min,39,Good,34.001772,-4.946088,ONEE - Branche Eau
+EQP-00258,Fès,District_5,Electricity,distribution_box,2007-12-19,MFR-08,181.5,A,21,Fair,34.085535,-5.011165,ONEE - Branche Électricité
+EQP-00259,Fès,District_5,Electricity,distribution_box,2012-12-24,MFR-08,413.0,A,23,Good,34.020386,-4.954031,ONEE - Branche Électricité
+EQP-00260,Fès,District_5,Electricity,smart_meter,2003-07-04,MFR-08,566.9,A,15,Poor,34.027317,-5.052718,ONEE - Branche Électricité
+EQP-00261,Fès,District_5,Electricity,substation,2002-08-16,MFR-02,2316.0,A,30,Fair,34.032989,-5.051174,ONEE - Branche Électricité
+EQP-00262,Fès,District_5,Electricity,transformer,2023-04-30,MFR-08,250.8,A,28,Excellent,34.074767,-4.948772,ONEE - Branche Électricité
+EQP-00263,Fès,District_5,Electricity,transformer,2020-06-14,MFR-03,228.2,A,26,Excellent,34.014774,-5.049945,ONEE - Branche Électricité
+EQP-00264,Fès,District_5,Electricity,transformer,2012-05-19,MFR-04,191.7,A,25,Good,34.010083,-4.949997,ONEE - Branche Électricité
+EQP-00265,Fès,District_5,Electricity,transformer,2024-04-28,MFR-02,343.6,A,25,Excellent,34.091834,-5.034099,ONEE - Branche Électricité
+EQP-00266,Fès,District_5,Electricity,transformer,2019-09-26,MFR-08,430.2,A,30,Excellent,34.071642,-5.048812,ONEE - Branche Électricité
+EQP-00267,Fès,District_5,Water,pipeline,2008-04-11,MFR-09,1080.5,L_min,41,Good,34.056343,-5.023479,ONEE - Branche Eau
+EQP-00268,Fès,District_5,Water,pipeline,2011-04-11,MFR-09,929.8,L_min,40,Good,34.081628,-4.953809,ONEE - Branche Eau
+EQP-00269,Fès,District_5,Water,pumping_station,2012-11-25,MFR-09,824.2,L_min,25,Good,34.008811,-4.963227,ONEE - Branche Eau
+EQP-00270,Fès,District_5,Water,pumping_station,2010-04-15,MFR-13,903.4,L_min,20,Fair,34.090106,-4.974987,ONEE - Branche Eau
+EQP-00271,Fès,District_5,Water,pumping_station,2001-09-10,MFR-13,553.6,L_min,25,Fair,33.983123,-5.007628,ONEE - Branche Eau
+EQP-00272,Fès,District_5,Water,water_tank,2002-06-21,MFR-09,590.1,L_min,39,Fair,34.008164,-4.960411,ONEE - Branche Eau
+EQP-00273,Fès,District_5,Water,water_tank,2015-01-31,MFR-13,675.3,L_min,37,Good,34.073253,-5.017423,ONEE - Branche Eau
+EQP-00274,Fès,District_5,Water,water_tank,2009-07-29,MFR-13,713.3,L_min,34,Good,34.019242,-4.97031,ONEE - Branche Eau
+EQP-00275,Laayoune,District_1,Electricity,distribution_box,1998-01-31,MFR-08,524.3,A,23,Poor,27.197793,-13.245203,ONEE - Branche Électricité
+EQP-00276,Laayoune,District_1,Electricity,distribution_box,1998-08-10,MFR-01,577.9,A,25,Fair,27.133756,-13.164117,ONEE - Branche Électricité
+EQP-00277,Laayoune,District_1,Electricity,distribution_box,2006-11-19,MFR-03,213.5,A,24,Fair,27.165085,-13.140483,ONEE - Branche Électricité
+EQP-00278,Laayoune,District_1,Electricity,distribution_box,1998-12-30,MFR-03,3485.3,A,21,Poor,27.131023,-13.209622,ONEE - Branche Électricité
+EQP-00279,Laayoune,District_1,Electricity,distribution_box,2018-03-29,MFR-03,2244.7,A,20,Good,27.173667,-13.198466,ONEE - Branche Électricité
+EQP-00280,Laayoune,District_1,Electricity,smart_meter,2018-02-01,MFR-04,264.3,A,14,Good,27.189483,-13.217612,ONEE - Branche Électricité
+EQP-00281,Laayoune,District_1,Electricity,smart_meter,2000-12-10,MFR-05,416.4,A,10,Poor,27.141651,-13.22026,ONEE - Branche Électricité
+EQP-00282,Laayoune,District_1,Electricity,smart_meter,2013-11-14,MFR-05,2039.9,A,12,Fair,27.092469,-13.186388,ONEE - Branche Électricité
+EQP-00283,Laayoune,District_1,Electricity,smart_meter,2008-06-19,MFR-08,554.5,A,13,Poor,27.128387,-13.181107,ONEE - Branche Électricité
+EQP-00284,Laayoune,District_1,Electricity,smart_meter,2015-03-31,MFR-08,82.8,A,11,Fair,27.192654,-13.24176,ONEE - Branche Électricité
+EQP-00285,Laayoune,District_1,Electricity,substation,2001-12-08,MFR-05,89.1,A,35,Good,27.180751,-13.245478,ONEE - Branche Électricité
+EQP-00286,Laayoune,District_1,Electricity,substation,2007-10-07,MFR-03,365.2,A,32,Good,27.180569,-13.220355,ONEE - Branche Électricité
+EQP-00287,Laayoune,District_1,Electricity,transformer,1997-10-04,MFR-04,533.5,A,31,Fair,27.111819,-13.160228,ONEE - Branche Électricité
+EQP-00288,Laayoune,District_1,Electricity,transformer,2019-05-13,MFR-04,90.8,A,31,Excellent,27.139303,-13.139767,ONEE - Branche Électricité
+EQP-00289,Laayoune,District_1,Water,pipeline,2016-03-13,MFR-09,190.3,L_min,47,Excellent,27.152044,-13.190051,ONEE - Branche Eau
+EQP-00290,Laayoune,District_1,Water,pipeline,2010-10-19,MFR-13,568.8,L_min,41,Good,27.112973,-13.15363,ONEE - Branche Eau
+EQP-00291,Laayoune,District_1,Water,pumping_station,2008-10-09,MFR-10,862.1,L_min,22,Fair,27.141319,-13.221993,ONEE - Branche Eau
+EQP-00292,Laayoune,District_1,Water,water_tank,2024-12-21,MFR-13,715.5,L_min,34,Excellent,27.159969,-13.132669,ONEE - Branche Eau
+EQP-00293,Laayoune,District_1,Water,water_tank,2022-06-06,MFR-09,1103.2,L_min,39,Excellent,27.177665,-13.215562,ONEE - Branche Eau
+EQP-00294,Laayoune,District_2,Electricity,distribution_box,2022-12-31,MFR-08,254.3,A,23,Excellent,27.176277,-13.212217,ONEE - Branche Électricité
+EQP-00295,Laayoune,District_2,Electricity,smart_meter,2010-12-26,MFR-02,517.7,A,15,Fair,27.195264,-13.246833,ONEE - Branche Électricité
+EQP-00296,Laayoune,District_2,Electricity,smart_meter,2015-10-26,MFR-04,70.2,A,14,Good,27.127794,-13.223279,ONEE - Branche Électricité
+EQP-00297,Laayoune,District_2,Electricity,transformer,2008-11-06,MFR-01,488.9,A,33,Fair,27.194859,-13.162238,ONEE - Branche Électricité
+EQP-00298,Laayoune,District_2,Electricity,transformer,2015-05-08,MFR-04,174.7,A,30,Good,27.122157,-13.238572,ONEE - Branche Électricité
+EQP-00299,Laayoune,District_2,Water,pipeline,2004-03-04,MFR-09,973.3,L_min,46,Good,27.19294,-13.178358,ONEE - Branche Eau
+EQP-00300,Laayoune,District_2,Water,pipeline,1997-02-04,MFR-13,861.4,L_min,41,Fair,27.100712,-13.177165,ONEE - Branche Eau
+EQP-00301,Laayoune,District_2,Water,pipeline,2013-09-21,MFR-09,985.9,L_min,48,Excellent,27.113301,-13.157861,ONEE - Branche Eau
+EQP-00302,Laayoune,District_2,Water,pipeline,2006-08-07,MFR-09,599.3,L_min,44,Good,27.142975,-13.224494,ONEE - Branche Eau
+EQP-00303,Laayoune,District_2,Water,pumping_station,2014-01-02,MFR-13,739.5,L_min,24,Good,27.148899,-13.206499,ONEE - Branche Eau
+EQP-00304,Laayoune,District_2,Water,pumping_station,2014-08-30,MFR-13,564.7,L_min,21,Good,27.082191,-13.155383,ONEE - Branche Eau
+EQP-00305,Laayoune,District_2,Water,water_tank,2016-09-06,MFR-13,903.0,L_min,30,Good,27.119419,-13.146345,ONEE - Branche Eau
+EQP-00306,Laayoune,District_3,Electricity,distribution_box,2010-08-14,MFR-04,500.3,A,21,Fair,27.092243,-13.228162,ONEE - Branche Électricité
+EQP-00307,Laayoune,District_3,Electricity,smart_meter,2003-11-14,MFR-04,305.0,A,11,Fair,27.154586,-13.225969,ONEE - Branche Électricité
+EQP-00308,Laayoune,District_3,Electricity,smart_meter,1998-11-11,MFR-01,323.8,A,15,Poor,27.095533,-13.236981,ONEE - Branche Électricité
+EQP-00309,Laayoune,District_3,Electricity,substation,2002-12-05,MFR-04,273.3,A,34,Good,27.193833,-13.24483,ONEE - Branche Électricité
+EQP-00310,Laayoune,District_3,Electricity,substation,2007-08-15,MFR-03,312.1,A,39,Good,27.180781,-13.171565,ONEE - Branche Électricité
+EQP-00311,Laayoune,District_3,Electricity,substation,2001-03-27,MFR-08,72.8,A,33,Fair,27.139397,-13.246983,ONEE - Branche Électricité
+EQP-00312,Laayoune,District_3,Electricity,transformer,2005-10-22,MFR-08,519.8,A,34,Fair,27.164787,-13.23455,ONEE - Branche Électricité
+EQP-00313,Laayoune,District_3,Water,pipeline,2000-04-09,MFR-09,821.8,L_min,47,Good,27.158082,-13.189461,ONEE - Branche Eau
+EQP-00314,Laayoune,District_3,Water,pipeline,2014-03-08,MFR-10,580.0,L_min,40,Good,27.182011,-13.18033,ONEE - Branche Eau
+EQP-00315,Laayoune,District_3,Water,pumping_station,2002-12-19,MFR-09,296.2,L_min,24,Fair,27.161196,-13.223755,ONEE - Branche Eau
+EQP-00316,Laayoune,District_3,Water,pumping_station,2002-10-12,MFR-10,814.1,L_min,20,Poor,27.16782,-13.159703,ONEE - Branche Eau
+EQP-00317,Laayoune,District_3,Water,pumping_station,1999-10-09,MFR-13,157.6,L_min,22,Fair,27.142899,-13.17388,ONEE - Branche Eau
+EQP-00318,Laayoune,District_3,Water,water_tank,2018-01-19,MFR-09,941.2,L_min,31,Good,27.112822,-13.166181,ONEE - Branche Eau
+EQP-00319,Laayoune,District_3,Water,water_tank,2022-08-04,MFR-13,681.2,L_min,33,Excellent,27.126794,-13.192281,ONEE - Branche Eau
+EQP-00320,Laayoune,District_4,Electricity,distribution_box,1999-04-08,MFR-03,609.5,A,22,Poor,27.200397,-13.142192,ONEE - Branche Électricité
+EQP-00321,Laayoune,District_4,Electricity,distribution_box,2014-05-11,MFR-05,366.3,A,23,Good,27.096773,-13.13107,ONEE - Branche Électricité
+EQP-00322,Laayoune,District_4,Electricity,smart_meter,2009-04-10,MFR-01,342.4,A,10,Poor,27.17333,-13.231838,ONEE - Branche Électricité
+EQP-00323,Laayoune,District_4,Electricity,substation,2016-08-03,MFR-02,2659.1,A,38,Good,27.092348,-13.174166,ONEE - Branche Électricité
+EQP-00324,Laayoune,District_4,Electricity,substation,2005-04-11,MFR-02,593.7,A,38,Fair,27.117425,-13.136914,ONEE - Branche Électricité
+EQP-00325,Laayoune,District_4,Electricity,transformer,1997-11-04,MFR-04,491.2,A,35,Fair,27.166093,-13.148851,ONEE - Branche Électricité
+EQP-00326,Laayoune,District_4,Water,pipeline,2003-12-15,MFR-13,857.4,L_min,45,Good,27.189932,-13.230435,ONEE - Branche Eau
+EQP-00327,Laayoune,District_4,Water,pumping_station,2006-01-02,MFR-09,108.6,L_min,24,Fair,27.110873,-13.23788,ONEE - Branche Eau
+EQP-00328,Laayoune,District_4,Water,pumping_station,2016-10-26,MFR-13,731.1,L_min,20,Good,27.154137,-13.243746,ONEE - Branche Eau
+EQP-00329,Laayoune,District_4,Water,pumping_station,1999-07-27,MFR-13,490.0,L_min,23,Poor,27.102164,-13.158001,ONEE - Branche Eau
+EQP-00330,Laayoune,District_4,Water,pumping_station,2020-03-08,MFR-09,723.7,L_min,21,Excellent,27.18707,-13.202716,ONEE - Branche Eau
+EQP-00331,Laayoune,District_4,Water,water_tank,2018-06-26,MFR-10,595.5,L_min,35,Excellent,27.111534,-13.214077,ONEE - Branche Eau
+EQP-00332,Laayoune,District_4,Water,water_tank,2006-04-21,MFR-13,934.4,L_min,30,Fair,27.169096,-13.15503,ONEE - Branche Eau
+EQP-00333,Laayoune,District_4,Water,water_tank,2000-10-17,MFR-09,796.8,L_min,34,Fair,27.166739,-13.161552,ONEE - Branche Eau
+EQP-00334,Laayoune,District_4,Water,water_tank,2020-09-30,MFR-10,880.8,L_min,35,Excellent,27.163684,-13.216726,ONEE - Branche Eau
+EQP-00335,Laayoune,District_5,Electricity,distribution_box,2015-12-16,MFR-08,5840.7,A,24,Good,27.094453,-13.186058,ONEE - Branche Électricité
+EQP-00336,Laayoune,District_5,Electricity,distribution_box,2017-05-25,MFR-02,457.5,A,25,Good,27.127725,-13.226701,ONEE - Branche Électricité
+EQP-00337,Laayoune,District_5,Electricity,distribution_box,2002-01-29,MFR-01,336.7,A,21,Poor,27.16423,-13.165301,ONEE - Branche Électricité
+EQP-00338,Laayoune,District_5,Electricity,smart_meter,2005-09-14,MFR-03,462.5,A,10,Poor,27.167483,-13.241035,ONEE - Branche Électricité
+EQP-00339,Laayoune,District_5,Electricity,substation,2000-11-03,MFR-08,123.8,A,38,Fair,27.145815,-13.238849,ONEE - Branche Électricité
+EQP-00340,Laayoune,District_5,Electricity,substation,1999-06-24,MFR-04,66.8,A,38,Fair,27.141077,-13.237728,ONEE - Branche Électricité
+EQP-00341,Laayoune,District_5,Electricity,substation,2007-02-19,MFR-04,551.9,A,38,Good,27.163639,-13.209339,ONEE - Branche Électricité
+EQP-00342,Laayoune,District_5,Electricity,transformer,2011-12-19,MFR-01,384.5,A,29,Good,27.089298,-13.161552,ONEE - Branche Électricité
+EQP-00343,Laayoune,District_5,Water,pipeline,2024-05-20,MFR-10,10016.1,L_min,44,Excellent,27.094282,-13.160943,ONEE - Branche Eau
+EQP-00344,Laayoune,District_5,Water,pipeline,2000-12-08,MFR-13,303.3,L_min,42,Fair,27.194021,-13.188801,ONEE - Branche Eau
+EQP-00345,Laayoune,District_5,Water,pipeline,2016-12-11,MFR-09,102.5,L_min,47,Excellent,27.091231,-13.193631,ONEE - Branche Eau
+EQP-00346,Laayoune,District_5,Water,pumping_station,2009-04-13,MFR-10,794.7,L_min,23,Fair,27.145761,-13.228785,ONEE - Branche Eau
+EQP-00347,Laayoune,District_5,Water,pumping_station,2001-03-29,MFR-10,419.3,L_min,25,Fair,27.14559,-13.213646,ONEE - Branche Eau
+EQP-00348,Laayoune,District_5,Water,pumping_station,2002-02-23,MFR-10,2822.0,L_min,23,Poor,27.08343,-13.163838,ONEE - Branche Eau
+EQP-00349,Laayoune,District_5,Water,water_tank,2018-10-05,MFR-13,693.2,L_min,32,Excellent,27.183408,-13.170636,ONEE - Branche Eau
+EQP-00350,Laayoune,District_5,Water,water_tank,2011-05-23,MFR-13,679.0,L_min,34,Good,27.128459,-13.219436,ONEE - Branche Eau
+EQP-00351,Marrakech,District_1,Electricity,distribution_box,2015-03-15,MFR-08,440.7,A,20,Excellent,31.600502,-7.925003,ONEE - Branche Électricité
+EQP-00352,Marrakech,District_1,Electricity,distribution_box,2004-10-09,MFR-04,222.8,A,24,Fair,31.68724,-7.946171,ONEE - Branche Électricité
+EQP-00353,Marrakech,District_1,Electricity,smart_meter,2001-07-24,MFR-03,445.6,A,11,Poor,31.58512,-8.038736,ONEE - Branche Électricité
+EQP-00354,Marrakech,District_1,Electricity,smart_meter,2021-12-01,MFR-08,491.3,A,12,Excellent,31.659246,-8.017745,ONEE - Branche Électricité
+EQP-00355,Marrakech,District_1,Electricity,smart_meter,2013-12-21,MFR-08,203.1,A,15,Fair,31.662617,-7.929086,ONEE - Branche Électricité
+EQP-00356,Marrakech,District_1,Electricity,substation,2005-05-24,MFR-02,44.8,A,32,Good,31.62531,-7.98567,ONEE - Branche Électricité
+EQP-00357,Marrakech,District_1,Electricity,transformer,2006-09-14,MFR-05,497.2,A,35,Good,31.597944,-7.969564,ONEE - Branche Électricité
+EQP-00358,Marrakech,District_1,Electricity,transformer,2021-12-09,MFR-03,334.7,A,34,Excellent,31.684401,-7.936931,ONEE - Branche Électricité
+EQP-00359,Marrakech,District_1,Water,pipeline,2013-04-30,MFR-09,838.4,L_min,46,Good,31.671665,-7.994153,ONEE - Branche Eau
+EQP-00360,Marrakech,District_1,Water,pipeline,2006-06-01,MFR-09,149.5,L_min,48,Good,31.61356,-7.936155,ONEE - Branche Eau
+EQP-00361,Marrakech,District_1,Water,pipeline,2023-01-10,MFR-10,164.5,L_min,40,Excellent,31.601594,-8.009102,ONEE - Branche Eau
+EQP-00362,Marrakech,District_1,Water,pumping_station,2011-01-12,MFR-09,284.8,L_min,23,Fair,31.622776,-7.964081,ONEE - Branche Eau
+EQP-00363,Marrakech,District_1,Water,pumping_station,2001-11-11,MFR-13,801.7,L_min,20,Poor,31.676603,-7.946899,ONEE - Branche Eau
+EQP-00364,Marrakech,District_1,Water,water_tank,2003-07-06,MFR-10,708.8,L_min,37,Fair,31.626138,-7.95711,ONEE - Branche Eau
+EQP-00365,Marrakech,District_1,Water,water_tank,2017-12-21,MFR-13,99.7,L_min,32,Good,31.637711,-7.960857,ONEE - Branche Eau
+EQP-00366,Marrakech,District_2,Electricity,distribution_box,2007-10-12,MFR-03,101.1,A,23,Fair,31.666429,-7.995507,ONEE - Branche Électricité
+EQP-00367,Marrakech,District_2,Electricity,smart_meter,2005-08-01,MFR-03,726.6,A,11,Poor,31.65887,-7.9578,ONEE - Branche Électricité
+EQP-00368,Marrakech,District_2,Electricity,substation,2007-09-27,MFR-08,2310.1,A,37,Good,31.573122,-7.947279,ONEE - Branche Électricité
+EQP-00369,Marrakech,District_2,Electricity,transformer,2016-10-26,MFR-05,90.9,A,31,Excellent,31.656107,-8.010962,ONEE - Branche Électricité
+EQP-00370,Marrakech,District_2,Electricity,transformer,2010-03-26,MFR-08,478.5,A,25,Good,31.680111,-7.956345,ONEE - Branche Électricité
+EQP-00371,Marrakech,District_2,Electricity,transformer,2014-10-23,MFR-05,143.0,A,31,Good,31.596193,-7.989779,ONEE - Branche Électricité
+EQP-00372,Marrakech,District_2,Water,pipeline,2020-06-27,MFR-10,798.5,L_min,45,Excellent,31.666914,-7.967367,ONEE - Branche Eau
+EQP-00373,Marrakech,District_2,Water,pipeline,2017-03-11,MFR-10,858.5,L_min,41,Excellent,31.670804,-7.927577,ONEE - Branche Eau
+EQP-00374,Marrakech,District_2,Water,pumping_station,2013-09-13,MFR-13,854.6,L_min,25,Good,31.678077,-8.011899,ONEE - Branche Eau
+EQP-00375,Marrakech,District_2,Water,pumping_station,2001-02-01,MFR-13,515.7,L_min,22,Poor,31.600985,-7.955897,ONEE - Branche Eau
+EQP-00376,Marrakech,District_2,Water,water_tank,2017-04-10,MFR-10,220.1,L_min,39,Excellent,31.66029,-8.038629,ONEE - Branche Eau
+EQP-00377,Marrakech,District_2,Water,water_tank,2013-08-06,MFR-13,343.5,L_min,40,Good,31.679041,-8.033999,ONEE - Branche Eau
+EQP-00378,Marrakech,District_3,Electricity,distribution_box,2013-07-12,MFR-01,510.4,A,25,Good,31.59877,-7.960982,ONEE - Branche Électricité
+EQP-00379,Marrakech,District_3,Electricity,smart_meter,2017-05-21,MFR-02,515.5,A,14,Good,31.592993,-7.941047,ONEE - Branche Électricité
+EQP-00380,Marrakech,District_3,Electricity,substation,1998-10-19,MFR-02,3500.4,A,32,Fair,31.639853,-7.935842,ONEE - Branche Électricité
+EQP-00381,Marrakech,District_3,Electricity,transformer,2002-12-06,MFR-08,545.8,A,34,Good,31.586525,-7.926406,ONEE - Branche Électricité
+EQP-00382,Marrakech,District_3,Water,pipeline,2023-12-03,MFR-09,208.5,L_min,46,Excellent,31.619994,-8.014736,ONEE - Branche Eau
+EQP-00383,Marrakech,District_3,Water,pipeline,2016-07-04,MFR-09,223.4,L_min,49,Excellent,31.590679,-7.93822,ONEE - Branche Eau
+EQP-00384,Marrakech,District_3,Water,pumping_station,2008-02-20,MFR-13,758.2,L_min,25,Fair,31.603976,-7.979547,ONEE - Branche Eau
+EQP-00385,Marrakech,District_3,Water,pumping_station,2011-08-24,MFR-13,701.8,L_min,22,Fair,31.619318,-7.94302,ONEE - Branche Eau
+EQP-00386,Marrakech,District_3,Water,water_tank,2013-02-10,MFR-13,597.1,L_min,38,Excellent,31.602155,-7.962198,ONEE - Branche Eau
+EQP-00387,Marrakech,District_3,Water,water_tank,2004-01-10,MFR-10,750.6,L_min,30,Fair,31.580724,-8.03521,ONEE - Branche Eau
+EQP-00388,Marrakech,District_3,Water,water_tank,2009-06-17,MFR-09,790.1,L_min,38,Good,31.6447,-7.943822,ONEE - Branche Eau
+EQP-00389,Marrakech,District_3,Water,water_tank,2011-10-09,MFR-13,738.2,L_min,37,Good,31.683453,-7.985368,ONEE - Branche Eau
+EQP-00390,Marrakech,District_4,Electricity,distribution_box,1998-05-22,MFR-02,66.8,A,22,Poor,31.61885,-7.980107,ONEE - Branche Électricité
+EQP-00391,Marrakech,District_4,Electricity,smart_meter,2019-05-13,MFR-04,52.9,A,15,Good,31.631714,-7.985064,ONEE - Branche Électricité
+EQP-00392,Marrakech,District_4,Electricity,smart_meter,2016-11-10,MFR-05,92.8,A,15,Good,31.64218,-7.947339,ONEE - Branche Électricité
+EQP-00393,Marrakech,District_4,Electricity,smart_meter,2010-09-17,MFR-03,377.6,A,12,Fair,31.599053,-7.921369,ONEE - Branche Électricité
+EQP-00394,Marrakech,District_4,Electricity,smart_meter,2023-03-28,MFR-02,46.7,A,11,Good,31.56979,-8.014994,ONEE - Branche Électricité
+EQP-00395,Marrakech,District_4,Electricity,substation,2004-02-10,MFR-05,433.7,A,34,Good,31.573444,-8.009064,ONEE - Branche Électricité
+EQP-00396,Marrakech,District_4,Electricity,substation,2000-10-18,MFR-04,529.6,A,40,Good,31.654331,-8.0012,ONEE - Branche Électricité
+EQP-00397,Marrakech,District_4,Electricity,transformer,2017-08-31,MFR-04,278.9,A,29,Good,31.579804,-8.036509,ONEE - Branche Électricité
+EQP-00398,Marrakech,District_4,Water,pipeline,2019-04-17,MFR-13,264.6,L_min,41,Good,31.587705,-7.992412,ONEE - Branche Eau
+EQP-00399,Marrakech,District_4,Water,pipeline,2007-01-22,MFR-10,897.7,L_min,42,Good,31.585667,-7.934911,ONEE - Branche Eau
+EQP-00400,Marrakech,District_4,Water,pumping_station,2012-02-23,MFR-13,424.5,L_min,21,Good,31.632513,-7.97108,ONEE - Branche Eau
+EQP-00401,Marrakech,District_4,Water,water_tank,2023-06-29,MFR-13,131.6,L_min,40,Excellent,31.584363,-7.978835,ONEE - Branche Eau
+EQP-00402,Marrakech,District_4,Water,water_tank,2012-05-22,MFR-09,839.2,L_min,34,Good,31.606662,-7.956495,ONEE - Branche Eau
+EQP-00403,Marrakech,District_5,Electricity,distribution_box,1998-02-06,MFR-08,550.6,A,20,Poor,31.655917,-7.961549,ONEE - Branche Électricité
+EQP-00404,Marrakech,District_5,Electricity,distribution_box,2012-08-17,MFR-01,536.7,A,23,Fair,31.658474,-8.017994,ONEE - Branche Électricité
+EQP-00405,Marrakech,District_5,Electricity,transformer,2009-07-18,MFR-03,421.7,A,32,Good,31.622923,-8.008276,ONEE - Branche Électricité
+EQP-00406,Marrakech,District_5,Electricity,transformer,2014-03-05,MFR-04,91.0,A,25,Good,31.652595,-7.923431,ONEE - Branche Électricité
+EQP-00407,Marrakech,District_5,Water,pipeline,2014-12-01,MFR-13,1049.6,L_min,47,Good,31.642172,-8.034166,ONEE - Branche Eau
+EQP-00408,Marrakech,District_5,Water,pipeline,2006-10-01,MFR-13,327.9,L_min,48,Fair,31.678927,-7.991721,ONEE - Branche Eau
+EQP-00409,Marrakech,District_5,Water,pipeline,2007-03-10,MFR-09,570.7,L_min,49,Good,31.595119,-7.989328,ONEE - Branche Eau
+EQP-00410,Marrakech,District_5,Water,pumping_station,2020-06-22,MFR-13,461.8,L_min,21,Excellent,31.569949,-7.929252,ONEE - Branche Eau
+EQP-00411,Marrakech,District_5,Water,pumping_station,2018-01-10,MFR-13,917.5,L_min,21,Excellent,31.59906,-7.958341,ONEE - Branche Eau
+EQP-00412,Marrakech,District_5,Water,water_tank,2003-09-06,MFR-10,387.6,L_min,34,Fair,31.648068,-7.96558,ONEE - Branche Eau
+EQP-00413,Marrakech,District_5,Water,water_tank,2006-06-03,MFR-10,894.5,L_min,31,Fair,31.634097,-7.940292,ONEE - Branche Eau
+EQP-00414,Meknes,District_1,Electricity,distribution_box,2020-08-02,MFR-04,420.8,A,22,Excellent,33.855348,-5.568622,ONEE - Branche Électricité
+EQP-00415,Meknes,District_1,Electricity,distribution_box,2018-11-22,MFR-04,200.8,A,25,Excellent,33.902916,-5.595076,ONEE - Branche Électricité
+EQP-00416,Meknes,District_1,Electricity,substation,2021-05-27,MFR-05,361.5,A,33,Excellent,33.9082,-5.558164,ONEE - Branche Électricité
+EQP-00417,Meknes,District_1,Electricity,substation,1998-11-01,MFR-05,491.2,A,36,Fair,33.926999,-5.606908,ONEE - Branche Électricité
+EQP-00418,Meknes,District_1,Electricity,substation,2005-02-06,MFR-04,533.6,A,36,Good,33.895292,-5.559723,ONEE - Branche Électricité
+EQP-00419,Meknes,District_1,Electricity,substation,2014-12-24,MFR-02,763.3,A,34,Excellent,33.845879,-5.540812,ONEE - Branche Électricité
+EQP-00420,Meknes,District_1,Electricity,substation,1997-03-27,MFR-05,252.1,A,37,Fair,33.874254,-5.501401,ONEE - Branche Électricité
+EQP-00421,Meknes,District_1,Electricity,substation,1999-02-16,MFR-04,568.9,A,32,Fair,33.887039,-5.53155,ONEE - Branche Électricité
+EQP-00422,Meknes,District_1,Electricity,substation,2007-09-12,MFR-04,2259.4,A,32,Fair,33.908267,-5.49064,ONEE - Branche Électricité
+EQP-00423,Meknes,District_1,Electricity,substation,1997-12-29,MFR-02,361.2,A,34,Fair,33.886465,-5.561768,ONEE - Branche Électricité
+EQP-00424,Meknes,District_1,Electricity,transformer,2022-03-03,MFR-05,175.1,A,26,Excellent,33.903323,-5.526075,ONEE - Branche Électricité
+EQP-00425,Meknes,District_1,Water,pipeline,2005-11-05,MFR-10,924.2,L_min,50,Fair,33.887701,-5.51351,ONEE - Branche Eau
+EQP-00426,Meknes,District_1,Water,water_tank,2008-10-07,MFR-10,869.3,L_min,33,Fair,33.881526,-5.598877,ONEE - Branche Eau
+EQP-00427,Meknes,District_2,Electricity,distribution_box,2014-10-23,MFR-08,505.8,A,25,Good,33.929744,-5.54014,ONEE - Branche Électricité
+EQP-00428,Meknes,District_2,Electricity,smart_meter,2017-10-10,MFR-02,507.5,A,14,Good,33.865792,-5.540196,ONEE - Branche Électricité
+EQP-00429,Meknes,District_2,Electricity,smart_meter,2004-08-26,MFR-01,422.2,A,14,Poor,33.938947,-5.601141,ONEE - Branche Électricité
+EQP-00430,Meknes,District_2,Electricity,substation,2024-06-28,MFR-08,543.7,A,37,Excellent,33.9434,-5.572135,ONEE - Branche Électricité
+EQP-00431,Meknes,District_2,Electricity,substation,2006-06-22,MFR-01,428.5,A,31,Good,33.94109,-5.506917,ONEE - Branche Électricité
+EQP-00432,Meknes,District_2,Electricity,substation,2003-06-12,MFR-01,106.9,A,32,Fair,33.952959,-5.525614,ONEE - Branche Électricité
+EQP-00433,Meknes,District_2,Electricity,substation,2011-08-18,MFR-03,445.9,A,34,Good,33.931542,-5.526792,ONEE - Branche Électricité
+EQP-00434,Meknes,District_2,Electricity,substation,2013-03-26,MFR-05,490.3,A,30,Good,33.883533,-5.601136,ONEE - Branche Électricité
+EQP-00435,Meknes,District_2,Electricity,transformer,2010-09-16,MFR-02,173.6,A,26,Fair,33.932794,-5.499069,ONEE - Branche Électricité
+EQP-00436,Meknes,District_2,Water,pipeline,2019-12-16,MFR-13,666.0,L_min,46,Excellent,33.841337,-5.563004,ONEE - Branche Eau
+EQP-00437,Meknes,District_2,Water,pipeline,2015-10-23,MFR-13,872.0,L_min,48,Good,33.838476,-5.495565,ONEE - Branche Eau
+EQP-00438,Meknes,District_2,Water,pipeline,2019-09-26,MFR-10,336.6,L_min,47,Excellent,33.834314,-5.60539,ONEE - Branche Eau
+EQP-00439,Meknes,District_2,Water,pumping_station,2002-02-16,MFR-10,754.5,L_min,25,Fair,33.914817,-5.595433,ONEE - Branche Eau
+EQP-00440,Meknes,District_2,Water,pumping_station,2011-08-14,MFR-10,787.1,L_min,25,Good,33.952464,-5.593092,ONEE - Branche Eau
+EQP-00441,Meknes,District_2,Water,pumping_station,2020-09-10,MFR-10,540.3,L_min,25,Excellent,33.896415,-5.599294,ONEE - Branche Eau
+EQP-00442,Meknes,District_2,Water,water_tank,2020-05-20,MFR-09,317.7,L_min,35,Excellent,33.89703,-5.596597,ONEE - Branche Eau
+EQP-00443,Meknes,District_2,Water,water_tank,1999-12-07,MFR-09,939.9,L_min,39,Fair,33.871998,-5.581564,ONEE - Branche Eau
+EQP-00444,Meknes,District_2,Water,water_tank,2006-06-27,MFR-09,628.5,L_min,37,Fair,33.9036,-5.562997,ONEE - Branche Eau
+EQP-00445,Meknes,District_3,Electricity,distribution_box,1997-02-12,MFR-02,344.3,A,23,Poor,33.870323,-5.606068,ONEE - Branche Électricité
+EQP-00446,Meknes,District_3,Electricity,distribution_box,2021-06-12,MFR-02,133.4,A,23,Excellent,33.857768,-5.509607,ONEE - Branche Électricité
+EQP-00447,Meknes,District_3,Electricity,smart_meter,2012-08-30,MFR-01,519.1,A,15,Fair,33.881887,-5.52581,ONEE - Branche Électricité
+EQP-00448,Meknes,District_3,Electricity,transformer,2015-01-01,MFR-02,536.4,A,33,Good,33.950302,-5.530765,ONEE - Branche Électricité
+EQP-00449,Meknes,District_3,Electricity,transformer,2017-03-19,MFR-02,447.6,A,33,Excellent,33.847929,-5.492926,ONEE - Branche Électricité
+EQP-00450,Meknes,District_3,Electricity,transformer,2005-09-06,MFR-03,253.8,A,26,Fair,33.889964,-5.556422,ONEE - Branche Électricité
+EQP-00451,Meknes,District_3,Electricity,transformer,2001-06-18,MFR-02,114.9,A,34,Fair,33.844096,-5.553615,ONEE - Branche Électricité
+EQP-00452,Meknes,District_3,Water,pipeline,2011-10-18,MFR-10,658.4,L_min,41,Excellent,33.933846,-5.521093,ONEE - Branche Eau
+EQP-00453,Meknes,District_3,Water,pipeline,2019-03-28,MFR-10,1128.1,L_min,44,Excellent,33.914246,-5.488497,ONEE - Branche Eau
+EQP-00454,Meknes,District_3,Water,pumping_station,2009-01-29,MFR-10,761.0,L_min,22,Fair,33.904867,-5.49351,ONEE - Branche Eau
+EQP-00455,Meknes,District_3,Water,pumping_station,2007-10-02,MFR-09,401.8,L_min,21,Fair,33.860836,-5.54095,ONEE - Branche Eau
+EQP-00456,Meknes,District_3,Water,water_tank,2007-05-15,MFR-13,975.1,L_min,37,Fair,33.929162,-5.576929,ONEE - Branche Eau
+EQP-00457,Meknes,District_3,Water,water_tank,2001-10-17,MFR-10,222.5,L_min,35,Fair,33.93395,-5.587537,ONEE - Branche Eau
+EQP-00458,Meknes,District_3,Water,water_tank,2000-03-04,MFR-09,404.3,L_min,35,Fair,33.884429,-5.490083,ONEE - Branche Eau
+EQP-00459,Meknes,District_3,Water,water_tank,2005-03-19,MFR-09,625.1,L_min,33,Fair,33.92365,-5.507921,ONEE - Branche Eau
+EQP-00460,Meknes,District_4,Electricity,distribution_box,2005-10-09,MFR-02,423.0,A,22,Fair,33.870678,-5.604881,ONEE - Branche Électricité
+EQP-00461,Meknes,District_4,Electricity,smart_meter,2005-05-29,MFR-05,2432.2,A,10,Poor,33.879498,-5.524307,ONEE - Branche Électricité
+EQP-00462,Meknes,District_4,Electricity,smart_meter,1999-06-02,MFR-01,71.3,A,14,Poor,33.898521,-5.570482,ONEE - Branche Électricité
+EQP-00463,Meknes,District_4,Electricity,smart_meter,2007-10-27,MFR-08,313.9,A,10,Poor,33.938956,-5.563878,ONEE - Branche Électricité
+EQP-00464,Meknes,District_4,Electricity,substation,2004-05-09,MFR-04,133.2,A,30,Good,33.906845,-5.573734,ONEE - Branche Électricité
+EQP-00465,Meknes,District_4,Electricity,substation,2011-09-11,MFR-05,322.0,A,39,Good,33.837669,-5.580355,ONEE - Branche Électricité
+EQP-00466,Meknes,District_4,Electricity,substation,2006-03-09,MFR-04,93.8,A,35,Fair,33.921128,-5.53489,ONEE - Branche Électricité
+EQP-00467,Meknes,District_4,Electricity,transformer,2023-02-18,MFR-03,58.0,A,25,Excellent,33.910608,-5.554686,ONEE - Branche Électricité
+EQP-00468,Meknes,District_4,Electricity,transformer,2007-02-20,MFR-02,41.8,A,25,Fair,33.906609,-5.532784,ONEE - Branche Électricité
+EQP-00469,Meknes,District_4,Water,pipeline,2024-05-29,MFR-09,656.1,L_min,46,Excellent,33.879826,-5.517934,ONEE - Branche Eau
+EQP-00470,Meknes,District_4,Water,pipeline,2018-10-27,MFR-10,942.1,L_min,45,Excellent,33.862441,-5.500892,ONEE - Branche Eau
+EQP-00471,Meknes,District_4,Water,pipeline,2012-05-31,MFR-09,258.4,L_min,46,Excellent,33.953137,-5.508746,ONEE - Branche Eau
+EQP-00472,Meknes,District_4,Water,pumping_station,2015-06-30,MFR-10,1106.9,L_min,24,Good,33.862727,-5.590787,ONEE - Branche Eau
+EQP-00473,Meknes,District_4,Water,pumping_station,2023-12-06,MFR-13,846.4,L_min,22,Excellent,33.856563,-5.593251,ONEE - Branche Eau
+EQP-00474,Meknes,District_4,Water,pumping_station,2015-03-30,MFR-09,285.2,L_min,21,Good,33.950249,-5.51197,ONEE - Branche Eau
+EQP-00475,Meknes,District_4,Water,pumping_station,2002-04-08,MFR-09,826.7,L_min,23,Fair,33.930247,-5.510899,ONEE - Branche Eau
+EQP-00476,Meknes,District_4,Water,water_tank,2007-11-30,MFR-10,813.6,L_min,31,Good,33.862488,-5.579973,ONEE - Branche Eau
+EQP-00477,Meknes,District_4,Water,water_tank,2001-02-01,MFR-13,859.6,L_min,32,Fair,33.93009,-5.554973,ONEE - Branche Eau
+EQP-00478,Meknes,District_5,Electricity,distribution_box,2012-10-03,MFR-01,336.3,A,22,Good,33.853295,-5.515055,ONEE - Branche Électricité
+EQP-00479,Meknes,District_5,Electricity,distribution_box,2002-07-29,MFR-01,380.0,A,24,Fair,33.90775,-5.500936,ONEE - Branche Électricité
+EQP-00480,Meknes,District_5,Electricity,distribution_box,2000-10-06,MFR-02,418.6,A,21,Poor,33.834867,-5.591477,ONEE - Branche Électricité
+EQP-00481,Meknes,District_5,Electricity,smart_meter,2011-01-27,MFR-02,249.2,A,11,Poor,33.888467,-5.529772,ONEE - Branche Électricité
+EQP-00482,Meknes,District_5,Electricity,substation,2011-12-01,MFR-04,634.9,A,37,Good,33.852852,-5.585641,ONEE - Branche Électricité
+EQP-00483,Meknes,District_5,Electricity,transformer,2008-11-06,MFR-05,150.4,A,33,Good,33.908888,-5.506003,ONEE - Branche Électricité
+EQP-00484,Meknes,District_5,Electricity,transformer,2017-07-15,MFR-01,428.6,A,28,Excellent,33.884636,-5.554443,ONEE - Branche Électricité
+EQP-00485,Meknes,District_5,Water,pipeline,2007-08-27,MFR-10,892.1,L_min,47,Good,33.854949,-5.491179,ONEE - Branche Eau
+EQP-00486,Meknes,District_5,Water,pipeline,2010-10-12,MFR-10,314.8,L_min,48,Good,33.889412,-5.509861,ONEE - Branche Eau
+EQP-00487,Meknes,District_5,Water,pumping_station,2007-03-07,MFR-09,916.3,L_min,24,Fair,33.834163,-5.549259,ONEE - Branche Eau
+EQP-00488,Meknes,District_5,Water,water_tank,2013-08-05,MFR-13,311.5,L_min,35,Good,33.875044,-5.572787,ONEE - Branche Eau
+EQP-00489,Meknes,District_5,Water,water_tank,2003-08-25,MFR-09,256.7,L_min,37,Good,33.834183,-5.514681,ONEE - Branche Eau
+EQP-00490,Oujda,District_1,Electricity,distribution_box,2017-09-10,MFR-03,138.6,A,24,Good,34.656877,-1.87007,ONEE - Branche Électricité
+EQP-00491,Oujda,District_1,Electricity,smart_meter,2016-04-06,MFR-04,535.8,A,11,Fair,34.680168,-1.855231,ONEE - Branche Électricité
+EQP-00492,Oujda,District_1,Electricity,smart_meter,1999-09-10,MFR-05,217.0,A,11,Poor,34.720653,-1.956964,ONEE - Branche Électricité
+EQP-00493,Oujda,District_1,Electricity,substation,2005-03-06,MFR-02,162.7,A,30,Fair,34.647625,-1.957539,ONEE - Branche Électricité
+EQP-00494,Oujda,District_1,Electricity,transformer,2007-02-24,MFR-08,457.4,A,26,Fair,34.641498,-1.925217,ONEE - Branche Électricité
+EQP-00495,Oujda,District_1,Water,pipeline,2014-02-13,MFR-13,341.0,L_min,50,Good,34.712181,-1.855126,ONEE - Branche Eau
+EQP-00496,Oujda,District_1,Water,pipeline,2023-05-08,MFR-10,827.9,L_min,42,Excellent,34.710726,-1.870144,ONEE - Branche Eau
+EQP-00497,Oujda,District_1,Water,pipeline,1998-02-08,MFR-09,111.9,L_min,42,Fair,34.665208,-1.852919,ONEE - Branche Eau
+EQP-00498,Oujda,District_1,Water,pipeline,2013-05-16,MFR-13,1043.6,L_min,49,Good,34.735518,-1.964325,ONEE - Branche Eau
+EQP-00499,Oujda,District_1,Water,pipeline,2011-02-24,MFR-09,652.8,L_min,49,Excellent,34.710394,-1.928686,ONEE - Branche Eau
+EQP-00500,Oujda,District_1,Water,pumping_station,2021-11-18,MFR-10,681.5,L_min,24,Excellent,34.633169,-1.882912,ONEE - Branche Eau
+EQP-00501,Oujda,District_1,Water,pumping_station,2009-04-15,MFR-13,1295.3,L_min,25,Fair,34.709009,-1.900281,ONEE - Branche Eau
+EQP-00502,Oujda,District_1,Water,pumping_station,2007-12-04,MFR-13,588.1,L_min,25,Fair,34.717328,-1.873438,ONEE - Branche Eau
+EQP-00503,Oujda,District_1,Water,pumping_station,2000-10-11,MFR-13,438.6,L_min,24,Poor,34.666674,-1.880619,ONEE - Branche Eau
+EQP-00504,Oujda,District_1,Water,water_tank,1997-09-25,MFR-13,810.0,L_min,30,Poor,34.666401,-1.90654,ONEE - Branche Eau
+EQP-00505,Oujda,District_1,Water,water_tank,2010-04-04,MFR-10,990.2,L_min,35,Good,34.681914,-1.864966,ONEE - Branche Eau
+EQP-00506,Oujda,District_1,Water,water_tank,2011-09-11,MFR-10,1599.4,L_min,31,Good,34.706242,-1.951167,ONEE - Branche Eau
+EQP-00507,Oujda,District_2,Electricity,distribution_box,2015-06-15,MFR-02,438.2,A,25,Good,34.726989,-1.944423,ONEE - Branche Électricité
+EQP-00508,Oujda,District_2,Electricity,distribution_box,2015-07-14,MFR-02,487.0,A,20,Good,34.63243,-1.891179,ONEE - Branche Électricité
+EQP-00509,Oujda,District_2,Electricity,smart_meter,2010-09-01,MFR-05,201.2,A,10,Poor,34.726961,-1.856633,ONEE - Branche Électricité
+EQP-00510,Oujda,District_2,Electricity,smart_meter,2016-01-26,MFR-03,235.9,A,10,Fair,34.671826,-1.910051,ONEE - Branche Électricité
+EQP-00511,Oujda,District_2,Electricity,smart_meter,2013-11-29,MFR-05,562.5,A,12,Fair,34.682436,-1.876557,ONEE - Branche Électricité
+EQP-00512,Oujda,District_2,Electricity,substation,2020-04-21,MFR-04,437.3,A,32,Good,34.641591,-1.963121,ONEE - Branche Électricité
+EQP-00513,Oujda,District_2,Electricity,transformer,2008-03-13,MFR-04,528.4,A,27,Good,34.705879,-1.925275,ONEE - Branche Électricité
+EQP-00514,Oujda,District_2,Electricity,transformer,2017-04-25,MFR-05,453.8,A,33,Good,34.666521,-1.947674,ONEE - Branche Électricité
+EQP-00515,Oujda,District_2,Water,pipeline,2007-03-08,MFR-09,14561.9,L_min,49,Good,34.740663,-1.901805,ONEE - Branche Eau
+EQP-00516,Oujda,District_2,Water,pipeline,2019-08-03,MFR-09,126.1,L_min,46,Excellent,34.692512,-1.938658,ONEE - Branche Eau
+EQP-00517,Oujda,District_2,Water,pipeline,2005-12-02,MFR-13,717.7,L_min,48,Good,34.721279,-1.933431,ONEE - Branche Eau
+EQP-00518,Oujda,District_2,Water,pumping_station,2006-11-23,MFR-13,398.9,L_min,21,Fair,34.636475,-1.90438,ONEE - Branche Eau
+EQP-00519,Oujda,District_2,Water,water_tank,2003-06-06,MFR-13,927.2,L_min,32,Fair,34.662611,-1.894363,ONEE - Branche Eau
+EQP-00520,Oujda,District_2,Water,water_tank,2014-09-07,MFR-10,444.0,L_min,34,Excellent,34.67085,-1.859575,ONEE - Branche Eau
+EQP-00521,Oujda,District_3,Electricity,distribution_box,2012-03-29,MFR-08,298.8,A,23,Fair,34.723213,-1.944931,ONEE - Branche Électricité
+EQP-00522,Oujda,District_3,Electricity,smart_meter,2016-09-17,MFR-02,328.8,A,10,Fair,34.63787,-1.855547,ONEE - Branche Électricité
+EQP-00523,Oujda,District_3,Electricity,substation,1998-06-27,MFR-01,484.9,A,40,Fair,34.739952,-1.95745,ONEE - Branche Électricité
+EQP-00524,Oujda,District_3,Electricity,substation,2013-01-11,MFR-02,455.8,A,40,Good,34.653061,-1.907408,ONEE - Branche Électricité
+EQP-00525,Oujda,District_3,Electricity,substation,2024-03-14,MFR-03,380.6,A,32,Excellent,34.692599,-1.935982,ONEE - Branche Électricité
+EQP-00526,Oujda,District_3,Electricity,transformer,2002-11-19,MFR-08,2598.4,A,34,Good,34.624447,-1.922609,ONEE - Branche Électricité
+EQP-00527,Oujda,District_3,Water,pipeline,2004-07-30,MFR-09,807.6,L_min,43,Fair,34.661247,-1.90967,ONEE - Branche Eau
+EQP-00528,Oujda,District_3,Water,pipeline,2023-12-30,MFR-10,235.2,L_min,43,Excellent,34.671905,-1.937634,ONEE - Branche Eau
+EQP-00529,Oujda,District_3,Water,pumping_station,2015-10-02,MFR-09,160.2,L_min,25,Good,34.721021,-1.942356,ONEE - Branche Eau
+EQP-00530,Oujda,District_3,Water,water_tank,2018-03-14,MFR-13,919.3,L_min,31,Excellent,34.630767,-1.894945,ONEE - Branche Eau
+EQP-00531,Oujda,District_3,Water,water_tank,2017-04-23,MFR-13,686.6,L_min,40,Excellent,34.738566,-1.889361,ONEE - Branche Eau
+EQP-00532,Oujda,District_3,Water,water_tank,2015-01-11,MFR-10,983.1,L_min,40,Excellent,34.636481,-1.938285,ONEE - Branche Eau
+EQP-00533,Oujda,District_3,Water,water_tank,2019-11-21,MFR-09,637.2,L_min,30,Excellent,34.640119,-1.953677,ONEE - Branche Eau
+EQP-00534,Oujda,District_4,Electricity,distribution_box,2007-07-31,MFR-02,516.3,A,22,Fair,34.716476,-1.96103,ONEE - Branche Électricité
+EQP-00535,Oujda,District_4,Electricity,distribution_box,2016-03-20,MFR-02,282.3,A,21,Excellent,34.670658,-1.864687,ONEE - Branche Électricité
+EQP-00536,Oujda,District_4,Electricity,smart_meter,2005-10-26,MFR-05,373.4,A,12,Poor,34.641714,-1.944965,ONEE - Branche Électricité
+EQP-00537,Oujda,District_4,Electricity,smart_meter,2007-12-08,MFR-08,412.2,A,11,Fair,34.660601,-1.849741,ONEE - Branche Électricité
+EQP-00538,Oujda,District_4,Electricity,transformer,2014-04-02,MFR-01,511.0,A,32,Good,34.65392,-1.851028,ONEE - Branche Électricité
+EQP-00539,Oujda,District_4,Electricity,transformer,2019-09-27,MFR-02,252.8,A,31,Excellent,34.723222,-1.900224,ONEE - Branche Électricité
+EQP-00540,Oujda,District_4,Water,pipeline,2009-06-11,MFR-10,512.2,L_min,49,Good,34.712222,-1.910214,ONEE - Branche Eau
+EQP-00541,Oujda,District_4,Water,pipeline,2018-05-28,MFR-13,889.0,L_min,42,Excellent,34.639673,-1.954959,ONEE - Branche Eau
+EQP-00542,Oujda,District_4,Water,pipeline,2014-02-26,MFR-13,208.4,L_min,44,Good,34.653366,-1.848695,ONEE - Branche Eau
+EQP-00543,Oujda,District_4,Water,pipeline,1997-01-09,MFR-09,427.4,L_min,50,Fair,34.671693,-1.952935,ONEE - Branche Eau
+EQP-00544,Oujda,District_4,Water,pumping_station,1998-07-01,MFR-09,310.0,L_min,24,Poor,34.701497,-1.860464,ONEE - Branche Eau
+EQP-00545,Oujda,District_4,Water,pumping_station,2007-06-13,MFR-09,256.0,L_min,20,Fair,34.662938,-1.905419,ONEE - Branche Eau
+EQP-00546,Oujda,District_4,Water,pumping_station,2012-12-14,MFR-10,124.8,L_min,22,Good,34.676255,-1.934596,ONEE - Branche Eau
+EQP-00547,Oujda,District_4,Water,water_tank,2001-04-17,MFR-09,618.4,L_min,33,Fair,34.706531,-1.871093,ONEE - Branche Eau
+EQP-00548,Oujda,District_4,Water,water_tank,2004-03-20,MFR-13,771.1,L_min,37,Good,34.718065,-1.918047,ONEE - Branche Eau
+EQP-00549,Oujda,District_5,Electricity,distribution_box,2007-02-21,MFR-08,2097.5,A,22,Fair,34.713513,-1.958693,ONEE - Branche Électricité
+EQP-00550,Oujda,District_5,Electricity,distribution_box,2007-05-07,MFR-08,281.6,A,22,Good,34.656131,-1.927279,ONEE - Branche Électricité
+EQP-00551,Oujda,District_5,Electricity,distribution_box,2016-11-18,MFR-03,561.4,A,24,Good,34.692111,-1.955516,ONEE - Branche Électricité
+EQP-00552,Oujda,District_5,Electricity,smart_meter,2017-06-28,MFR-08,386.8,A,13,Good,34.661675,-1.891851,ONEE - Branche Électricité
+EQP-00553,Oujda,District_5,Electricity,substation,2008-08-29,MFR-01,495.5,A,31,Good,34.6569,-1.945097,ONEE - Branche Électricité
+EQP-00554,Oujda,District_5,Electricity,transformer,2018-02-12,MFR-04,81.1,A,28,Good,34.741101,-1.916903,ONEE - Branche Électricité
+EQP-00555,Oujda,District_5,Electricity,transformer,2008-10-02,MFR-04,238.2,A,35,Good,34.730929,-1.919157,ONEE - Branche Électricité
+EQP-00556,Oujda,District_5,Water,pipeline,2015-05-13,MFR-09,996.2,L_min,40,Excellent,34.675768,-1.878142,ONEE - Branche Eau
+EQP-00557,Oujda,District_5,Water,pipeline,2011-12-11,MFR-13,736.7,L_min,50,Excellent,34.705124,-1.93542,ONEE - Branche Eau
+EQP-00558,Oujda,District_5,Water,pumping_station,2022-04-07,MFR-10,316.6,L_min,23,Excellent,34.645782,-1.865233,ONEE - Branche Eau
+EQP-00559,Oujda,District_5,Water,water_tank,2006-09-20,MFR-13,3177.5,L_min,32,Good,34.623097,-1.894924,ONEE - Branche Eau
+EQP-00560,Oujda,District_5,Water,water_tank,2001-12-17,MFR-09,322.3,L_min,32,Fair,34.673823,-1.882923,ONEE - Branche Eau
+EQP-00561,Oujda,District_5,Water,water_tank,2005-06-28,MFR-09,506.5,L_min,35,Fair,34.670631,-1.930754,ONEE - Branche Eau
+EQP-00562,Rabat,District_1,Electricity,distribution_box,2012-02-11,MFR-08,537.6,A,25,Good,34.002493,-6.795536,Redal (Groupe Veolia)
+EQP-00563,Rabat,District_1,Electricity,distribution_box,2015-03-02,MFR-02,558.5,A,22,Good,34.042757,-6.818257,Redal (Groupe Veolia)
+EQP-00564,Rabat,District_1,Electricity,smart_meter,1998-11-07,MFR-05,392.7,A,15,Poor,34.029932,-6.85073,Redal (Groupe Veolia)
+EQP-00565,Rabat,District_1,Electricity,smart_meter,2017-06-26,MFR-01,366.1,A,10,Good,34.052513,-6.845564,Redal (Groupe Veolia)
+EQP-00566,Rabat,District_1,Electricity,smart_meter,2006-11-13,MFR-05,53.3,A,15,Poor,33.986561,-6.866551,Redal (Groupe Veolia)
+EQP-00567,Rabat,District_1,Electricity,substation,2018-09-14,MFR-01,156.9,A,33,Excellent,33.97432,-6.797371,Redal (Groupe Veolia)
+EQP-00568,Rabat,District_1,Electricity,transformer,2003-03-13,MFR-01,395.0,A,32,Fair,33.979639,-6.843923,Redal (Groupe Veolia)
+EQP-00569,Rabat,District_1,Water,pipeline,2014-02-04,MFR-10,613.8,L_min,47,Excellent,34.021378,-6.864317,Redal (Groupe Veolia)
+EQP-00570,Rabat,District_1,Water,pipeline,2002-08-01,MFR-10,385.5,L_min,42,Fair,33.990453,-6.875135,Redal (Groupe Veolia)
+EQP-00571,Rabat,District_1,Water,pumping_station,2011-03-11,MFR-10,2324.4,L_min,22,Good,34.041006,-6.816415,Redal (Groupe Veolia)
+EQP-00572,Rabat,District_1,Water,pumping_station,2017-02-04,MFR-09,744.7,L_min,23,Good,34.005062,-6.836256,Redal (Groupe Veolia)
+EQP-00573,Rabat,District_1,Water,water_tank,2017-07-13,MFR-13,840.2,L_min,30,Good,34.037954,-6.898326,Redal (Groupe Veolia)
+EQP-00574,Rabat,District_1,Water,water_tank,2008-10-21,MFR-10,4181.7,L_min,36,Excellent,34.039448,-6.87061,Redal (Groupe Veolia)
+EQP-00575,Rabat,District_2,Electricity,distribution_box,2020-03-11,MFR-02,500.1,A,20,Excellent,33.984712,-6.836298,Redal (Groupe Veolia)
+EQP-00576,Rabat,District_2,Electricity,smart_meter,2014-08-05,MFR-01,478.2,A,14,Good,34.016006,-6.897728,Redal (Groupe Veolia)
+EQP-00577,Rabat,District_2,Electricity,smart_meter,2014-05-19,MFR-03,358.6,A,13,Fair,34.063563,-6.890284,Redal (Groupe Veolia)
+EQP-00578,Rabat,District_2,Electricity,smart_meter,2021-12-17,MFR-08,377.8,A,13,Excellent,34.00049,-6.870526,Redal (Groupe Veolia)
+EQP-00579,Rabat,District_2,Electricity,substation,2018-11-10,MFR-01,241.5,A,32,Good,34.057414,-6.838062,Redal (Groupe Veolia)
+EQP-00580,Rabat,District_2,Electricity,substation,2017-08-21,MFR-04,415.4,A,36,Excellent,34.022493,-6.86402,Redal (Groupe Veolia)
+EQP-00581,Rabat,District_2,Electricity,substation,2007-02-22,MFR-08,1557.3,A,39,Good,34.067495,-6.895056,Redal (Groupe Veolia)
+EQP-00582,Rabat,District_2,Electricity,transformer,2021-08-04,MFR-01,278.8,A,30,Good,33.977433,-6.834239,Redal (Groupe Veolia)
+EQP-00583,Rabat,District_2,Electricity,transformer,2013-12-04,MFR-01,561.7,A,30,Good,34.027378,-6.859156,Redal (Groupe Veolia)
+EQP-00584,Rabat,District_2,Electricity,transformer,1998-01-09,MFR-03,328.4,A,35,Fair,33.992702,-6.858711,Redal (Groupe Veolia)
+EQP-00585,Rabat,District_2,Electricity,transformer,1997-10-20,MFR-03,509.7,A,32,Fair,33.984555,-6.797598,Redal (Groupe Veolia)
+EQP-00586,Rabat,District_2,Water,pipeline,2010-04-18,MFR-09,502.1,L_min,46,Good,33.973649,-6.822932,Redal (Groupe Veolia)
+EQP-00587,Rabat,District_2,Water,pipeline,2022-12-17,MFR-13,87.8,L_min,43,Excellent,33.99909,-6.877029,Redal (Groupe Veolia)
+EQP-00588,Rabat,District_2,Water,pumping_station,2005-08-29,MFR-10,495.6,L_min,25,Fair,33.970524,-6.830221,Redal (Groupe Veolia)
+EQP-00589,Rabat,District_2,Water,water_tank,2011-08-13,MFR-13,8944.4,L_min,38,Good,34.071178,-6.811795,Redal (Groupe Veolia)
+EQP-00590,Rabat,District_2,Water,water_tank,2011-10-22,MFR-09,4931.0,L_min,35,Fair,34.068387,-6.804526,Redal (Groupe Veolia)
+EQP-00591,Rabat,District_3,Electricity,distribution_box,2006-12-10,MFR-02,2082.5,A,24,Fair,33.972982,-6.856866,Redal (Groupe Veolia)
+EQP-00592,Rabat,District_3,Electricity,distribution_box,2014-06-13,MFR-08,439.5,A,21,Good,33.994897,-6.87182,Redal (Groupe Veolia)
+EQP-00593,Rabat,District_3,Electricity,smart_meter,1999-12-22,MFR-02,483.6,A,12,Poor,34.075419,-6.88247,Redal (Groupe Veolia)
+EQP-00594,Rabat,District_3,Electricity,smart_meter,2020-09-30,MFR-05,151.4,A,15,Good,33.984906,-6.857911,Redal (Groupe Veolia)
+EQP-00595,Rabat,District_3,Electricity,substation,2019-07-17,MFR-05,378.8,A,38,Excellent,34.000485,-6.790068,Redal (Groupe Veolia)
+EQP-00596,Rabat,District_3,Electricity,substation,2003-01-24,MFR-08,313.3,A,33,Fair,34.047876,-6.883255,Redal (Groupe Veolia)
+EQP-00597,Rabat,District_3,Electricity,transformer,2016-03-14,MFR-05,109.5,A,35,Good,33.98892,-6.872771,Redal (Groupe Veolia)
+EQP-00598,Rabat,District_3,Electricity,transformer,2020-11-17,MFR-03,234.7,A,33,Good,34.053247,-6.869746,Redal (Groupe Veolia)
+EQP-00599,Rabat,District_3,Water,pipeline,2020-10-22,MFR-13,574.2,L_min,48,Excellent,34.027027,-6.87743,Redal (Groupe Veolia)
+EQP-00600,Rabat,District_3,Water,pipeline,2009-12-23,MFR-13,818.1,L_min,41,Good,34.027792,-6.896292,Redal (Groupe Veolia)
+EQP-00601,Rabat,District_3,Water,pipeline,2012-11-19,MFR-13,976.5,L_min,49,Good,34.017282,-6.791521,Redal (Groupe Veolia)
+EQP-00602,Rabat,District_3,Water,pipeline,2001-11-04,MFR-10,790.6,L_min,46,Good,34.035736,-6.877723,Redal (Groupe Veolia)
+EQP-00603,Rabat,District_3,Water,pumping_station,2018-01-04,MFR-10,138.1,L_min,23,Good,33.974579,-6.88235,Redal (Groupe Veolia)
+EQP-00604,Rabat,District_3,Water,pumping_station,2014-02-11,MFR-09,1113.6,L_min,22,Good,33.999466,-6.821783,Redal (Groupe Veolia)
+EQP-00605,Rabat,District_3,Water,pumping_station,2012-06-13,MFR-09,477.5,L_min,20,Good,34.029515,-6.78363,Redal (Groupe Veolia)
+EQP-00606,Rabat,District_3,Water,pumping_station,2009-07-11,MFR-09,645.6,L_min,21,Fair,34.059236,-6.847913,Redal (Groupe Veolia)
+EQP-00607,Rabat,District_3,Water,water_tank,2016-05-20,MFR-09,462.4,L_min,35,Good,33.997208,-6.829485,Redal (Groupe Veolia)
+EQP-00608,Rabat,District_3,Water,water_tank,2011-06-18,MFR-09,678.7,L_min,34,Good,33.973971,-6.850691,Redal (Groupe Veolia)
+EQP-00609,Rabat,District_3,Water,water_tank,2004-09-09,MFR-09,801.7,L_min,30,Fair,34.065933,-6.899979,Redal (Groupe Veolia)
+EQP-00610,Rabat,District_3,Water,water_tank,2023-12-16,MFR-13,149.2,L_min,34,Excellent,33.990554,-6.871314,Redal (Groupe Veolia)
+EQP-00611,Rabat,District_3,Water,water_tank,2008-06-28,MFR-13,586.8,L_min,32,Good,34.047812,-6.846689,Redal (Groupe Veolia)
+EQP-00612,Rabat,District_4,Electricity,distribution_box,2017-02-03,MFR-08,389.4,A,21,Good,33.996399,-6.811377,Redal (Groupe Veolia)
+EQP-00613,Rabat,District_4,Electricity,smart_meter,2007-03-30,MFR-04,432.3,A,11,Poor,33.966431,-6.836092,Redal (Groupe Veolia)
+EQP-00614,Rabat,District_4,Electricity,smart_meter,2015-12-22,MFR-01,305.1,A,13,Good,34.009453,-6.837074,Redal (Groupe Veolia)
+EQP-00615,Rabat,District_4,Electricity,smart_meter,2007-08-27,MFR-05,496.3,A,14,Poor,34.080774,-6.821817,Redal (Groupe Veolia)
+EQP-00616,Rabat,District_4,Electricity,smart_meter,2022-06-01,MFR-01,66.0,A,13,Excellent,33.975196,-6.819589,Redal (Groupe Veolia)
+EQP-00617,Rabat,District_4,Electricity,substation,2010-12-29,MFR-08,215.9,A,34,Good,33.962804,-6.863129,Redal (Groupe Veolia)
+EQP-00618,Rabat,District_4,Electricity,substation,2014-11-10,MFR-08,131.1,A,36,Good,34.005368,-6.894062,Redal (Groupe Veolia)
+EQP-00619,Rabat,District_4,Electricity,substation,2008-12-25,MFR-02,135.5,A,33,Good,34.030447,-6.86513,Redal (Groupe Veolia)
+EQP-00620,Rabat,District_4,Electricity,transformer,2003-11-12,MFR-08,593.7,A,27,Good,34.029181,-6.870535,Redal (Groupe Veolia)
+EQP-00621,Rabat,District_4,Electricity,transformer,2021-11-27,MFR-02,536.2,A,33,Good,33.987864,-6.820891,Redal (Groupe Veolia)
+EQP-00622,Rabat,District_4,Electricity,transformer,2008-11-29,MFR-01,349.7,A,31,Good,34.043622,-6.874995,Redal (Groupe Veolia)
+EQP-00623,Rabat,District_4,Electricity,transformer,2009-09-29,MFR-02,497.6,A,25,Good,33.997294,-6.838336,Redal (Groupe Veolia)
+EQP-00624,Rabat,District_4,Water,pipeline,2019-10-31,MFR-09,3068.2,L_min,46,Good,34.001742,-6.819272,Redal (Groupe Veolia)
+EQP-00625,Rabat,District_4,Water,pumping_station,2010-11-03,MFR-13,309.8,L_min,24,Fair,34.03156,-6.884624,Redal (Groupe Veolia)
+EQP-00626,Rabat,District_4,Water,pumping_station,2020-11-20,MFR-10,453.1,L_min,23,Excellent,34.013796,-6.865844,Redal (Groupe Veolia)
+EQP-00627,Rabat,District_4,Water,pumping_station,2018-04-27,MFR-09,6750.6,L_min,22,Good,34.074627,-6.897628,Redal (Groupe Veolia)
+EQP-00628,Rabat,District_4,Water,pumping_station,2013-05-11,MFR-13,937.8,L_min,20,Fair,34.061841,-6.789461,Redal (Groupe Veolia)
+EQP-00629,Rabat,District_4,Water,water_tank,1999-04-14,MFR-09,238.6,L_min,31,Fair,34.048778,-6.842406,Redal (Groupe Veolia)
+EQP-00630,Rabat,District_4,Water,water_tank,2007-08-03,MFR-13,778.2,L_min,35,Fair,34.013627,-6.893644,Redal (Groupe Veolia)
+EQP-00631,Rabat,District_4,Water,water_tank,2001-03-23,MFR-10,86.2,L_min,39,Good,34.068255,-6.894308,Redal (Groupe Veolia)
+EQP-00632,Rabat,District_4,Water,water_tank,2021-12-27,MFR-10,443.7,L_min,34,Excellent,34.017722,-6.84917,Redal (Groupe Veolia)
+EQP-00633,Rabat,District_4,Water,water_tank,2000-09-22,MFR-13,109.8,L_min,38,Fair,33.994886,-6.894109,Redal (Groupe Veolia)
+EQP-00634,Rabat,District_4,Water,water_tank,2006-09-05,MFR-10,177.6,L_min,39,Good,34.02027,-6.868444,Redal (Groupe Veolia)
+EQP-00635,Rabat,District_5,Electricity,distribution_box,2003-11-04,MFR-04,132.6,A,20,Poor,34.003836,-6.813394,Redal (Groupe Veolia)
+EQP-00636,Rabat,District_5,Electricity,smart_meter,2016-04-22,MFR-01,351.9,A,11,Fair,34.005523,-6.819782,Redal (Groupe Veolia)
+EQP-00637,Rabat,District_5,Electricity,smart_meter,2017-05-08,MFR-02,165.5,A,15,Good,34.009707,-6.886207,Redal (Groupe Veolia)
+EQP-00638,Rabat,District_5,Electricity,substation,2006-02-04,MFR-03,476.3,A,34,Good,33.988058,-6.847424,Redal (Groupe Veolia)
+EQP-00639,Rabat,District_5,Electricity,transformer,2020-04-23,MFR-02,290.4,A,26,Excellent,33.980509,-6.845487,Redal (Groupe Veolia)
+EQP-00640,Rabat,District_5,Water,pipeline,2016-03-15,MFR-09,943.0,L_min,48,Good,34.03816,-6.798664,Redal (Groupe Veolia)
+EQP-00641,Rabat,District_5,Water,pumping_station,2007-03-28,MFR-13,954.8,L_min,22,Fair,34.02121,-6.885583,Redal (Groupe Veolia)
+EQP-00642,Rabat,District_5,Water,pumping_station,2011-09-06,MFR-09,762.7,L_min,23,Good,33.98578,-6.791941,Redal (Groupe Veolia)
+EQP-00643,Tangier,District_1,Electricity,distribution_box,2020-07-28,MFR-08,441.9,A,20,Excellent,35.800628,-5.846438,Amendis (Groupe Veolia)
+EQP-00644,Tangier,District_1,Electricity,distribution_box,2012-06-16,MFR-02,382.2,A,24,Good,35.788253,-5.837647,Amendis (Groupe Veolia)
+EQP-00645,Tangier,District_1,Electricity,smart_meter,2024-04-08,MFR-04,212.4,A,13,Excellent,35.708987,-5.855743,Amendis (Groupe Veolia)
+EQP-00646,Tangier,District_1,Electricity,substation,2010-09-06,MFR-08,503.2,A,39,Good,35.767079,-5.88367,Amendis (Groupe Veolia)
+EQP-00647,Tangier,District_1,Electricity,substation,2012-09-24,MFR-04,2768.6,A,32,Good,35.743443,-5.883843,Amendis (Groupe Veolia)
+EQP-00648,Tangier,District_1,Electricity,transformer,2008-08-29,MFR-08,456.0,A,26,Good,35.699796,-5.880083,Amendis (Groupe Veolia)
+EQP-00649,Tangier,District_1,Electricity,transformer,2008-09-02,MFR-02,522.1,A,28,Good,35.808729,-5.801955,Amendis (Groupe Veolia)
+EQP-00650,Tangier,District_1,Water,pipeline,2012-09-20,MFR-09,787.3,L_min,49,Good,35.799355,-5.884839,Amendis (Groupe Veolia)
+EQP-00651,Tangier,District_1,Water,pipeline,2016-09-24,MFR-10,638.3,L_min,48,Excellent,35.77817,-5.85524,Amendis (Groupe Veolia)
+EQP-00652,Tangier,District_1,Water,pipeline,2015-10-04,MFR-13,748.6,L_min,45,Good,35.734614,-5.860893,Amendis (Groupe Veolia)
+EQP-00653,Tangier,District_1,Water,pumping_station,2014-12-18,MFR-13,1728.1,L_min,25,Good,35.794319,-5.801783,Amendis (Groupe Veolia)
+EQP-00654,Tangier,District_1,Water,pumping_station,1999-05-24,MFR-10,385.6,L_min,25,Poor,35.733854,-5.80122,Amendis (Groupe Veolia)
+EQP-00655,Tangier,District_1,Water,water_tank,2009-04-20,MFR-13,4966.9,L_min,32,Good,35.771154,-5.878287,Amendis (Groupe Veolia)
+EQP-00656,Tangier,District_1,Water,water_tank,2008-03-29,MFR-10,3526.8,L_min,32,Fair,35.748663,-5.861756,Amendis (Groupe Veolia)
+EQP-00657,Tangier,District_1,Water,water_tank,2022-06-28,MFR-13,814.9,L_min,36,Excellent,35.728031,-5.853668,Amendis (Groupe Veolia)
+EQP-00658,Tangier,District_2,Electricity,distribution_box,2011-03-21,MFR-08,148.9,A,20,Good,35.795813,-5.861691,Amendis (Groupe Veolia)
+EQP-00659,Tangier,District_2,Electricity,distribution_box,2003-08-02,MFR-02,299.1,A,24,Fair,35.755367,-5.856761,Amendis (Groupe Veolia)
+EQP-00660,Tangier,District_2,Electricity,distribution_box,2009-06-29,MFR-03,43.9,A,21,Fair,35.750228,-5.782627,Amendis (Groupe Veolia)
+EQP-00661,Tangier,District_2,Electricity,distribution_box,2019-03-16,MFR-01,316.5,A,22,Excellent,35.767962,-5.867314,Amendis (Groupe Veolia)
+EQP-00662,Tangier,District_2,Electricity,distribution_box,2021-01-25,MFR-04,352.5,A,23,Excellent,35.709227,-5.788678,Amendis (Groupe Veolia)
+EQP-00663,Tangier,District_2,Electricity,smart_meter,2017-09-30,MFR-03,498.2,A,15,Good,35.736185,-5.854989,Amendis (Groupe Veolia)
+EQP-00664,Tangier,District_2,Electricity,substation,2007-08-28,MFR-02,373.9,A,32,Fair,35.753054,-5.795623,Amendis (Groupe Veolia)
+EQP-00665,Tangier,District_2,Electricity,transformer,2023-06-29,MFR-01,415.4,A,25,Excellent,35.73428,-5.870697,Amendis (Groupe Veolia)
+EQP-00666,Tangier,District_2,Electricity,transformer,2007-05-09,MFR-04,560.6,A,34,Good,35.754076,-5.792417,Amendis (Groupe Veolia)
+EQP-00667,Tangier,District_2,Electricity,transformer,2009-09-27,MFR-02,2379.1,A,32,Good,35.800983,-5.777814,Amendis (Groupe Veolia)
+EQP-00668,Tangier,District_2,Water,pipeline,2007-06-04,MFR-13,923.4,L_min,42,Fair,35.704103,-5.776354,Amendis (Groupe Veolia)
+EQP-00669,Tangier,District_2,Water,pipeline,2020-05-21,MFR-13,497.3,L_min,46,Excellent,35.80579,-5.808461,Amendis (Groupe Veolia)
+EQP-00670,Tangier,District_2,Water,pipeline,2022-09-21,MFR-13,541.9,L_min,44,Excellent,35.741878,-5.884346,Amendis (Groupe Veolia)
+EQP-00671,Tangier,District_2,Water,pumping_station,2016-02-29,MFR-10,769.1,L_min,21,Good,35.777022,-5.884431,Amendis (Groupe Veolia)
+EQP-00672,Tangier,District_2,Water,pumping_station,2005-06-30,MFR-09,665.0,L_min,20,Fair,35.73991,-5.788795,Amendis (Groupe Veolia)
+EQP-00673,Tangier,District_2,Water,water_tank,2005-01-26,MFR-09,800.9,L_min,37,Fair,35.763217,-5.844693,Amendis (Groupe Veolia)
+EQP-00674,Tangier,District_2,Water,water_tank,2016-04-21,MFR-09,1844.9,L_min,37,Excellent,35.737184,-5.853662,Amendis (Groupe Veolia)
+EQP-00675,Tangier,District_3,Electricity,distribution_box,2017-12-28,MFR-05,528.8,A,22,Good,35.813038,-5.858946,Amendis (Groupe Veolia)
+EQP-00676,Tangier,District_3,Electricity,smart_meter,2012-11-10,MFR-03,484.7,A,12,Fair,35.781779,-5.851692,Amendis (Groupe Veolia)
+EQP-00677,Tangier,District_3,Electricity,smart_meter,2015-07-21,MFR-05,177.8,A,10,Fair,35.800734,-5.782492,Amendis (Groupe Veolia)
+EQP-00678,Tangier,District_3,Electricity,substation,2014-11-28,MFR-01,405.5,A,30,Excellent,35.791038,-5.849832,Amendis (Groupe Veolia)
+EQP-00679,Tangier,District_3,Electricity,transformer,2010-04-19,MFR-08,1005.9,A,29,Good,35.747303,-5.848549,Amendis (Groupe Veolia)
+EQP-00680,Tangier,District_3,Electricity,transformer,2022-10-03,MFR-03,310.1,A,32,Excellent,35.788587,-5.794905,Amendis (Groupe Veolia)
+EQP-00681,Tangier,District_3,Electricity,transformer,1999-08-25,MFR-08,373.0,A,28,Poor,35.701838,-5.892147,Amendis (Groupe Veolia)
+EQP-00682,Tangier,District_3,Water,pipeline,2015-04-27,MFR-10,866.9,L_min,48,Excellent,35.802952,-5.850027,Amendis (Groupe Veolia)
+EQP-00683,Tangier,District_3,Water,pipeline,2017-10-25,MFR-10,588.2,L_min,45,Good,35.815246,-5.788422,Amendis (Groupe Veolia)
+EQP-00684,Tangier,District_3,Water,pipeline,1997-05-04,MFR-09,356.7,L_min,43,Fair,35.801319,-5.798317,Amendis (Groupe Veolia)
+EQP-00685,Tangier,District_3,Water,pumping_station,2016-04-07,MFR-10,672.5,L_min,25,Good,35.77178,-5.808975,Amendis (Groupe Veolia)
+EQP-00686,Tangier,District_3,Water,pumping_station,2011-07-02,MFR-13,3250.6,L_min,24,Fair,35.797536,-5.890915,Amendis (Groupe Veolia)
+EQP-00687,Tangier,District_3,Water,water_tank,2016-12-23,MFR-13,155.2,L_min,35,Excellent,35.805108,-5.860865,Amendis (Groupe Veolia)
+EQP-00688,Tangier,District_3,Water,water_tank,2013-01-09,MFR-10,404.5,L_min,34,Good,35.796532,-5.857404,Amendis (Groupe Veolia)
+EQP-00689,Tangier,District_3,Water,water_tank,2015-08-24,MFR-13,711.3,L_min,37,Good,35.706334,-5.891225,Amendis (Groupe Veolia)
+EQP-00690,Tangier,District_4,Electricity,distribution_box,2006-09-03,MFR-01,2906.6,A,21,Fair,35.710572,-5.869211,Amendis (Groupe Veolia)
+EQP-00691,Tangier,District_4,Electricity,distribution_box,2017-03-26,MFR-08,176.4,A,22,Good,35.71461,-5.861696,Amendis (Groupe Veolia)
+EQP-00692,Tangier,District_4,Electricity,distribution_box,2008-07-23,MFR-03,109.5,A,24,Fair,35.778556,-5.790865,Amendis (Groupe Veolia)
+EQP-00693,Tangier,District_4,Electricity,smart_meter,2010-02-01,MFR-04,303.0,A,14,Fair,35.706159,-5.838338,Amendis (Groupe Veolia)
+EQP-00694,Tangier,District_4,Electricity,smart_meter,2011-07-03,MFR-02,195.1,A,15,Fair,35.742704,-5.808891,Amendis (Groupe Veolia)
+EQP-00695,Tangier,District_4,Electricity,substation,2004-02-17,MFR-01,337.7,A,35,Fair,35.75101,-5.859766,Amendis (Groupe Veolia)
+EQP-00696,Tangier,District_4,Electricity,substation,2003-03-13,MFR-08,308.8,A,33,Good,35.767532,-5.874062,Amendis (Groupe Veolia)
+EQP-00697,Tangier,District_4,Electricity,substation,2010-05-01,MFR-02,200.2,A,39,Excellent,35.818471,-5.865733,Amendis (Groupe Veolia)
+EQP-00698,Tangier,District_4,Electricity,transformer,2008-01-08,MFR-01,547.6,A,29,Good,35.707615,-5.830619,Amendis (Groupe Veolia)
+EQP-00699,Tangier,District_4,Water,pipeline,2011-04-28,MFR-13,903.4,L_min,42,Good,35.731619,-5.816064,Amendis (Groupe Veolia)
+EQP-00700,Tangier,District_4,Water,pipeline,2007-10-31,MFR-10,574.3,L_min,41,Good,35.70766,-5.886867,Amendis (Groupe Veolia)
+EQP-00701,Tangier,District_4,Water,pumping_station,2012-02-17,MFR-13,598.0,L_min,25,Fair,35.702752,-5.883218,Amendis (Groupe Veolia)
+EQP-00702,Tangier,District_4,Water,pumping_station,2015-10-26,MFR-10,865.9,L_min,20,Good,35.765368,-5.86914,Amendis (Groupe Veolia)
+EQP-00703,Tangier,District_4,Water,pumping_station,2013-12-28,MFR-10,1085.3,L_min,20,Good,35.797565,-5.864751,Amendis (Groupe Veolia)
+EQP-00704,Tangier,District_4,Water,pumping_station,2019-08-06,MFR-09,483.2,L_min,21,Good,35.736312,-5.826121,Amendis (Groupe Veolia)
+EQP-00705,Tangier,District_4,Water,pumping_station,2022-08-25,MFR-10,749.2,L_min,21,Excellent,35.72048,-5.807068,Amendis (Groupe Veolia)
+EQP-00706,Tangier,District_4,Water,water_tank,2019-09-24,MFR-09,669.0,L_min,30,Good,35.720763,-5.893483,Amendis (Groupe Veolia)
+EQP-00707,Tangier,District_4,Water,water_tank,2012-03-01,MFR-13,1068.1,L_min,34,Good,35.809509,-5.790497,Amendis (Groupe Veolia)
+EQP-00708,Tangier,District_5,Electricity,distribution_box,2017-02-24,MFR-02,33.5,A,25,Excellent,35.784253,-5.867193,Amendis (Groupe Veolia)
+EQP-00709,Tangier,District_5,Electricity,distribution_box,2010-09-09,MFR-01,481.7,A,20,Fair,35.717744,-5.790195,Amendis (Groupe Veolia)
+EQP-00710,Tangier,District_5,Electricity,distribution_box,2020-02-27,MFR-04,224.9,A,20,Good,35.727712,-5.841033,Amendis (Groupe Veolia)
+EQP-00711,Tangier,District_5,Electricity,smart_meter,2002-07-10,MFR-03,317.5,A,10,Poor,35.726094,-5.844464,Amendis (Groupe Veolia)
+EQP-00712,Tangier,District_5,Electricity,smart_meter,2001-01-06,MFR-08,118.7,A,13,Poor,35.791596,-5.854177,Amendis (Groupe Veolia)
+EQP-00713,Tangier,District_5,Electricity,smart_meter,2012-05-11,MFR-03,52.3,A,10,Fair,35.809303,-5.839087,Amendis (Groupe Veolia)
+EQP-00714,Tangier,District_5,Electricity,smart_meter,2008-02-16,MFR-04,431.5,A,13,Poor,35.722946,-5.78502,Amendis (Groupe Veolia)
+EQP-00715,Tangier,District_5,Electricity,substation,2005-04-24,MFR-05,458.0,A,36,Fair,35.798424,-5.801045,Amendis (Groupe Veolia)
+EQP-00716,Tangier,District_5,Electricity,substation,2005-04-25,MFR-04,295.1,A,39,Good,35.70815,-5.881104,Amendis (Groupe Veolia)
+EQP-00717,Tangier,District_5,Electricity,transformer,2011-09-01,MFR-03,266.0,A,31,Good,35.720188,-5.793645,Amendis (Groupe Veolia)
+EQP-00718,Tangier,District_5,Electricity,transformer,2012-05-01,MFR-02,66.3,A,34,Excellent,35.816315,-5.861009,Amendis (Groupe Veolia)
+EQP-00719,Tangier,District_5,Water,pipeline,2008-07-06,MFR-13,664.0,L_min,50,Good,35.753281,-5.81809,Amendis (Groupe Veolia)
+EQP-00720,Tangier,District_5,Water,pipeline,2004-03-27,MFR-09,394.5,L_min,46,Good,35.70055,-5.807181,Amendis (Groupe Veolia)
+EQP-00721,Tangier,District_5,Water,pumping_station,2021-11-25,MFR-10,1488.0,L_min,22,Excellent,35.735141,-5.784558,Amendis (Groupe Veolia)
+EQP-00722,Tangier,District_5,Water,water_tank,2005-01-19,MFR-10,638.8,L_min,40,Good,35.706584,-5.842255,Amendis (Groupe Veolia)

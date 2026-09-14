@@ -1,0 +1,1201 @@
+sensor_id,equipment_id,sensor_type,manufacturer_id,model,firmware_version,installation_date,last_calibration,battery_level,status,communication_protocol,sampling_interval_minutes,expected_lifetime_years
+SNR-00000,EQP-00120,Smart Metering Node (energy consumption),MFR-12,ELX-4519,v3.8.0,2020-12-28,2021-12-03,42,Active,MQTT/4G,10,6
+SNR-00001,EQP-00447,Smart Metering Node (energy consumption),MFR-07,ELX-2286,v1.8.2,2020-12-25,2022-06-18,89,Active,MQTT/4G,10,7
+SNR-00002,EQP-00554,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-6437,v2.5.4,2021-01-08,2024-07-29,82,Active,MQTT/4G,10,6
+SNR-00003,EQP-00695,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-4896,v2.8.0,2020-12-13,2024-08-07,75,Active,MQTT/4G,10,5
+SNR-00004,EQP-00705,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-3007,v1.6.3,2020-12-24,2024-12-08,33,Active,NB-IoT,10,7
+SNR-00005,EQP-00348,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-15,HYD-6527,v2.7.7,2021-01-23,2022-05-10,59,Active,MQTT/4G,10,10
+SNR-00006,EQP-00099,Smart Metering Node (energy consumption),MFR-11,ELX-4374,v4.1.0,2020-12-23,2021-07-27,53,Faulty,MQTT/4G,10,5
+SNR-00007,EQP-00535,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-7717,v2.3.4,2021-01-12,2023-12-25,89,Active,MQTT/4G,10,6
+SNR-00008,EQP-00373,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-12,HYD-6498,v1.0.7,2020-12-14,2022-11-03,100,Active,Modbus RTU,10,8
+SNR-00009,EQP-00141,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-5162,v2.3.4,2020-12-29,2021-07-12,71,Active,MQTT/4G,10,7
+SNR-00010,EQP-00049,Smart Metering Node (energy consumption),MFR-14,ELX-6409,v2.8.3,2020-12-29,2024-05-22,61,Active,LoRaWAN,10,5
+SNR-00011,EQP-00188,Smart Metering Node (energy consumption),MFR-07,ELX-5396,v1.5.3,2020-12-27,2023-02-07,100,Active,MQTT/4G,10,8
+SNR-00012,EQP-00450,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-8038,v4.3.0,2020-12-27,2024-02-21,100,Active,MQTT/4G,10,7
+SNR-00013,EQP-00488,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-1824,v1.5.4,2020-12-03,2023-06-05,70,Active,MQTT/4G,10,9
+SNR-00014,EQP-00426,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-4987,v3.6.9,2021-01-07,2021-10-01,73,Faulty,NB-IoT,10,6
+SNR-00015,EQP-00419,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-7357,v2.4.9,2020-12-24,2022-02-28,57,Active,LoRaWAN,10,7
+SNR-00016,EQP-00041,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-1828,v1.6.2,2020-12-21,2024-05-03,47,Faulty,Modbus RTU,10,5
+SNR-00017,EQP-00616,Smart Metering Node (energy consumption),MFR-12,ELX-3514,v3.6.8,2020-12-28,2022-07-15,82,Active,Modbus TCP,10,8
+SNR-00018,EQP-00335,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-4328,v3.8.1,2020-12-26,2023-05-10,68,Active,LoRaWAN,10,9
+SNR-00019,EQP-00689,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-9722,v1.2.6,2020-12-30,2021-01-30,90,Active,Modbus RTU,10,8
+SNR-00020,EQP-00055,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-1590,v3.7.9,2020-12-19,2024-08-24,51,Active,Modbus RTU,10,10
+SNR-00021,EQP-00248,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-5295,v4.1.3,2021-01-08,2021-10-15,89,Active,NB-IoT,10,9
+SNR-00022,EQP-00638,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-12,ELX-9820,v2.8.2,2020-12-17,2022-12-29,72,Faulty,MQTT/4G,10,7
+SNR-00023,EQP-00192,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-6725,v2.7.1,2020-12-28,2022-02-02,73,Active,MQTT/4G,10,8
+SNR-00024,EQP-00452,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-2356,v4.1.6,2020-12-14,2021-08-28,43,Active,NB-IoT,10,10
+SNR-00025,EQP-00553,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-14,ELX-1372,v2.2.6,2020-12-29,2022-12-19,59,Inactive,Modbus TCP,10,7
+SNR-00026,EQP-00652,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-8848,v4.1.8,2020-12-30,2021-08-27,76,Active,LoRaWAN,10,5
+SNR-00027,EQP-00348,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-9312,v1.5.5,2020-12-19,2024-07-28,75,Active,MQTT/4G,10,10
+SNR-00028,EQP-00008,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-5571,v1.5.2,2020-12-20,2024-02-22,79,Active,NB-IoT,10,6
+SNR-00029,EQP-00671,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-5375,v4.1.7,2020-12-07,2023-04-17,89,Active,LoRaWAN,10,9
+SNR-00030,EQP-00722,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-8544,v4.0.7,2021-01-10,2024-12-19,62,Active,MQTT/4G,10,5
+SNR-00031,EQP-00394,Smart Metering Node (energy consumption),MFR-14,ELX-7995,v3.0.3,2020-12-16,2021-03-13,89,Active,NB-IoT,10,8
+SNR-00032,EQP-00129,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-7481,v2.2.6,2021-01-01,2024-10-16,100,Active,Modbus RTU,10,10
+SNR-00033,EQP-00049,Smart Metering Node (energy consumption),MFR-14,ELX-7359,v2.9.4,2021-01-01,2022-01-17,64,Active,NB-IoT,10,6
+SNR-00034,EQP-00333,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-7670,v4.2.8,2020-12-20,2024-08-22,64,Active,Modbus RTU,10,9
+SNR-00035,EQP-00092,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-2816,v3.5.1,2020-12-28,2024-05-21,51,Active,Modbus RTU,10,6
+SNR-00036,EQP-00291,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-9649,v1.0.8,2020-12-24,2024-12-15,47,Active,LoRaWAN,10,7
+SNR-00037,EQP-00292,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-2894,v3.8.3,2020-12-23,2023-03-23,99,Active,LoRaWAN,10,5
+SNR-00038,EQP-00374,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-8801,v3.0.8,2020-12-20,2023-06-07,98,Active,MQTT/4G,10,6
+SNR-00039,EQP-00505,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-5303,v4.7.0,2020-12-13,2024-09-23,83,Active,LoRaWAN,10,7
+SNR-00040,EQP-00592,Electrical Monitoring Node (voltage/current/vibration),MFR-06,ELX-5227,v3.0.5,2020-12-09,2021-12-28,95,Active,MQTT/4G,10,9
+SNR-00041,EQP-00476,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-9285,v3.1.8,2020-12-07,2022-04-25,55,Active,LoRaWAN,10,10
+SNR-00042,EQP-00489,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-8570,v1.4.4,2021-01-06,2022-01-31,58,Active,NB-IoT,10,8
+SNR-00043,EQP-00247,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-2006,v3.3.1,2020-12-15,2023-10-14,62,Active,Modbus RTU,10,5
+SNR-00044,EQP-00134,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-4640,v2.7.4,2020-12-27,2022-05-18,57,Active,NB-IoT,10,6
+SNR-00045,EQP-00207,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-9616,v2.0.3,2020-12-18,2023-06-05,58,Active,MQTT/4G,10,10
+SNR-00046,EQP-00709,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-6368,v3.6.4,2020-12-29,2022-04-30,75,Active,MQTT/4G,10,8
+SNR-00047,EQP-00316,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-4823,v1.0.2,2021-01-07,2022-06-15,44,Active,NB-IoT,10,5
+SNR-00048,EQP-00513,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-3617,v3.7.2,2021-01-25,2024-06-26,61,Active,LoRaWAN,10,6
+SNR-00049,EQP-00484,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-14,ELX-9763,v3.8.7,2020-12-28,2021-03-27,49,Active,IEC 61850,10,9
+SNR-00050,EQP-00444,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-8091,v4.7.4,2021-01-06,2022-09-26,52,Active,Modbus RTU,10,9
+SNR-00051,EQP-00604,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-3186,v2.8.9,2021-01-07,2022-01-15,95,Active,MQTT/4G,10,9
+SNR-00052,EQP-00222,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-1033,v4.4.2,2020-12-17,2022-11-11,88,Active,Modbus RTU,10,8
+SNR-00053,EQP-00696,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-14,ELX-8445,v2.5.8,2021-01-09,2024-02-20,59,Active,LoRaWAN,10,10
+SNR-00054,EQP-00700,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-06,HYD-3313,v1.0.9,2020-12-22,2022-03-28,65,Active,Modbus RTU,10,7
+SNR-00055,EQP-00075,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-7309,v2.9.5,2020-12-26,2022-08-06,70,Inactive,NB-IoT,10,6
+SNR-00056,EQP-00017,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-8357,v4.6.8,2020-12-18,2022-09-28,76,Active,NB-IoT,10,7
+SNR-00057,EQP-00598,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-3492,v2.9.4,2020-12-25,2024-01-26,41,Active,IEC 61850,10,10
+SNR-00058,EQP-00448,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-5676,v1.6.4,2020-12-28,2021-11-13,81,Inactive,NB-IoT,10,8
+SNR-00059,EQP-00551,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-4148,v2.1.4,2021-01-11,2023-11-04,100,Active,Modbus TCP,10,7
+SNR-00060,EQP-00166,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-5478,v3.1.0,2020-12-30,2024-04-24,58,Active,Modbus RTU,10,9
+SNR-00061,EQP-00485,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-8255,v1.9.0,2020-12-17,2024-07-15,76,Active,NB-IoT,10,6
+SNR-00062,EQP-00248,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-1494,v4.8.3,2020-12-20,2023-10-21,62,Active,MQTT/4G,10,10
+SNR-00063,EQP-00199,Electrical Monitoring Node (voltage/current/vibration),MFR-06,ELX-8906,v1.1.1,2020-12-17,2024-01-23,73,Active,NB-IoT,10,10
+SNR-00064,EQP-00667,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-1899,v4.3.0,2020-12-11,2022-01-07,100,Active,MQTT/4G,10,7
+SNR-00065,EQP-00217,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-12,ELX-9148,v4.2.6,2020-12-27,2022-11-22,79,Active,IEC 61850,10,5
+SNR-00066,EQP-00152,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-2470,v1.2.3,2021-01-07,2024-12-02,49,Active,Modbus RTU,10,8
+SNR-00067,EQP-00229,Smart Metering Node (energy consumption),MFR-07,ELX-1527,v1.7.5,2020-12-22,2024-03-19,81,Active,Modbus TCP,10,9
+SNR-00068,EQP-00120,Smart Metering Node (energy consumption),MFR-12,ELX-3850,v2.0.1,2020-12-21,2022-10-23,89,Active,Modbus TCP,10,9
+SNR-00069,EQP-00644,Electrical Monitoring Node (voltage/current/vibration),MFR-07,ELX-6223,v1.9.6,2020-12-18,2023-01-06,62,Faulty,NB-IoT,10,10
+SNR-00070,EQP-00430,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-12,ELX-9572,v3.9.8,2021-01-14,2022-09-28,92,Inactive,Modbus TCP,10,6
+SNR-00071,EQP-00569,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-6457,v2.3.4,2020-12-17,2021-07-18,60,Active,LoRaWAN,10,5
+SNR-00072,EQP-00719,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-4036,v1.9.4,2021-01-01,2024-09-29,67,Under Maintenance,MQTT/4G,10,7
+SNR-00073,EQP-00620,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-14,ELX-2858,v2.9.0,2020-12-13,2023-05-23,67,Active,LoRaWAN,10,9
+SNR-00074,EQP-00548,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-5439,v1.1.2,2021-01-10,2021-02-15,69,Active,MQTT/4G,10,6
+SNR-00075,EQP-00707,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-8117,v4.7.9,2020-12-18,2023-02-12,78,Active,LoRaWAN,10,9
+SNR-00076,EQP-00256,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-4903,v3.7.2,2020-12-31,2023-11-27,89,Active,LoRaWAN,10,8
+SNR-00077,EQP-00399,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-2383,v4.0.1,2021-01-21,2023-09-24,94,Active,Modbus RTU,10,6
+SNR-00078,EQP-00004,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-11,ELX-7050,v1.2.6,2020-12-28,2022-10-10,48,Active,LoRaWAN,10,10
+SNR-00079,EQP-00552,Smart Metering Node (energy consumption),MFR-06,ELX-6758,v3.7.1,2020-12-18,2022-05-16,64,Active,MQTT/4G,10,8
+SNR-00080,EQP-00193,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-8589,v4.4.6,2020-12-08,2021-08-16,78,Active,NB-IoT,10,5
+SNR-00081,EQP-00699,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-1194,v2.2.0,2020-12-22,2021-05-03,74,Active,NB-IoT,10,6
+SNR-00082,EQP-00589,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-4200,v1.0.0,2021-01-16,2024-08-21,51,Active,MQTT/4G,10,9
+SNR-00083,EQP-00338,Smart Metering Node (energy consumption),MFR-11,ELX-8637,v2.0.3,2020-12-31,2022-02-19,74,Active,Modbus TCP,10,7
+SNR-00084,EQP-00511,Smart Metering Node (energy consumption),MFR-11,ELX-3767,v1.4.2,2021-01-24,2021-07-17,73,Active,LoRaWAN,10,6
+SNR-00085,EQP-00415,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-6117,v1.7.3,2020-12-26,2024-01-22,81,Active,NB-IoT,10,10
+SNR-00086,EQP-00140,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-2721,v1.6.6,2020-12-13,2022-10-17,85,Active,NB-IoT,10,10
+SNR-00087,EQP-00238,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-1644,v3.2.9,2020-12-18,2023-03-09,80,Active,MQTT/4G,10,8
+SNR-00088,EQP-00425,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-06,HYD-6895,v1.3.1,2021-01-04,2023-01-09,42,Active,Modbus RTU,10,7
+SNR-00089,EQP-00320,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-9792,v1.6.4,2021-01-10,2022-07-23,65,Active,MQTT/4G,10,7
+SNR-00090,EQP-00668,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-5002,v4.0.7,2020-12-08,2022-02-24,62,Active,NB-IoT,10,7
+SNR-00091,EQP-00340,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-06,ELX-6406,v3.9.6,2021-02-10,2022-03-27,100,Active,NB-IoT,10,7
+SNR-00092,EQP-00311,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-11,ELX-7206,v3.5.5,2020-12-27,2022-07-23,85,Active,LoRaWAN,10,10
+SNR-00093,EQP-00226,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-6500,v2.1.0,2020-12-16,2021-06-06,31,Active,Modbus RTU,10,9
+SNR-00094,EQP-00350,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-5264,v1.2.3,2020-12-17,2021-05-19,45,Active,MQTT/4G,10,6
+SNR-00095,EQP-00386,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-5968,v3.3.3,2020-12-21,2021-10-12,94,Active,MQTT/4G,10,10
+SNR-00096,EQP-00373,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-2154,v4.8.2,2020-12-08,2021-08-02,28,Active,MQTT/4G,10,8
+SNR-00097,EQP-00542,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-06,HYD-3036,v4.4.1,2020-12-25,2021-06-15,68,Inactive,MQTT/4G,10,8
+SNR-00098,EQP-00522,Smart Metering Node (energy consumption),MFR-15,ELX-9289,v4.6.5,2020-12-09,2021-02-07,40,Active,Modbus TCP,10,9
+SNR-00099,EQP-00569,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-4364,v3.3.7,2020-12-29,2023-11-05,50,Active,LoRaWAN,10,5
+SNR-00100,EQP-00332,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-9943,v4.5.5,2021-01-01,2024-03-11,60,Active,NB-IoT,10,7
+SNR-00101,EQP-00595,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-1181,v1.6.0,2020-12-26,2024-07-29,59,Active,Modbus TCP,10,5
+SNR-00102,EQP-00324,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-14,ELX-3180,v4.6.2,2020-12-30,2023-06-04,79,Active,MQTT/4G,10,9
+SNR-00103,EQP-00137,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-3155,v2.4.4,2020-12-12,2024-06-28,92,Active,MQTT/4G,10,5
+SNR-00104,EQP-00468,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-5603,v1.7.6,2020-12-26,2021-12-31,56,Faulty,MQTT/4G,10,8
+SNR-00105,EQP-00466,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-5506,v2.4.4,2020-12-25,2021-07-27,100,Active,Modbus TCP,10,7
+SNR-00106,EQP-00428,Smart Metering Node (energy consumption),MFR-14,ELX-1072,v2.1.0,2020-12-09,2023-11-09,22,Active,MQTT/4G,10,10
+SNR-00107,EQP-00508,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-7303,v4.5.0,2020-12-09,2022-05-03,44,Active,MQTT/4G,10,10
+SNR-00108,EQP-00685,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-8834,v1.0.0,2020-12-09,2024-01-06,57,Active,MQTT/4G,10,10
+SNR-00109,EQP-00479,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-7706,v1.0.2,2021-02-05,2023-05-05,77,Active,Modbus TCP,10,7
+SNR-00110,EQP-00383,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-06,HYD-3116,v3.7.8,2020-12-09,2022-07-21,60,Active,Modbus RTU,10,9
+SNR-00111,EQP-00433,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-3283,v3.5.2,2020-12-12,2023-07-09,100,Active,Modbus TCP,10,8
+SNR-00112,EQP-00053,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-9863,v2.1.6,2020-12-07,2022-11-14,67,Active,Modbus TCP,10,7
+SNR-00113,EQP-00722,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-8806,v4.4.7,2020-12-31,2024-07-29,83,Active,Modbus RTU,10,10
+SNR-00114,EQP-00065,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-4555,v1.4.5,2020-12-15,2023-09-15,74,Active,Modbus RTU,10,7
+SNR-00115,EQP-00021,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-5731,v4.6.3,2020-12-20,2024-03-09,38,Active,IEC 61850,10,6
+SNR-00116,EQP-00109,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-7009,v1.1.7,2021-01-02,2021-02-04,36,Active,MQTT/4G,10,7
+SNR-00117,EQP-00609,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-3773,v2.3.9,2021-01-22,2022-02-25,65,Active,LoRaWAN,10,9
+SNR-00118,EQP-00379,Smart Metering Node (energy consumption),MFR-07,ELX-3144,v4.1.5,2020-12-26,2023-11-26,90,Active,MQTT/4G,10,9
+SNR-00119,EQP-00575,Electrical Monitoring Node (voltage/current/vibration),MFR-15,ELX-5324,v3.5.3,2020-12-17,2024-12-22,51,Active,LoRaWAN,10,5
+SNR-00120,EQP-00643,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-9001,v2.2.1,2020-12-23,2021-11-24,72,Active,LoRaWAN,10,6
+SNR-00121,EQP-00520,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-7347,v2.0.8,2021-01-05,2022-12-26,75,Active,Modbus RTU,10,8
+SNR-00122,EQP-00533,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-4288,v3.9.7,2021-01-25,2024-11-14,49,Active,MQTT/4G,10,9
+SNR-00123,EQP-00718,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-14,ELX-2192,v1.2.2,2020-12-11,2023-06-07,62,Active,Modbus TCP,10,7
+SNR-00124,EQP-00350,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-7205,v4.1.5,2020-12-13,2024-03-26,30,Active,LoRaWAN,10,9
+SNR-00125,EQP-00003,Smart Metering Node (energy consumption),MFR-06,ELX-3765,v1.3.5,2020-12-27,2023-08-01,34,Active,Modbus TCP,10,9
+SNR-00126,EQP-00114,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-2428,v3.1.1,2020-12-18,2024-03-09,80,Active,Modbus RTU,10,5
+SNR-00127,EQP-00416,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-12,ELX-5423,v4.9.7,2020-12-27,2021-11-30,51,Active,MQTT/4G,10,10
+SNR-00128,EQP-00055,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-6528,v2.7.8,2021-01-19,2024-08-14,48,Active,MQTT/4G,10,8
+SNR-00129,EQP-00515,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-7437,v2.8.5,2020-12-23,2023-07-14,74,Active,MQTT/4G,10,10
+SNR-00130,EQP-00039,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-7178,v2.9.7,2020-12-12,2023-07-14,74,Active,LoRaWAN,10,8
+SNR-00131,EQP-00050,Smart Metering Node (energy consumption),MFR-06,ELX-2528,v4.6.7,2020-12-23,2023-03-26,50,Active,Modbus TCP,10,9
+SNR-00132,EQP-00100,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-1167,v4.7.5,2020-12-23,2024-06-21,40,Active,Modbus TCP,10,8
+SNR-00133,EQP-00060,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-14,ELX-2282,v3.4.8,2020-12-15,2023-06-20,42,Active,NB-IoT,10,10
+SNR-00134,EQP-00447,Smart Metering Node (energy consumption),MFR-12,ELX-1471,v3.7.6,2020-12-05,2021-05-11,70,Active,NB-IoT,10,7
+SNR-00135,EQP-00261,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-06,ELX-7937,v1.5.8,2021-01-03,2024-06-16,38,Active,Modbus TCP,10,5
+SNR-00136,EQP-00547,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-3570,v1.1.4,2020-12-09,2024-08-10,42,Active,LoRaWAN,10,8
+SNR-00137,EQP-00088,Smart Metering Node (energy consumption),MFR-15,ELX-4550,v2.1.1,2021-01-01,2022-05-13,61,Active,Modbus TCP,10,6
+SNR-00138,EQP-00250,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-12,ELX-5078,v4.5.6,2020-12-13,2022-02-28,66,Faulty,Modbus TCP,10,9
+SNR-00139,EQP-00688,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-9087,v2.1.0,2020-12-31,2021-03-31,76,Active,MQTT/4G,10,10
+SNR-00140,EQP-00179,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-7038,v4.1.4,2021-01-11,2023-01-23,63,Active,NB-IoT,10,9
+SNR-00141,EQP-00351,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-7885,v2.9.1,2021-01-21,2023-12-23,62,Active,NB-IoT,10,7
+SNR-00142,EQP-00357,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-14,ELX-2983,v1.8.7,2021-01-03,2024-01-03,87,Active,NB-IoT,10,10
+SNR-00143,EQP-00679,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-12,ELX-8259,v2.2.0,2021-01-03,2021-04-01,64,Active,MQTT/4G,10,6
+SNR-00144,EQP-00145,Smart Metering Node (energy consumption),MFR-15,ELX-5053,v3.5.5,2021-01-07,2022-01-10,60,Active,NB-IoT,10,5
+SNR-00145,EQP-00341,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-12,ELX-8919,v4.2.5,2021-01-12,2021-05-04,60,Active,IEC 61850,10,7
+SNR-00146,EQP-00136,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-4491,v1.0.0,2020-12-16,2022-08-27,99,Active,MQTT/4G,10,10
+SNR-00147,EQP-00399,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-12,HYD-2111,v4.8.6,2020-12-29,2023-03-15,72,Active,MQTT/4G,10,8
+SNR-00148,EQP-00329,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-9612,v3.3.3,2021-01-02,2021-07-17,79,Active,LoRaWAN,10,7
+SNR-00149,EQP-00101,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-6146,v3.1.5,2021-01-24,2024-07-08,49,Active,Modbus RTU,10,5
+SNR-00150,EQP-00280,Smart Metering Node (energy consumption),MFR-06,ELX-4306,v4.9.8,2021-02-02,2021-05-12,75,Active,Modbus TCP,10,5
+SNR-00151,EQP-00370,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-4217,v2.3.5,2020-12-29,2021-11-06,64,Active,NB-IoT,10,6
+SNR-00152,EQP-00181,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-1788,v1.4.2,2020-12-14,2022-09-01,73,Inactive,MQTT/4G,10,8
+SNR-00153,EQP-00411,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-8331,v2.2.7,2021-01-03,2021-11-03,49,Active,LoRaWAN,10,10
+SNR-00154,EQP-00663,Smart Metering Node (energy consumption),MFR-06,ELX-7559,v3.7.0,2020-12-23,2021-03-14,64,Active,Modbus TCP,10,7
+SNR-00155,EQP-00529,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-2332,v3.6.1,2020-12-20,2021-04-27,86,Active,LoRaWAN,10,7
+SNR-00156,EQP-00575,Electrical Monitoring Node (voltage/current/vibration),MFR-07,ELX-1616,v3.0.4,2020-12-30,2022-11-09,94,Active,NB-IoT,10,8
+SNR-00157,EQP-00016,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-3127,v4.4.6,2020-12-11,2023-07-05,48,Active,MQTT/4G,10,6
+SNR-00158,EQP-00007,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-3270,v2.1.7,2020-12-05,2023-12-10,88,Active,Modbus TCP,10,10
+SNR-00159,EQP-00442,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-6474,v1.2.6,2021-01-28,2022-08-20,75,Active,NB-IoT,10,5
+SNR-00160,EQP-00146,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-14,ELX-5489,v2.8.4,2020-12-30,2022-02-09,57,Active,NB-IoT,10,9
+SNR-00161,EQP-00502,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-4177,v3.0.6,2020-12-08,2024-03-30,48,Active,Modbus RTU,10,10
+SNR-00162,EQP-00662,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-2774,v2.0.3,2020-12-14,2021-06-02,37,Active,Modbus TCP,10,6
+SNR-00163,EQP-00673,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-9208,v4.9.8,2020-12-28,2021-06-30,67,Inactive,Modbus RTU,10,10
+SNR-00164,EQP-00686,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-4962,v3.4.6,2021-01-03,2023-02-24,58,Active,Modbus RTU,10,7
+SNR-00165,EQP-00282,Smart Metering Node (energy consumption),MFR-12,ELX-9972,v2.6.5,2020-12-22,2022-12-19,47,Active,LoRaWAN,10,8
+SNR-00166,EQP-00234,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-7792,v3.5.1,2020-12-31,2024-10-09,94,Active,NB-IoT,10,9
+SNR-00167,EQP-00599,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-2625,v2.2.5,2021-01-07,2022-03-27,27,Active,LoRaWAN,10,7
+SNR-00168,EQP-00268,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-06,HYD-3568,v4.2.3,2020-12-19,2022-09-22,65,Active,LoRaWAN,10,5
+SNR-00169,EQP-00117,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-7015,v4.4.2,2021-01-08,2024-12-24,57,Active,NB-IoT,10,10
+SNR-00170,EQP-00641,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-9693,v3.6.7,2021-01-14,2023-11-20,64,Active,NB-IoT,10,7
+SNR-00171,EQP-00090,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-8411,v4.0.0,2020-12-23,2023-10-26,53,Active,LoRaWAN,10,6
+SNR-00172,EQP-00454,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-3192,v1.4.1,2021-01-13,2023-11-18,75,Active,NB-IoT,10,8
+SNR-00173,EQP-00451,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-1071,v3.7.0,2021-01-02,2024-11-25,58,Active,LoRaWAN,10,9
+SNR-00174,EQP-00549,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-1975,v4.6.1,2020-12-23,2021-02-07,71,Active,IEC 61850,10,9
+SNR-00175,EQP-00721,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-5711,v2.7.7,2021-01-10,2023-07-07,63,Active,Modbus RTU,10,7
+SNR-00176,EQP-00480,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-2554,v4.5.3,2020-12-16,2022-12-08,76,Active,Modbus TCP,10,6
+SNR-00177,EQP-00618,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-2340,v2.3.9,2020-12-28,2024-04-07,47,Active,MQTT/4G,10,5
+SNR-00178,EQP-00176,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-11,ELX-6344,v1.6.3,2021-01-14,2022-03-10,54,Active,NB-IoT,10,9
+SNR-00179,EQP-00046,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-5759,v3.8.3,2020-12-29,2022-10-22,73,Active,NB-IoT,10,8
+SNR-00180,EQP-00209,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-4648,v1.3.9,2021-01-10,2023-07-17,58,Active,MQTT/4G,10,7
+SNR-00181,EQP-00586,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-12,HYD-8770,v1.9.1,2020-12-28,2021-11-27,67,Active,Modbus RTU,10,6
+SNR-00182,EQP-00658,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-2707,v1.5.4,2020-12-06,2024-11-11,100,Inactive,LoRaWAN,10,10
+SNR-00183,EQP-00555,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-14,ELX-7098,v4.6.9,2021-01-01,2022-09-08,86,Faulty,NB-IoT,10,9
+SNR-00184,EQP-00665,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-1496,v4.2.8,2020-12-08,2024-11-26,62,Active,IEC 61850,10,9
+SNR-00185,EQP-00670,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-12,HYD-9794,v2.3.4,2020-12-13,2024-02-18,45,Active,MQTT/4G,10,7
+SNR-00186,EQP-00591,Electrical Monitoring Node (voltage/current/vibration),MFR-06,ELX-7767,v1.3.2,2020-12-16,2021-01-18,71,Active,MQTT/4G,10,10
+SNR-00187,EQP-00236,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-8020,v4.8.6,2020-12-30,2022-05-14,83,Active,NB-IoT,10,8
+SNR-00188,EQP-00405,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-8151,v3.4.1,2020-12-17,2023-01-19,47,Active,IEC 61850,10,8
+SNR-00189,EQP-00270,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-1808,v4.0.9,2021-01-12,2024-06-29,82,Active,Modbus RTU,10,7
+SNR-00190,EQP-00507,Electrical Monitoring Node (voltage/current/vibration),MFR-06,ELX-3110,v3.0.0,2020-12-28,2021-09-21,89,Active,IEC 61850,10,10
+SNR-00191,EQP-00525,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-11,ELX-4686,v1.0.6,2020-12-28,2021-05-17,70,Active,IEC 61850,10,6
+SNR-00192,EQP-00559,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-2226,v2.8.5,2020-12-11,2024-08-21,44,Active,NB-IoT,10,9
+SNR-00193,EQP-00255,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-4672,v4.0.9,2020-12-07,2021-12-22,67,Active,LoRaWAN,10,9
+SNR-00194,EQP-00158,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-6112,v3.6.9,2020-12-27,2023-04-18,58,Active,MQTT/4G,10,9
+SNR-00195,EQP-00106,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-6475,v3.1.8,2020-12-19,2022-11-06,53,Active,MQTT/4G,10,9
+SNR-00196,EQP-00251,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-9646,v3.9.1,2021-01-17,2024-02-02,77,Active,NB-IoT,10,9
+SNR-00197,EQP-00612,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-8589,v3.2.7,2020-12-26,2022-11-02,61,Active,LoRaWAN,10,9
+SNR-00198,EQP-00219,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-12,ELX-4029,v3.5.2,2020-12-18,2021-07-09,88,Active,LoRaWAN,10,6
+SNR-00199,EQP-00168,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-4571,v2.6.2,2020-12-19,2024-07-10,87,Active,LoRaWAN,10,7
+SNR-00200,EQP-00270,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-5668,v4.2.4,2020-12-26,2023-12-14,45,Active,Modbus RTU,10,9
+SNR-00201,EQP-00168,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-3917,v2.4.9,2020-12-27,2022-07-05,60,Active,NB-IoT,10,8
+SNR-00202,EQP-00666,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-9169,v2.7.3,2021-01-06,2023-12-27,50,Active,NB-IoT,10,10
+SNR-00203,EQP-00518,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-15,HYD-7035,v2.0.0,2021-01-01,2022-05-11,58,Active,LoRaWAN,10,8
+SNR-00204,EQP-00656,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-4986,v4.8.9,2020-12-22,2023-03-10,89,Active,NB-IoT,10,9
+SNR-00205,EQP-00359,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-7023,v2.7.2,2021-01-13,2021-04-05,85,Active,LoRaWAN,10,7
+SNR-00206,EQP-00428,Smart Metering Node (energy consumption),MFR-06,ELX-2050,v3.5.2,2021-01-05,2022-06-07,7,Active,LoRaWAN,10,7
+SNR-00207,EQP-00211,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-6912,v2.7.8,2021-01-19,2021-03-18,83,Inactive,MQTT/4G,10,8
+SNR-00208,EQP-00354,Smart Metering Node (energy consumption),MFR-15,ELX-1355,v3.8.2,2020-12-18,2023-06-17,72,Active,LoRaWAN,10,7
+SNR-00209,EQP-00427,Electrical Monitoring Node (voltage/current/vibration),MFR-06,ELX-4377,v3.3.5,2020-12-10,2022-06-15,75,Active,NB-IoT,10,10
+SNR-00210,EQP-00357,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-5423,v3.0.2,2020-12-29,2023-08-28,58,Active,NB-IoT,10,8
+SNR-00211,EQP-00451,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-12,ELX-6263,v4.6.0,2021-01-03,2021-09-30,82,Active,NB-IoT,10,5
+SNR-00212,EQP-00429,Smart Metering Node (energy consumption),MFR-06,ELX-9305,v3.0.2,2020-12-25,2024-04-02,80,Active,Modbus TCP,10,10
+SNR-00213,EQP-00692,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-6309,v1.4.3,2020-12-30,2021-05-08,99,Active,LoRaWAN,10,6
+SNR-00214,EQP-00452,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-7177,v2.6.4,2020-12-26,2021-02-23,76,Inactive,NB-IoT,10,10
+SNR-00215,EQP-00395,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-14,ELX-5110,v2.4.2,2020-12-21,2022-03-11,69,Inactive,Modbus TCP,10,5
+SNR-00216,EQP-00107,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-7714,v3.7.2,2020-12-15,2021-10-29,86,Active,Modbus TCP,10,6
+SNR-00217,EQP-00097,Electrical Monitoring Node (voltage/current/vibration),MFR-07,ELX-8817,v2.2.6,2020-12-18,2023-10-11,88,Active,NB-IoT,10,7
+SNR-00218,EQP-00708,Electrical Monitoring Node (voltage/current/vibration),MFR-07,ELX-4811,v2.1.4,2020-12-29,2024-02-25,72,Active,Modbus TCP,10,6
+SNR-00219,EQP-00175,Smart Metering Node (energy consumption),MFR-14,ELX-6038,v3.3.0,2020-12-19,2024-05-12,60,Active,MQTT/4G,10,7
+SNR-00220,EQP-00637,Smart Metering Node (energy consumption),MFR-15,ELX-8271,v3.1.2,2021-01-14,2023-08-02,49,Under Maintenance,LoRaWAN,10,10
+SNR-00221,EQP-00712,Smart Metering Node (energy consumption),MFR-14,ELX-3682,v3.5.2,2020-12-10,2022-05-17,66,Active,NB-IoT,10,8
+SNR-00222,EQP-00456,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-8175,v2.4.2,2020-12-16,2023-10-22,33,Active,NB-IoT,10,10
+SNR-00223,EQP-00402,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-5838,v1.2.1,2020-12-15,2023-11-29,62,Active,Modbus RTU,10,5
+SNR-00224,EQP-00440,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-2646,v3.6.4,2021-02-13,2023-08-01,33,Active,NB-IoT,10,6
+SNR-00225,EQP-00272,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-8957,v2.3.6,2020-12-14,2021-11-13,60,Active,Modbus RTU,10,7
+SNR-00226,EQP-00327,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-7099,v4.0.9,2020-12-23,2024-09-13,78,Active,Modbus RTU,10,10
+SNR-00227,EQP-00064,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-8585,v2.4.5,2021-01-03,2021-10-04,71,Active,MQTT/4G,10,10
+SNR-00228,EQP-00018,Smart Metering Node (energy consumption),MFR-15,ELX-2313,v4.3.9,2020-12-04,2021-01-16,92,Active,Modbus TCP,10,8
+SNR-00229,EQP-00627,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-8969,v1.9.4,2020-12-10,2021-09-02,27,Active,LoRaWAN,10,10
+SNR-00230,EQP-00676,Smart Metering Node (energy consumption),MFR-15,ELX-2605,v4.5.3,2021-01-06,2022-05-31,40,Active,MQTT/4G,10,5
+SNR-00231,EQP-00282,Smart Metering Node (energy consumption),MFR-14,ELX-2853,v2.9.1,2020-12-28,2021-12-14,66,Active,MQTT/4G,10,10
+SNR-00232,EQP-00078,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-1436,v1.4.9,2020-12-25,2022-02-04,70,Faulty,LoRaWAN,10,7
+SNR-00233,EQP-00453,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-8831,v2.2.0,2020-12-24,2022-08-30,46,Active,LoRaWAN,10,5
+SNR-00234,EQP-00669,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-6578,v3.3.5,2020-12-09,2024-07-13,55,Active,Modbus RTU,10,5
+SNR-00235,EQP-00416,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-14,ELX-5128,v2.3.4,2020-12-09,2022-09-09,88,Active,IEC 61850,10,9
+SNR-00236,EQP-00527,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-8042,v3.7.0,2020-12-21,2023-04-26,90,Active,LoRaWAN,10,7
+SNR-00237,EQP-00693,Smart Metering Node (energy consumption),MFR-06,ELX-8070,v4.4.9,2020-12-19,2024-02-13,68,Active,NB-IoT,10,7
+SNR-00238,EQP-00228,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-8443,v4.8.8,2020-12-25,2024-04-19,79,Active,MQTT/4G,10,6
+SNR-00239,EQP-00550,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-6105,v1.3.5,2020-12-14,2021-09-20,100,Active,Modbus TCP,10,8
+SNR-00240,EQP-00630,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-9757,v3.9.4,2020-12-18,2022-05-24,76,Active,Modbus RTU,10,9
+SNR-00241,EQP-00041,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-15,HYD-3883,v4.8.7,2020-12-22,2024-10-08,69,Active,LoRaWAN,10,9
+SNR-00242,EQP-00137,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-7974,v2.5.3,2020-12-22,2022-07-16,63,Active,NB-IoT,10,6
+SNR-00243,EQP-00532,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-2707,v3.3.3,2020-12-27,2022-08-22,65,Active,NB-IoT,10,6
+SNR-00244,EQP-00500,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-6768,v1.5.6,2021-01-17,2023-10-30,87,Active,NB-IoT,10,10
+SNR-00245,EQP-00072,Smart Metering Node (energy consumption),MFR-07,ELX-4236,v1.4.9,2020-12-11,2022-01-31,100,Active,LoRaWAN,10,5
+SNR-00246,EQP-00484,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-14,ELX-5623,v1.3.3,2020-12-20,2022-12-31,100,Active,IEC 61850,10,9
+SNR-00247,EQP-00711,Smart Metering Node (energy consumption),MFR-07,ELX-3221,v2.5.4,2021-01-25,2022-03-03,61,Active,IEC 61850,10,8
+SNR-00248,EQP-00465,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-12,ELX-8242,v1.0.6,2021-01-17,2022-04-07,83,Active,Modbus TCP,10,8
+SNR-00249,EQP-00081,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-1595,v1.6.6,2021-01-08,2023-02-20,88,Active,LoRaWAN,10,5
+SNR-00250,EQP-00585,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-14,ELX-2381,v3.6.0,2020-12-27,2023-02-09,100,Active,IEC 61850,10,7
+SNR-00251,EQP-00649,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-2190,v4.7.9,2020-12-25,2021-10-28,98,Active,Modbus TCP,10,8
+SNR-00252,EQP-00565,Smart Metering Node (energy consumption),MFR-14,ELX-3570,v4.4.9,2020-12-18,2021-11-20,94,Active,Modbus TCP,10,8
+SNR-00253,EQP-00227,Electrical Monitoring Node (voltage/current/vibration),MFR-07,ELX-8012,v3.7.5,2020-12-23,2024-07-28,89,Active,IEC 61850,10,6
+SNR-00254,EQP-00528,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-1679,v1.7.9,2020-12-12,2024-01-22,80,Active,Modbus RTU,10,5
+SNR-00255,EQP-00570,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-9543,v4.6.7,2020-12-29,2023-10-15,67,Active,LoRaWAN,10,9
+SNR-00256,EQP-00558,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-3828,v3.6.8,2020-12-15,2022-07-01,90,Active,MQTT/4G,10,9
+SNR-00257,EQP-00606,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-3919,v4.7.0,2021-01-03,2021-02-05,55,Active,NB-IoT,10,10
+SNR-00258,EQP-00577,Smart Metering Node (energy consumption),MFR-06,ELX-2218,v2.4.5,2021-01-01,2021-03-13,81,Inactive,LoRaWAN,10,9
+SNR-00259,EQP-00040,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-1450,v4.0.5,2020-12-14,2024-01-02,45,Active,Modbus RTU,10,7
+SNR-00260,EQP-00465,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-5459,v4.3.7,2020-12-27,2024-03-22,68,Active,NB-IoT,10,9
+SNR-00261,EQP-00583,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-7521,v1.2.9,2021-01-21,2023-01-27,100,Active,IEC 61850,10,8
+SNR-00262,EQP-00361,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-9941,v3.8.3,2020-12-16,2024-05-25,100,Active,NB-IoT,10,9
+SNR-00263,EQP-00151,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-5891,v3.9.6,2020-12-28,2023-12-05,100,Active,NB-IoT,10,6
+SNR-00264,EQP-00201,Smart Metering Node (energy consumption),MFR-14,ELX-7037,v2.9.0,2021-01-13,2023-02-16,76,Active,LoRaWAN,10,9
+SNR-00265,EQP-00009,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-12,ELX-7772,v2.7.5,2020-12-16,2024-05-23,90,Active,Modbus TCP,10,7
+SNR-00266,EQP-00706,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-7721,v1.7.4,2020-12-24,2022-07-26,50,Active,Modbus RTU,10,10
+SNR-00267,EQP-00237,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-6255,v4.9.5,2020-12-11,2021-07-09,93,Active,Modbus RTU,10,5
+SNR-00268,EQP-00534,Electrical Monitoring Node (voltage/current/vibration),MFR-07,ELX-8430,v1.3.6,2020-12-26,2022-10-23,100,Active,Modbus TCP,10,5
+SNR-00269,EQP-00016,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-1850,v4.8.7,2020-12-30,2022-12-22,94,Active,LoRaWAN,10,8
+SNR-00270,EQP-00403,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-5142,v4.1.4,2020-12-31,2023-07-08,29,Active,NB-IoT,10,5
+SNR-00271,EQP-00116,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-4394,v3.0.5,2020-12-18,2024-07-17,43,Active,NB-IoT,10,7
+SNR-00272,EQP-00606,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-2629,v4.8.7,2020-12-30,2024-10-24,51,Active,Modbus RTU,10,10
+SNR-00273,EQP-00158,Electrical Monitoring Node (voltage/current/vibration),MFR-15,ELX-8044,v2.3.8,2021-01-06,2021-06-10,45,Active,LoRaWAN,10,5
+SNR-00274,EQP-00716,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-4194,v2.4.8,2020-12-30,2024-11-15,80,Inactive,NB-IoT,10,5
+SNR-00275,EQP-00666,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-3611,v4.4.9,2020-12-23,2023-05-26,67,Active,NB-IoT,10,10
+SNR-00276,EQP-00688,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-3358,v1.6.6,2020-12-21,2021-05-03,76,Inactive,Modbus RTU,10,7
+SNR-00277,EQP-00433,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-14,ELX-1211,v4.4.2,2021-01-05,2023-05-11,70,Active,LoRaWAN,10,5
+SNR-00278,EQP-00084,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-7065,v4.9.4,2020-12-26,2024-03-22,47,Active,IEC 61850,10,10
+SNR-00279,EQP-00103,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-9126,v3.1.9,2020-12-18,2021-05-15,77,Active,Modbus RTU,10,10
+SNR-00280,EQP-00360,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-4294,v3.5.4,2021-01-15,2023-09-20,77,Active,MQTT/4G,10,5
+SNR-00281,EQP-00653,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-3269,v2.4.5,2020-12-18,2022-03-15,20,Faulty,MQTT/4G,10,7
+SNR-00282,EQP-00514,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-14,ELX-2016,v2.8.7,2020-12-21,2022-09-24,52,Active,LoRaWAN,10,8
+SNR-00283,EQP-00657,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-7760,v2.0.7,2020-12-10,2022-01-27,85,Active,NB-IoT,10,7
+SNR-00284,EQP-00675,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-7386,v4.6.5,2020-12-30,2021-07-29,64,Active,NB-IoT,10,8
+SNR-00285,EQP-00209,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-9501,v4.1.3,2020-12-23,2024-03-12,71,Active,NB-IoT,10,9
+SNR-00286,EQP-00568,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-5848,v3.4.2,2021-01-05,2023-09-23,74,Active,MQTT/4G,10,5
+SNR-00287,EQP-00015,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-7440,v4.0.5,2020-12-12,2024-02-27,96,Active,MQTT/4G,10,7
+SNR-00288,EQP-00008,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-2809,v2.3.6,2021-01-04,2021-11-01,51,Active,MQTT/4G,10,5
+SNR-00289,EQP-00689,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-2731,v3.3.3,2020-12-19,2022-10-16,59,Active,NB-IoT,10,10
+SNR-00290,EQP-00301,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-7878,v4.1.6,2020-12-31,2024-11-23,91,Active,MQTT/4G,10,10
+SNR-00291,EQP-00381,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-3859,v1.3.9,2020-12-10,2022-12-24,73,Faulty,NB-IoT,10,7
+SNR-00292,EQP-00143,Electrical Monitoring Node (voltage/current/vibration),MFR-15,ELX-5824,v3.8.3,2021-01-09,2023-10-19,63,Active,Modbus TCP,10,10
+SNR-00293,EQP-00230,Smart Metering Node (energy consumption),MFR-12,ELX-3116,v1.6.0,2021-01-03,2023-10-25,44,Active,IEC 61850,10,7
+SNR-00294,EQP-00044,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-3377,v2.5.2,2021-01-24,2022-01-29,70,Active,LoRaWAN,10,9
+SNR-00295,EQP-00036,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-12,ELX-6155,v1.3.3,2020-12-18,2023-04-18,38,Active,IEC 61850,10,8
+SNR-00296,EQP-00307,Smart Metering Node (energy consumption),MFR-07,ELX-7481,v3.4.1,2020-12-23,2024-07-29,92,Active,MQTT/4G,10,6
+SNR-00297,EQP-00693,Smart Metering Node (energy consumption),MFR-15,ELX-3444,v4.5.3,2021-01-13,2024-09-23,63,Active,Modbus TCP,10,8
+SNR-00298,EQP-00385,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-15,HYD-4659,v2.4.4,2020-12-30,2022-02-25,82,Active,MQTT/4G,10,5
+SNR-00299,EQP-00120,Smart Metering Node (energy consumption),MFR-15,ELX-5227,v2.0.4,2020-12-15,2023-09-03,84,Active,IEC 61850,10,8
+SNR-00300,EQP-00242,Smart Metering Node (energy consumption),MFR-06,ELX-4585,v1.1.1,2020-12-15,2023-03-17,39,Active,MQTT/4G,10,7
+SNR-00301,EQP-00297,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-12,ELX-9873,v2.1.8,2020-12-27,2021-11-23,88,Active,NB-IoT,10,6
+SNR-00302,EQP-00094,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-7142,v3.4.7,2020-12-23,2024-07-30,62,Inactive,NB-IoT,10,7
+SNR-00303,EQP-00300,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-9331,v1.9.1,2021-01-11,2024-04-08,61,Active,MQTT/4G,10,10
+SNR-00304,EQP-00035,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-06,ELX-3902,v4.2.3,2020-12-08,2024-06-08,100,Active,Modbus TCP,10,8
+SNR-00305,EQP-00578,Smart Metering Node (energy consumption),MFR-06,ELX-9285,v3.6.1,2020-12-20,2021-12-16,91,Active,MQTT/4G,10,9
+SNR-00306,EQP-00262,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-5561,v3.9.6,2020-12-04,2022-06-21,44,Active,Modbus TCP,10,6
+SNR-00307,EQP-00042,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-5652,v3.7.3,2020-12-11,2021-03-30,37,Active,LoRaWAN,10,6
+SNR-00308,EQP-00267,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-06,HYD-9816,v3.1.2,2020-12-21,2023-07-27,73,Active,MQTT/4G,10,8
+SNR-00309,EQP-00617,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-7568,v4.7.3,2020-12-23,2022-06-14,58,Active,MQTT/4G,10,5
+SNR-00310,EQP-00517,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-7877,v3.3.0,2020-12-03,2021-06-15,74,Active,MQTT/4G,10,7
+SNR-00311,EQP-00519,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-9269,v2.9.6,2020-12-14,2023-07-13,40,Active,Modbus RTU,10,6
+SNR-00312,EQP-00623,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-12,ELX-4988,v3.1.7,2020-12-24,2023-03-24,60,Under Maintenance,NB-IoT,10,9
+SNR-00313,EQP-00366,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-7457,v1.5.6,2021-01-09,2022-12-27,79,Active,Modbus TCP,10,6
+SNR-00314,EQP-00369,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-6383,v2.3.1,2020-12-29,2024-09-05,12,Inactive,MQTT/4G,10,9
+SNR-00315,EQP-00556,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-4952,v3.3.3,2021-01-15,2021-03-19,73,Active,LoRaWAN,10,8
+SNR-00316,EQP-00455,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-6011,v2.7.8,2020-12-11,2021-05-02,43,Active,MQTT/4G,10,10
+SNR-00317,EQP-00424,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-4403,v1.9.6,2020-12-26,2024-07-31,72,Active,MQTT/4G,10,9
+SNR-00318,EQP-00180,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-8923,v1.0.7,2020-12-24,2024-01-12,61,Active,LoRaWAN,10,6
+SNR-00319,EQP-00453,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-9996,v3.5.3,2020-12-15,2022-02-26,95,Inactive,NB-IoT,10,7
+SNR-00320,EQP-00269,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-3660,v1.5.2,2020-12-19,2023-11-28,94,Active,LoRaWAN,10,5
+SNR-00321,EQP-00614,Smart Metering Node (energy consumption),MFR-15,ELX-4861,v2.1.2,2020-12-08,2023-05-26,44,Active,NB-IoT,10,9
+SNR-00322,EQP-00494,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-14,ELX-1919,v3.3.0,2020-12-08,2021-10-13,71,Active,MQTT/4G,10,6
+SNR-00323,EQP-00147,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-12,ELX-1744,v4.9.8,2021-01-04,2024-07-07,62,Active,LoRaWAN,10,5
+SNR-00324,EQP-00189,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-4537,v2.8.6,2021-01-01,2024-12-07,52,Active,NB-IoT,10,9
+SNR-00325,EQP-00364,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-4511,v1.6.4,2020-12-18,2024-02-14,42,Active,Modbus RTU,10,6
+SNR-00326,EQP-00377,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-8293,v3.9.1,2021-01-03,2024-12-03,32,Active,MQTT/4G,10,8
+SNR-00327,EQP-00077,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-5890,v4.4.9,2020-12-15,2022-09-21,66,Active,Modbus RTU,10,9
+SNR-00328,EQP-00571,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-7879,v1.2.5,2020-12-21,2023-02-20,23,Active,NB-IoT,10,6
+SNR-00329,EQP-00069,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-3864,v3.4.1,2020-12-20,2021-11-05,88,Active,NB-IoT,10,7
+SNR-00330,EQP-00012,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-12,HYD-8979,v3.1.4,2020-12-31,2021-03-31,58,Active,LoRaWAN,10,10
+SNR-00331,EQP-00224,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-3183,v1.6.1,2020-12-30,2021-11-10,98,Active,MQTT/4G,10,8
+SNR-00332,EQP-00265,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-8971,v1.3.5,2020-12-09,2021-03-05,56,Active,Modbus TCP,10,6
+SNR-00333,EQP-00279,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-4523,v2.4.7,2020-12-20,2024-06-14,69,Active,NB-IoT,10,10
+SNR-00334,EQP-00719,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-12,HYD-5948,v2.1.0,2020-12-29,2021-07-12,82,Active,Modbus RTU,10,10
+SNR-00335,EQP-00284,Smart Metering Node (energy consumption),MFR-06,ELX-6903,v1.9.9,2021-01-01,2023-04-06,54,Active,NB-IoT,10,10
+SNR-00336,EQP-00148,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-4353,v4.5.4,2021-01-04,2022-10-13,65,Active,MQTT/4G,10,9
+SNR-00337,EQP-00216,Smart Metering Node (energy consumption),MFR-12,ELX-5691,v2.1.4,2020-12-20,2023-06-23,43,Active,NB-IoT,10,10
+SNR-00338,EQP-00392,Smart Metering Node (energy consumption),MFR-15,ELX-4283,v1.2.9,2020-12-20,2022-08-29,24,Active,IEC 61850,10,7
+SNR-00339,EQP-00195,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-8338,v2.0.2,2020-12-25,2021-04-27,70,Active,NB-IoT,10,9
+SNR-00340,EQP-00522,Smart Metering Node (energy consumption),MFR-07,ELX-5921,v1.3.4,2021-01-18,2022-06-21,65,Active,Modbus TCP,10,6
+SNR-00341,EQP-00375,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-4352,v4.7.1,2021-01-01,2024-06-16,31,Active,MQTT/4G,10,6
+SNR-00342,EQP-00499,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-7356,v4.8.7,2020-12-18,2023-02-18,71,Active,LoRaWAN,10,5
+SNR-00343,EQP-00043,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-3756,v3.2.5,2021-01-06,2022-12-22,46,Active,NB-IoT,10,5
+SNR-00344,EQP-00171,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-7722,v3.4.7,2021-01-01,2022-12-26,62,Active,MQTT/4G,10,10
+SNR-00345,EQP-00384,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-6523,v1.6.2,2020-12-26,2024-11-28,78,Active,Modbus RTU,10,8
+SNR-00346,EQP-00198,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-1864,v3.9.2,2020-12-20,2024-04-20,49,Active,LoRaWAN,10,10
+SNR-00347,EQP-00204,Smart Metering Node (energy consumption),MFR-15,ELX-5577,v4.0.5,2020-12-05,2021-05-05,52,Inactive,NB-IoT,10,5
+SNR-00348,EQP-00609,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-7192,v3.3.0,2020-12-31,2021-08-18,73,Active,LoRaWAN,10,7
+SNR-00349,EQP-00574,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-7630,v1.4.3,2021-01-10,2024-01-11,86,Active,NB-IoT,10,6
+SNR-00350,EQP-00029,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-8334,v4.6.6,2021-01-04,2022-05-12,63,Active,MQTT/4G,10,10
+SNR-00351,EQP-00132,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-8230,v3.9.3,2020-12-16,2023-08-31,72,Active,LoRaWAN,10,5
+SNR-00352,EQP-00382,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-06,HYD-1752,v4.1.6,2021-01-06,2024-07-31,49,Active,NB-IoT,10,10
+SNR-00353,EQP-00707,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-7869,v3.3.5,2020-12-23,2021-06-15,58,Active,MQTT/4G,10,7
+SNR-00354,EQP-00181,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-6517,v2.8.8,2020-12-26,2022-11-29,64,Active,NB-IoT,10,10
+SNR-00355,EQP-00142,Electrical Monitoring Node (voltage/current/vibration),MFR-07,ELX-6368,v1.9.1,2021-01-02,2021-12-09,40,Active,IEC 61850,10,9
+SNR-00356,EQP-00638,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-14,ELX-7680,v4.9.2,2020-12-14,2022-08-09,63,Active,Modbus TCP,10,9
+SNR-00357,EQP-00323,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-06,ELX-1463,v2.0.1,2021-01-03,2023-09-16,82,Active,NB-IoT,10,8
+SNR-00358,EQP-00123,Smart Metering Node (energy consumption),MFR-06,ELX-7648,v1.4.7,2020-12-26,2023-12-08,47,Active,NB-IoT,10,8
+SNR-00359,EQP-00479,Electrical Monitoring Node (voltage/current/vibration),MFR-15,ELX-2581,v2.2.1,2020-12-11,2023-02-03,53,Active,LoRaWAN,10,9
+SNR-00360,EQP-00295,Smart Metering Node (energy consumption),MFR-06,ELX-2679,v4.4.8,2020-12-23,2021-07-08,85,Active,Modbus TCP,10,5
+SNR-00361,EQP-00298,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-5951,v4.4.2,2020-12-26,2023-09-07,61,Active,MQTT/4G,10,5
+SNR-00362,EQP-00368,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-11,ELX-1759,v3.9.8,2020-12-29,2023-06-03,28,Active,IEC 61850,10,5
+SNR-00363,EQP-00338,Smart Metering Node (energy consumption),MFR-12,ELX-5599,v2.1.7,2020-12-10,2020-12-18,40,Active,NB-IoT,10,7
+SNR-00364,EQP-00597,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-7899,v3.1.6,2021-01-05,2021-08-15,56,Active,IEC 61850,10,5
+SNR-00365,EQP-00045,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-3961,v4.5.8,2020-12-28,2022-03-10,58,Active,LoRaWAN,10,5
+SNR-00366,EQP-00722,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-9906,v2.6.7,2020-12-20,2023-01-01,56,Active,LoRaWAN,10,6
+SNR-00367,EQP-00253,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-3310,v4.1.8,2020-12-20,2021-01-22,66,Active,MQTT/4G,10,7
+SNR-00368,EQP-00132,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-1560,v3.1.6,2020-12-21,2021-10-15,90,Active,LoRaWAN,10,7
+SNR-00369,EQP-00478,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-7901,v1.7.9,2020-12-26,2021-04-16,72,Active,IEC 61850,10,5
+SNR-00370,EQP-00220,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-4544,v2.6.8,2021-01-01,2021-06-21,54,Active,Modbus RTU,10,5
+SNR-00371,EQP-00508,Electrical Monitoring Node (voltage/current/vibration),MFR-07,ELX-7699,v2.2.8,2020-12-30,2023-05-29,86,Active,Modbus TCP,10,5
+SNR-00372,EQP-00690,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-5577,v1.9.7,2020-12-21,2023-02-14,100,Active,MQTT/4G,10,7
+SNR-00373,EQP-00263,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-14,ELX-8320,v3.1.6,2021-01-08,2024-07-12,66,Active,NB-IoT,10,10
+SNR-00374,EQP-00290,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-7835,v1.3.0,2020-12-26,2023-11-23,66,Active,NB-IoT,10,6
+SNR-00375,EQP-00095,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-2113,v2.1.2,2021-01-05,2021-03-05,74,Active,Modbus RTU,10,6
+SNR-00376,EQP-00447,Smart Metering Node (energy consumption),MFR-14,ELX-5310,v2.3.7,2020-12-07,2023-09-16,81,Active,IEC 61850,10,9
+SNR-00377,EQP-00462,Smart Metering Node (energy consumption),MFR-12,ELX-1135,v1.0.7,2020-12-23,2021-12-27,98,Active,MQTT/4G,10,6
+SNR-00378,EQP-00215,Smart Metering Node (energy consumption),MFR-15,ELX-3545,v3.3.4,2020-12-27,2024-02-04,75,Active,LoRaWAN,10,6
+SNR-00379,EQP-00390,Electrical Monitoring Node (voltage/current/vibration),MFR-07,ELX-3928,v2.1.7,2020-12-26,2021-03-30,62,Active,MQTT/4G,10,5
+SNR-00380,EQP-00089,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-7956,v3.2.9,2020-12-28,2021-09-20,73,Active,LoRaWAN,10,9
+SNR-00381,EQP-00172,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-3189,v2.1.3,2020-12-14,2023-08-04,100,Active,MQTT/4G,10,8
+SNR-00382,EQP-00185,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-1469,v4.8.7,2020-12-27,2022-07-26,75,Active,Modbus RTU,10,9
+SNR-00383,EQP-00388,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-8295,v1.5.9,2020-12-26,2023-04-04,77,Active,LoRaWAN,10,9
+SNR-00384,EQP-00108,Smart Metering Node (energy consumption),MFR-12,ELX-3531,v2.7.9,2021-01-11,2021-10-13,47,Active,MQTT/4G,10,5
+SNR-00385,EQP-00576,Smart Metering Node (energy consumption),MFR-06,ELX-5392,v4.8.6,2021-01-02,2024-09-05,39,Active,IEC 61850,10,10
+SNR-00386,EQP-00133,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-9337,v2.8.1,2021-01-19,2022-10-20,59,Active,Modbus RTU,10,6
+SNR-00387,EQP-00276,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-5877,v4.5.6,2021-01-08,2021-04-21,32,Active,Modbus TCP,10,6
+SNR-00388,EQP-00346,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-7108,v2.9.0,2020-12-23,2023-04-12,93,Active,Modbus RTU,10,10
+SNR-00389,EQP-00573,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-9835,v4.9.6,2020-12-31,2022-02-21,61,Active,NB-IoT,10,9
+SNR-00390,EQP-00474,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-9885,v3.7.9,2020-12-13,2023-03-04,77,Inactive,LoRaWAN,10,6
+SNR-00391,EQP-00588,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-1855,v2.1.0,2020-12-24,2021-12-22,49,Faulty,NB-IoT,10,9
+SNR-00392,EQP-00227,Electrical Monitoring Node (voltage/current/vibration),MFR-06,ELX-3013,v4.0.8,2020-12-29,2023-04-01,68,Active,LoRaWAN,10,10
+SNR-00393,EQP-00011,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-8517,v2.6.3,2020-12-21,2022-07-21,68,Inactive,Modbus RTU,10,8
+SNR-00394,EQP-00464,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-12,ELX-5343,v3.1.1,2020-12-24,2022-01-08,51,Active,LoRaWAN,10,8
+SNR-00395,EQP-00278,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-3514,v2.4.0,2020-12-25,2022-04-09,100,Active,Modbus TCP,10,6
+SNR-00396,EQP-00117,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-4208,v1.6.5,2020-12-17,2021-07-24,84,Active,NB-IoT,10,7
+SNR-00397,EQP-00632,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-9986,v3.9.5,2020-12-26,2022-09-24,69,Under Maintenance,MQTT/4G,10,6
+SNR-00398,EQP-00405,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-1634,v3.1.0,2020-12-29,2022-04-20,100,Inactive,IEC 61850,10,9
+SNR-00399,EQP-00257,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-6884,v1.8.7,2021-01-01,2023-04-25,78,Active,Modbus RTU,10,9
+SNR-00400,EQP-00164,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-8302,v4.6.9,2020-12-29,2022-07-01,67,Active,NB-IoT,10,9
+SNR-00401,EQP-00475,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-4717,v3.5.2,2020-12-28,2023-10-22,82,Active,Modbus RTU,10,7
+SNR-00402,EQP-00260,Smart Metering Node (energy consumption),MFR-06,ELX-7546,v2.2.9,2020-12-21,2022-08-25,44,Active,Modbus TCP,10,6
+SNR-00403,EQP-00165,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-3286,v4.4.0,2021-01-14,2023-06-02,33,Active,MQTT/4G,10,9
+SNR-00404,EQP-00650,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-9985,v1.9.9,2021-01-07,2021-12-19,61,Active,LoRaWAN,10,5
+SNR-00405,EQP-00062,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-3722,v3.0.9,2021-01-06,2021-11-26,34,Active,NB-IoT,10,6
+SNR-00406,EQP-00646,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-11,ELX-5503,v3.1.8,2021-01-13,2021-05-04,73,Inactive,MQTT/4G,10,9
+SNR-00407,EQP-00603,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-7368,v3.4.9,2020-12-22,2021-07-18,77,Faulty,MQTT/4G,10,8
+SNR-00408,EQP-00173,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-3318,v1.4.3,2021-01-13,2022-11-25,69,Active,NB-IoT,10,10
+SNR-00409,EQP-00080,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-7667,v2.4.9,2021-01-10,2023-10-16,76,Active,LoRaWAN,10,5
+SNR-00410,EQP-00634,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-4099,v3.6.8,2020-12-19,2021-03-01,97,Under Maintenance,MQTT/4G,10,6
+SNR-00411,EQP-00355,Smart Metering Node (energy consumption),MFR-11,ELX-9422,v2.6.8,2021-01-09,2023-11-02,32,Active,IEC 61850,10,8
+SNR-00412,EQP-00393,Smart Metering Node (energy consumption),MFR-14,ELX-1676,v3.2.5,2020-12-21,2021-10-29,78,Active,IEC 61850,10,7
+SNR-00413,EQP-00627,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-7739,v4.5.3,2020-12-26,2023-09-17,44,Active,NB-IoT,10,8
+SNR-00414,EQP-00074,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-6851,v4.6.7,2020-12-09,2024-02-24,80,Active,NB-IoT,10,5
+SNR-00415,EQP-00505,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-1731,v3.7.7,2021-01-05,2024-04-24,92,Active,LoRaWAN,10,8
+SNR-00416,EQP-00197,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-8310,v1.1.8,2020-12-29,2024-03-25,86,Active,Modbus RTU,10,5
+SNR-00417,EQP-00596,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-06,ELX-2088,v4.0.3,2020-12-31,2023-06-05,48,Under Maintenance,MQTT/4G,10,9
+SNR-00418,EQP-00358,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-12,ELX-5650,v2.2.5,2021-01-05,2021-10-08,100,Faulty,MQTT/4G,10,5
+SNR-00419,EQP-00065,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-2095,v3.7.1,2020-12-22,2023-10-06,74,Active,MQTT/4G,10,7
+SNR-00420,EQP-00171,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-2850,v1.7.7,2020-12-20,2021-06-09,52,Active,LoRaWAN,10,8
+SNR-00421,EQP-00491,Smart Metering Node (energy consumption),MFR-06,ELX-1290,v4.5.3,2020-12-26,2023-02-25,78,Active,Modbus TCP,10,8
+SNR-00422,EQP-00482,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-14,ELX-7396,v4.7.2,2020-12-11,2021-02-24,46,Active,MQTT/4G,10,10
+SNR-00423,EQP-00012,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-8728,v4.9.6,2020-12-16,2023-11-11,57,Active,LoRaWAN,10,8
+SNR-00424,EQP-00685,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-1759,v1.4.3,2021-01-03,2021-06-14,60,Active,LoRaWAN,10,7
+SNR-00425,EQP-00636,Smart Metering Node (energy consumption),MFR-06,ELX-3947,v4.0.2,2020-12-12,2021-03-12,55,Inactive,Modbus TCP,10,8
+SNR-00426,EQP-00319,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-4907,v1.8.6,2020-12-24,2021-12-12,64,Active,NB-IoT,10,5
+SNR-00427,EQP-00315,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-4413,v4.5.1,2020-12-08,2023-11-13,72,Active,MQTT/4G,10,8
+SNR-00428,EQP-00095,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-6888,v1.4.9,2020-12-16,2023-08-26,35,Active,MQTT/4G,10,10
+SNR-00429,EQP-00425,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-4108,v3.3.6,2021-01-07,2023-09-17,82,Faulty,MQTT/4G,10,5
+SNR-00430,EQP-00104,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-5908,v4.0.7,2020-12-31,2022-08-27,66,Active,Modbus RTU,10,7
+SNR-00431,EQP-00481,Smart Metering Node (energy consumption),MFR-11,ELX-3540,v4.1.7,2020-12-28,2021-01-29,79,Active,Modbus TCP,10,8
+SNR-00432,EQP-00275,Electrical Monitoring Node (voltage/current/vibration),MFR-07,ELX-9036,v4.5.6,2020-12-12,2021-08-06,95,Active,Modbus TCP,10,6
+SNR-00433,EQP-00639,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-7439,v3.9.5,2020-12-19,2024-01-28,66,Inactive,Modbus TCP,10,8
+SNR-00434,EQP-00675,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-7335,v4.3.8,2021-01-03,2021-09-27,63,Active,MQTT/4G,10,7
+SNR-00435,EQP-00608,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-2710,v2.1.4,2021-01-02,2023-05-26,65,Active,MQTT/4G,10,5
+SNR-00436,EQP-00013,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-2211,v4.9.4,2020-12-07,2023-09-29,39,Active,MQTT/4G,10,9
+SNR-00437,EQP-00192,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-6799,v2.9.7,2020-12-26,2024-09-23,81,Active,Modbus TCP,10,6
+SNR-00438,EQP-00083,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-8858,v3.3.6,2020-12-08,2024-07-14,81,Active,LoRaWAN,10,10
+SNR-00439,EQP-00232,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-8243,v2.8.6,2020-12-08,2023-03-03,45,Active,IEC 61850,10,6
+SNR-00440,EQP-00192,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-6127,v3.6.3,2020-12-18,2022-05-13,72,Active,NB-IoT,10,9
+SNR-00441,EQP-00222,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-2094,v1.9.4,2020-12-22,2022-02-03,59,Active,Modbus RTU,10,5
+SNR-00442,EQP-00610,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-3110,v1.0.6,2020-12-28,2022-01-02,69,Active,LoRaWAN,10,6
+SNR-00443,EQP-00686,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-8502,v1.0.9,2020-12-22,2022-07-06,75,Inactive,NB-IoT,10,10
+SNR-00444,EQP-00015,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-2753,v3.8.1,2021-01-08,2022-08-10,66,Active,Modbus RTU,10,7
+SNR-00445,EQP-00515,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-8179,v1.4.8,2021-01-16,2022-08-03,94,Active,Modbus RTU,10,9
+SNR-00446,EQP-00233,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-6763,v1.4.9,2020-12-20,2021-04-10,97,Active,Modbus RTU,10,5
+SNR-00447,EQP-00191,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-3011,v4.7.2,2020-12-22,2024-10-19,83,Active,Modbus TCP,10,7
+SNR-00448,EQP-00057,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-7063,v1.8.5,2020-12-06,2021-01-24,68,Active,MQTT/4G,10,9
+SNR-00449,EQP-00405,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-12,ELX-7794,v3.3.4,2021-01-02,2023-07-29,56,Active,Modbus TCP,10,10
+SNR-00450,EQP-00151,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-1470,v3.0.3,2020-12-29,2021-01-09,67,Active,NB-IoT,10,10
+SNR-00451,EQP-00157,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-4401,v1.5.0,2020-12-29,2022-03-07,48,Active,Modbus RTU,10,10
+SNR-00452,EQP-00650,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-5464,v2.0.4,2021-01-08,2022-07-25,100,Active,NB-IoT,10,10
+SNR-00453,EQP-00101,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-8027,v1.6.7,2021-01-04,2022-02-05,75,Active,NB-IoT,10,8
+SNR-00454,EQP-00002,Smart Metering Node (energy consumption),MFR-15,ELX-2737,v4.4.3,2021-01-07,2024-05-31,89,Active,MQTT/4G,10,7
+SNR-00455,EQP-00028,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-4780,v1.2.7,2021-01-16,2024-01-20,69,Active,NB-IoT,10,10
+SNR-00456,EQP-00642,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-7076,v4.8.6,2020-12-10,2021-04-12,83,Active,NB-IoT,10,5
+SNR-00457,EQP-00553,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-12,ELX-8896,v3.3.9,2021-01-19,2023-09-27,75,Active,LoRaWAN,10,9
+SNR-00458,EQP-00343,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-8819,v4.7.3,2021-01-05,2024-08-09,75,Active,Modbus RTU,10,10
+SNR-00459,EQP-00586,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-2180,v1.7.1,2020-12-16,2024-09-18,33,Active,LoRaWAN,10,9
+SNR-00460,EQP-00471,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-1352,v2.1.6,2021-01-13,2022-01-29,77,Faulty,NB-IoT,10,10
+SNR-00461,EQP-00620,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-2254,v1.3.0,2020-12-24,2021-01-02,78,Active,MQTT/4G,10,9
+SNR-00462,EQP-00419,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-12,ELX-8558,v2.0.6,2020-12-31,2023-11-29,68,Active,IEC 61850,10,7
+SNR-00463,EQP-00687,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-8399,v2.1.2,2020-12-17,2021-05-29,78,Active,NB-IoT,10,8
+SNR-00464,EQP-00100,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-5222,v2.8.9,2020-12-30,2022-10-07,71,Active,LoRaWAN,10,5
+SNR-00465,EQP-00163,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-8891,v1.8.7,2020-12-10,2022-01-07,71,Active,Modbus TCP,10,5
+SNR-00466,EQP-00615,Smart Metering Node (energy consumption),MFR-14,ELX-1850,v1.2.5,2020-12-14,2022-06-05,50,Under Maintenance,MQTT/4G,10,10
+SNR-00467,EQP-00055,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-4931,v1.8.0,2020-12-21,2021-09-18,89,Active,NB-IoT,10,5
+SNR-00468,EQP-00607,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-7579,v3.3.0,2020-12-20,2023-06-28,80,Active,NB-IoT,10,5
+SNR-00469,EQP-00187,Smart Metering Node (energy consumption),MFR-15,ELX-6007,v2.0.2,2020-12-09,2023-05-08,100,Active,LoRaWAN,10,7
+SNR-00470,EQP-00470,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-06,HYD-9355,v2.9.0,2021-01-03,2021-07-05,100,Active,LoRaWAN,10,7
+SNR-00471,EQP-00310,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-12,ELX-6185,v4.8.2,2020-12-14,2024-10-01,56,Active,IEC 61850,10,10
+SNR-00472,EQP-00660,Electrical Monitoring Node (voltage/current/vibration),MFR-07,ELX-3273,v1.5.7,2021-01-01,2024-12-30,67,Active,NB-IoT,10,10
+SNR-00473,EQP-00701,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-15,HYD-8543,v4.1.4,2020-12-31,2021-02-19,57,Active,MQTT/4G,10,8
+SNR-00474,EQP-00537,Smart Metering Node (energy consumption),MFR-07,ELX-1443,v3.4.3,2021-01-02,2024-09-13,90,Active,NB-IoT,10,6
+SNR-00475,EQP-00482,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-2376,v2.3.3,2021-01-06,2024-06-05,76,Active,IEC 61850,10,5
+SNR-00476,EQP-00285,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-4362,v2.6.3,2020-12-05,2023-12-02,62,Active,LoRaWAN,10,7
+SNR-00477,EQP-00102,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-2371,v4.5.4,2020-12-09,2024-04-16,55,Active,NB-IoT,10,6
+SNR-00478,EQP-00555,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-14,ELX-4863,v1.4.9,2020-12-13,2022-10-29,72,Active,IEC 61850,10,6
+SNR-00479,EQP-00591,Electrical Monitoring Node (voltage/current/vibration),MFR-15,ELX-9186,v4.9.2,2020-12-17,2024-03-10,78,Active,NB-IoT,10,6
+SNR-00480,EQP-00404,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-2154,v4.7.3,2020-12-28,2022-09-25,64,Faulty,IEC 61850,10,10
+SNR-00481,EQP-00286,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-8655,v3.4.7,2020-12-06,2023-01-07,35,Active,NB-IoT,10,9
+SNR-00482,EQP-00353,Smart Metering Node (energy consumption),MFR-07,ELX-1126,v3.7.2,2020-12-18,2023-10-05,54,Active,Modbus TCP,10,9
+SNR-00483,EQP-00474,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-4005,v3.7.4,2021-01-01,2021-11-22,73,Faulty,Modbus RTU,10,10
+SNR-00484,EQP-00672,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-8359,v3.8.4,2020-12-18,2023-06-19,41,Active,MQTT/4G,10,10
+SNR-00485,EQP-00387,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-7781,v4.8.9,2020-12-18,2022-08-10,61,Faulty,Modbus RTU,10,5
+SNR-00486,EQP-00241,Smart Metering Node (energy consumption),MFR-15,ELX-4823,v4.8.6,2020-12-16,2023-10-16,44,Active,MQTT/4G,10,9
+SNR-00487,EQP-00033,Smart Metering Node (energy consumption),MFR-14,ELX-6520,v1.3.2,2020-12-08,2022-11-23,82,Active,Modbus TCP,10,7
+SNR-00488,EQP-00484,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-7302,v2.5.0,2020-12-22,2021-02-02,57,Active,LoRaWAN,10,10
+SNR-00489,EQP-00502,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-6049,v1.3.4,2020-12-08,2021-10-24,82,Active,LoRaWAN,10,8
+SNR-00490,EQP-00186,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-8463,v4.2.5,2020-12-10,2023-04-05,43,Active,Modbus TCP,10,9
+SNR-00491,EQP-00336,Electrical Monitoring Node (voltage/current/vibration),MFR-07,ELX-3222,v3.5.9,2020-12-14,2024-03-18,100,Active,NB-IoT,10,6
+SNR-00492,EQP-00477,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-7402,v4.7.0,2020-12-21,2021-03-09,51,Active,Modbus RTU,10,8
+SNR-00493,EQP-00507,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-5798,v4.1.0,2021-01-05,2024-12-13,81,Active,LoRaWAN,10,5
+SNR-00494,EQP-00351,Electrical Monitoring Node (voltage/current/vibration),MFR-15,ELX-5618,v2.7.9,2020-12-06,2023-12-31,85,Active,NB-IoT,10,8
+SNR-00495,EQP-00690,Electrical Monitoring Node (voltage/current/vibration),MFR-15,ELX-1449,v2.6.3,2020-12-22,2022-03-15,91,Active,Modbus TCP,10,7
+SNR-00496,EQP-00605,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-6225,v3.4.4,2020-12-15,2024-12-12,73,Active,Modbus RTU,10,7
+SNR-00497,EQP-00214,Smart Metering Node (energy consumption),MFR-14,ELX-7340,v1.3.6,2020-12-11,2022-12-21,64,Active,Modbus TCP,10,5
+SNR-00498,EQP-00165,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-7987,v2.8.3,2021-01-03,2023-11-01,76,Active,MQTT/4G,10,6
+SNR-00499,EQP-00715,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-12,ELX-4169,v4.9.7,2020-12-28,2024-06-16,63,Active,MQTT/4G,10,5
+SNR-00500,EQP-00583,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-6148,v3.6.9,2020-12-11,2021-12-30,100,Active,Modbus TCP,10,7
+SNR-00501,EQP-00494,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-3964,v3.8.9,2021-01-04,2022-08-24,85,Active,NB-IoT,10,8
+SNR-00502,EQP-00194,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-1305,v3.5.3,2020-12-27,2024-07-20,66,Active,NB-IoT,10,7
+SNR-00503,EQP-00277,Electrical Monitoring Node (voltage/current/vibration),MFR-06,ELX-8768,v2.2.0,2020-12-26,2022-02-15,65,Active,Modbus TCP,10,6
+SNR-00504,EQP-00412,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-1264,v4.4.9,2020-12-20,2021-10-01,77,Active,MQTT/4G,10,7
+SNR-00505,EQP-00709,Electrical Monitoring Node (voltage/current/vibration),MFR-07,ELX-5758,v4.2.8,2020-12-27,2021-09-21,64,Active,MQTT/4G,10,7
+SNR-00506,EQP-00067,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-7898,v4.5.5,2020-12-26,2022-01-03,48,Active,LoRaWAN,10,7
+SNR-00507,EQP-00409,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-12,HYD-7328,v2.0.2,2020-12-21,2021-11-25,86,Active,LoRaWAN,10,9
+SNR-00508,EQP-00367,Smart Metering Node (energy consumption),MFR-07,ELX-4472,v4.4.3,2021-01-02,2022-07-23,18,Active,MQTT/4G,10,10
+SNR-00509,EQP-00376,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-1118,v1.1.4,2020-12-23,2021-08-02,83,Active,MQTT/4G,10,6
+SNR-00510,EQP-00160,Smart Metering Node (energy consumption),MFR-11,ELX-4200,v2.9.7,2021-01-27,2024-06-22,81,Active,NB-IoT,10,10
+SNR-00511,EQP-00459,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-6556,v4.2.6,2021-01-17,2023-10-21,61,Active,NB-IoT,10,10
+SNR-00512,EQP-00342,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-9783,v2.9.2,2020-12-12,2021-08-07,84,Inactive,MQTT/4G,10,8
+SNR-00513,EQP-00325,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-1010,v4.1.2,2021-01-04,2022-09-05,84,Active,LoRaWAN,10,10
+SNR-00514,EQP-00193,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-12,HYD-2774,v1.1.0,2020-12-25,2022-08-21,96,Active,LoRaWAN,10,7
+SNR-00515,EQP-00635,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-5758,v3.6.7,2021-01-06,2024-02-29,55,Active,MQTT/4G,10,5
+SNR-00516,EQP-00333,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-7059,v2.4.5,2020-12-14,2024-10-06,46,Faulty,Modbus RTU,10,8
+SNR-00517,EQP-00089,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-12,ELX-7589,v1.0.5,2020-12-24,2022-12-22,100,Faulty,NB-IoT,10,7
+SNR-00518,EQP-00676,Smart Metering Node (energy consumption),MFR-06,ELX-9774,v3.1.5,2021-01-03,2023-05-07,68,Active,IEC 61850,10,5
+SNR-00519,EQP-00036,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-14,ELX-7743,v2.8.9,2021-01-05,2021-10-08,67,Active,LoRaWAN,10,5
+SNR-00520,EQP-00225,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-9814,v4.2.2,2020-12-18,2022-10-10,71,Active,NB-IoT,10,9
+SNR-00521,EQP-00633,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-2744,v2.5.6,2020-12-12,2022-09-23,35,Active,MQTT/4G,10,10
+SNR-00522,EQP-00621,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-3795,v4.7.2,2020-12-15,2022-01-13,88,Active,IEC 61850,10,6
+SNR-00523,EQP-00321,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-9339,v1.2.4,2020-12-15,2021-09-25,70,Active,NB-IoT,10,10
+SNR-00524,EQP-00240,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-8765,v3.3.7,2021-01-14,2022-11-01,98,Active,Modbus TCP,10,8
+SNR-00525,EQP-00252,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-4828,v3.2.2,2020-12-17,2023-11-06,78,Active,MQTT/4G,10,6
+SNR-00526,EQP-00211,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-9141,v2.4.3,2020-12-13,2021-01-25,41,Active,MQTT/4G,10,10
+SNR-00527,EQP-00594,Smart Metering Node (energy consumption),MFR-15,ELX-1848,v3.3.5,2021-01-01,2022-01-18,68,Inactive,IEC 61850,10,10
+SNR-00528,EQP-00181,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-1920,v1.9.1,2020-12-26,2022-01-21,66,Active,LoRaWAN,10,5
+SNR-00529,EQP-00154,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-1471,v1.0.5,2020-12-09,2022-02-15,62,Active,LoRaWAN,10,7
+SNR-00530,EQP-00051,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-4160,v4.0.1,2020-12-30,2022-09-05,93,Active,MQTT/4G,10,10
+SNR-00531,EQP-00642,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-15,HYD-2473,v4.2.1,2020-12-22,2021-06-22,64,Active,MQTT/4G,10,6
+SNR-00532,EQP-00613,Smart Metering Node (energy consumption),MFR-07,ELX-8532,v4.1.1,2020-12-19,2021-08-29,23,Active,Modbus TCP,10,9
+SNR-00533,EQP-00410,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-1466,v1.5.3,2020-12-23,2021-09-21,74,Active,NB-IoT,10,10
+SNR-00534,EQP-00057,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-7511,v1.1.5,2021-01-08,2021-08-14,94,Active,MQTT/4G,10,8
+SNR-00535,EQP-00613,Smart Metering Node (energy consumption),MFR-07,ELX-5905,v1.7.5,2021-01-03,2022-05-28,84,Under Maintenance,IEC 61850,10,5
+SNR-00536,EQP-00678,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-8431,v1.7.3,2021-01-07,2024-05-01,72,Active,LoRaWAN,10,6
+SNR-00537,EQP-00572,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-6322,v2.6.7,2020-12-12,2022-11-06,73,Active,NB-IoT,10,5
+SNR-00538,EQP-00004,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-06,ELX-6852,v2.1.1,2021-01-03,2022-01-26,30,Active,LoRaWAN,10,9
+SNR-00539,EQP-00086,Smart Metering Node (energy consumption),MFR-14,ELX-8829,v2.3.4,2020-12-17,2022-03-19,70,Active,LoRaWAN,10,6
+SNR-00540,EQP-00458,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-3439,v4.4.6,2020-12-05,2021-11-09,89,Active,MQTT/4G,10,7
+SNR-00541,EQP-00116,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-4390,v3.8.8,2021-01-07,2022-01-07,78,Active,Modbus RTU,10,5
+SNR-00542,EQP-00602,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-5857,v3.2.8,2020-12-21,2024-06-06,75,Active,LoRaWAN,10,7
+SNR-00543,EQP-00567,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-11,ELX-5458,v2.6.0,2020-12-27,2022-10-04,59,Under Maintenance,LoRaWAN,10,5
+SNR-00544,EQP-00296,Smart Metering Node (energy consumption),MFR-15,ELX-6293,v2.9.0,2020-12-25,2022-08-23,82,Active,LoRaWAN,10,10
+SNR-00545,EQP-00126,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-4064,v1.5.6,2021-01-17,2021-12-27,91,Active,LoRaWAN,10,5
+SNR-00546,EQP-00717,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-5101,v3.3.8,2021-01-14,2022-03-26,66,Active,MQTT/4G,10,5
+SNR-00547,EQP-00017,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-4108,v4.1.6,2021-01-03,2024-09-09,43,Active,MQTT/4G,10,8
+SNR-00548,EQP-00066,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-8631,v2.1.2,2020-12-31,2022-02-25,46,Active,NB-IoT,10,8
+SNR-00549,EQP-00547,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-6557,v3.1.5,2020-12-16,2021-03-29,45,Faulty,NB-IoT,10,10
+SNR-00550,EQP-00339,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-12,ELX-3190,v3.1.8,2020-12-31,2023-07-19,73,Active,NB-IoT,10,7
+SNR-00551,EQP-00274,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-2218,v2.6.1,2021-01-12,2024-10-26,36,Active,Modbus RTU,10,9
+SNR-00552,EQP-00323,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-9827,v4.8.0,2021-01-07,2023-09-06,68,Active,NB-IoT,10,5
+SNR-00553,EQP-00229,Smart Metering Node (energy consumption),MFR-15,ELX-7022,v1.8.9,2021-01-01,2023-02-05,58,Active,NB-IoT,10,6
+SNR-00554,EQP-00196,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-6930,v1.0.7,2020-12-16,2024-08-08,72,Active,MQTT/4G,10,10
+SNR-00555,EQP-00020,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-11,ELX-3282,v2.9.9,2020-12-06,2022-04-15,92,Inactive,MQTT/4G,10,7
+SNR-00556,EQP-00437,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-2922,v2.4.6,2020-12-29,2024-01-09,41,Active,NB-IoT,10,6
+SNR-00557,EQP-00320,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-5457,v1.6.3,2021-02-17,2023-06-13,76,Active,Modbus TCP,10,8
+SNR-00558,EQP-00450,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-6720,v4.3.8,2020-12-12,2021-11-20,39,Active,MQTT/4G,10,7
+SNR-00559,EQP-00306,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-9151,v4.4.5,2020-12-17,2023-02-07,43,Active,Modbus TCP,10,6
+SNR-00560,EQP-00027,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-3635,v2.6.3,2020-12-18,2022-03-13,48,Active,Modbus RTU,10,6
+SNR-00561,EQP-00102,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-7486,v2.7.7,2020-12-27,2023-05-21,40,Active,MQTT/4G,10,9
+SNR-00562,EQP-00653,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-4082,v3.0.3,2020-12-06,2024-07-31,46,Active,Modbus RTU,10,8
+SNR-00563,EQP-00624,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-4648,v4.7.4,2021-01-14,2023-01-15,88,Active,LoRaWAN,10,6
+SNR-00564,EQP-00313,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-06,HYD-7640,v2.2.3,2020-12-10,2023-03-04,78,Active,MQTT/4G,10,7
+SNR-00565,EQP-00412,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-4808,v2.7.6,2020-12-25,2022-06-21,100,Active,MQTT/4G,10,9
+SNR-00566,EQP-00381,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-9823,v4.2.9,2020-12-30,2023-01-23,97,Active,Modbus TCP,10,10
+SNR-00567,EQP-00384,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-2774,v3.8.3,2021-01-09,2021-11-09,60,Active,NB-IoT,10,5
+SNR-00568,EQP-00499,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-4298,v1.5.4,2020-12-22,2022-05-04,61,Active,LoRaWAN,10,10
+SNR-00569,EQP-00005,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-12,ELX-3781,v3.6.4,2020-12-24,2021-01-20,46,Active,MQTT/4G,10,8
+SNR-00570,EQP-00161,Smart Metering Node (energy consumption),MFR-12,ELX-4301,v2.9.6,2021-01-17,2021-09-15,72,Active,IEC 61850,10,9
+SNR-00571,EQP-00661,Electrical Monitoring Node (voltage/current/vibration),MFR-15,ELX-5352,v4.2.5,2020-12-09,2022-06-09,66,Active,MQTT/4G,10,6
+SNR-00572,EQP-00370,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-12,ELX-9828,v1.6.2,2020-12-26,2022-07-18,59,Active,MQTT/4G,10,6
+SNR-00573,EQP-00086,Smart Metering Node (energy consumption),MFR-12,ELX-2385,v1.8.5,2020-12-31,2024-10-20,62,Active,MQTT/4G,10,8
+SNR-00574,EQP-00112,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-14,ELX-8319,v3.2.3,2020-12-27,2021-09-16,78,Active,Modbus TCP,10,8
+SNR-00575,EQP-00219,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-5761,v3.8.6,2020-12-29,2022-06-22,100,Active,NB-IoT,10,8
+SNR-00576,EQP-00158,Electrical Monitoring Node (voltage/current/vibration),MFR-15,ELX-1218,v3.7.5,2020-12-19,2022-08-18,99,Active,NB-IoT,10,5
+SNR-00577,EQP-00014,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-4210,v4.4.8,2021-01-02,2021-11-13,64,Active,Modbus RTU,10,9
+SNR-00578,EQP-00299,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-1154,v3.6.4,2020-12-28,2024-11-12,52,Active,MQTT/4G,10,9
+SNR-00579,EQP-00626,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-15,HYD-2991,v2.8.9,2020-12-16,2024-04-11,83,Active,Modbus RTU,10,9
+SNR-00580,EQP-00077,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-8632,v1.5.4,2020-12-27,2023-03-05,79,Active,NB-IoT,10,9
+SNR-00581,EQP-00295,Smart Metering Node (energy consumption),MFR-14,ELX-1167,v2.8.9,2020-12-15,2024-02-13,77,Active,Modbus TCP,10,5
+SNR-00582,EQP-00571,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-9924,v2.2.4,2021-01-12,2023-04-19,37,Active,NB-IoT,10,6
+SNR-00583,EQP-00139,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-6954,v1.4.3,2021-01-06,2024-09-06,35,Active,LoRaWAN,10,10
+SNR-00584,EQP-00699,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-3354,v2.0.9,2021-01-07,2022-05-20,75,Active,LoRaWAN,10,6
+SNR-00585,EQP-00162,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-12,ELX-3077,v4.0.8,2020-12-10,2021-10-05,86,Active,IEC 61850,10,8
+SNR-00586,EQP-00495,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-5294,v4.6.1,2020-12-22,2022-08-01,81,Active,NB-IoT,10,7
+SNR-00587,EQP-00073,Smart Metering Node (energy consumption),MFR-14,ELX-3592,v1.6.9,2020-12-04,2022-02-02,100,Active,NB-IoT,10,10
+SNR-00588,EQP-00309,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-11,ELX-2152,v3.7.0,2021-01-04,2021-02-18,51,Active,LoRaWAN,10,9
+SNR-00589,EQP-00328,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-7481,v2.0.4,2020-12-31,2024-07-06,90,Faulty,LoRaWAN,10,10
+SNR-00590,EQP-00309,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-3823,v1.5.0,2020-12-14,2022-11-12,83,Active,IEC 61850,10,7
+SNR-00591,EQP-00212,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-8153,v3.5.8,2021-01-01,2024-11-15,13,Inactive,Modbus RTU,10,8
+SNR-00592,EQP-00374,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-2705,v2.2.9,2020-12-30,2021-06-07,68,Active,MQTT/4G,10,5
+SNR-00593,EQP-00162,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-11,ELX-9818,v1.9.3,2020-12-28,2023-09-29,66,Active,LoRaWAN,10,7
+SNR-00594,EQP-00243,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-12,ELX-1352,v3.5.0,2020-12-17,2021-08-11,51,Active,MQTT/4G,10,6
+SNR-00595,EQP-00300,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-12,HYD-5492,v3.9.7,2020-12-31,2023-04-26,100,Active,MQTT/4G,10,10
+SNR-00596,EQP-00058,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-8613,v2.7.2,2020-12-14,2021-10-17,55,Active,MQTT/4G,10,6
+SNR-00597,EQP-00426,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-5027,v3.9.9,2020-12-19,2020-12-30,89,Active,LoRaWAN,10,9
+SNR-00598,EQP-00523,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-4536,v4.8.1,2020-12-06,2023-08-26,51,Active,Modbus TCP,10,6
+SNR-00599,EQP-00524,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-14,ELX-7737,v2.8.7,2021-01-15,2023-03-03,42,Active,IEC 61850,10,8
+SNR-00600,EQP-00491,Smart Metering Node (energy consumption),MFR-12,ELX-2827,v3.5.5,2020-12-09,2024-04-27,87,Active,Modbus TCP,10,9
+SNR-00601,EQP-00446,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-6040,v4.7.4,2021-01-03,2021-02-22,57,Active,MQTT/4G,10,5
+SNR-00602,EQP-00455,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-5489,v4.9.4,2020-12-16,2022-06-07,72,Inactive,NB-IoT,10,10
+SNR-00603,EQP-00579,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-12,ELX-4975,v3.4.7,2020-12-14,2023-04-10,44,Active,IEC 61850,10,6
+SNR-00604,EQP-00275,Electrical Monitoring Node (voltage/current/vibration),MFR-07,ELX-7781,v1.2.8,2020-12-17,2024-03-29,79,Active,NB-IoT,10,6
+SNR-00605,EQP-00004,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-8246,v1.6.0,2021-01-08,2023-11-18,97,Active,NB-IoT,10,6
+SNR-00606,EQP-00220,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-2963,v4.3.5,2020-12-30,2023-12-24,91,Active,MQTT/4G,10,7
+SNR-00607,EQP-00041,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-7739,v4.2.4,2020-12-23,2022-11-18,65,Active,NB-IoT,10,5
+SNR-00608,EQP-00151,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-06,HYD-6205,v2.4.8,2021-01-04,2024-09-08,53,Active,NB-IoT,10,10
+SNR-00609,EQP-00349,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-4326,v1.7.3,2020-12-14,2021-07-27,90,Active,Modbus RTU,10,7
+SNR-00610,EQP-00302,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-6305,v4.0.2,2020-12-08,2021-04-20,57,Active,MQTT/4G,10,7
+SNR-00611,EQP-00702,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-2767,v3.7.8,2020-12-07,2023-06-09,49,Active,LoRaWAN,10,6
+SNR-00612,EQP-00463,Smart Metering Node (energy consumption),MFR-06,ELX-4910,v4.8.8,2020-12-27,2021-01-07,60,Active,LoRaWAN,10,10
+SNR-00613,EQP-00246,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-15,HYD-8703,v2.3.1,2020-12-16,2024-02-02,81,Active,MQTT/4G,10,7
+SNR-00614,EQP-00549,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-3983,v4.7.8,2020-12-25,2021-01-03,100,Active,IEC 61850,10,9
+SNR-00615,EQP-00493,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-1028,v4.7.2,2020-12-29,2023-05-24,95,Active,MQTT/4G,10,7
+SNR-00616,EQP-00371,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-12,ELX-6746,v1.3.9,2020-12-21,2024-03-23,96,Active,NB-IoT,10,9
+SNR-00617,EQP-00372,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-5833,v1.0.0,2021-01-20,2022-11-28,75,Active,NB-IoT,10,10
+SNR-00618,EQP-00072,Smart Metering Node (energy consumption),MFR-06,ELX-4768,v1.1.3,2020-12-27,2023-06-11,44,Active,Modbus TCP,10,7
+SNR-00619,EQP-00584,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-14,ELX-1734,v3.4.0,2020-12-19,2024-05-18,69,Active,NB-IoT,10,7
+SNR-00620,EQP-00664,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-7381,v1.4.7,2021-01-03,2021-02-04,33,Active,MQTT/4G,10,7
+SNR-00621,EQP-00691,Electrical Monitoring Node (voltage/current/vibration),MFR-06,ELX-3468,v4.2.6,2020-12-24,2022-11-28,94,Active,MQTT/4G,10,10
+SNR-00622,EQP-00580,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-06,ELX-2199,v3.6.4,2020-12-26,2024-11-30,46,Active,NB-IoT,10,9
+SNR-00623,EQP-00714,Smart Metering Node (energy consumption),MFR-14,ELX-4124,v4.3.4,2020-12-26,2023-07-20,41,Active,NB-IoT,10,7
+SNR-00624,EQP-00537,Smart Metering Node (energy consumption),MFR-12,ELX-8299,v4.9.1,2020-12-27,2021-04-24,100,Active,IEC 61850,10,10
+SNR-00625,EQP-00411,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-5224,v2.8.0,2021-01-04,2021-04-12,27,Active,Modbus RTU,10,5
+SNR-00626,EQP-00218,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-6762,v2.8.6,2020-12-27,2022-10-02,57,Active,Modbus TCP,10,9
+SNR-00627,EQP-00261,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-7485,v1.8.6,2021-01-29,2024-10-27,58,Active,MQTT/4G,10,5
+SNR-00628,EQP-00049,Smart Metering Node (energy consumption),MFR-12,ELX-5343,v4.0.1,2020-12-15,2022-01-23,77,Active,Modbus TCP,10,8
+SNR-00629,EQP-00266,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-9466,v2.4.8,2021-01-03,2023-10-21,84,Faulty,MQTT/4G,10,6
+SNR-00630,EQP-00436,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-8425,v3.3.1,2020-12-20,2023-04-07,86,Active,LoRaWAN,10,7
+SNR-00631,EQP-00261,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-06,ELX-7578,v2.3.7,2020-12-30,2021-07-06,86,Active,NB-IoT,10,10
+SNR-00632,EQP-00685,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-3111,v4.4.1,2020-12-28,2022-05-04,56,Inactive,MQTT/4G,10,6
+SNR-00633,EQP-00225,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-9407,v1.9.0,2020-12-22,2022-02-28,26,Active,NB-IoT,10,5
+SNR-00634,EQP-00611,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-8453,v3.2.1,2020-12-10,2022-04-26,63,Active,NB-IoT,10,6
+SNR-00635,EQP-00496,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-7065,v4.9.1,2020-12-17,2023-07-29,52,Under Maintenance,Modbus RTU,10,8
+SNR-00636,EQP-00409,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-12,HYD-1631,v4.8.4,2021-01-02,2021-08-20,77,Inactive,MQTT/4G,10,7
+SNR-00637,EQP-00374,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-6095,v4.2.3,2021-01-11,2023-02-03,49,Active,Modbus RTU,10,5
+SNR-00638,EQP-00432,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-1127,v3.5.8,2020-12-08,2021-04-18,56,Under Maintenance,IEC 61850,10,9
+SNR-00639,EQP-00174,Electrical Monitoring Node (voltage/current/vibration),MFR-15,ELX-4014,v2.3.6,2021-01-07,2024-11-30,52,Active,Modbus TCP,10,6
+SNR-00640,EQP-00531,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-4885,v2.6.0,2020-12-09,2022-05-20,68,Inactive,MQTT/4G,10,9
+SNR-00641,EQP-00148,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-3389,v3.9.6,2020-12-30,2023-11-27,100,Active,LoRaWAN,10,8
+SNR-00642,EQP-00350,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-2201,v2.2.9,2020-12-24,2022-04-12,77,Active,LoRaWAN,10,8
+SNR-00643,EQP-00710,Electrical Monitoring Node (voltage/current/vibration),MFR-07,ELX-1364,v3.5.0,2020-12-23,2023-09-21,83,Active,MQTT/4G,10,7
+SNR-00644,EQP-00470,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-6130,v4.6.0,2020-12-28,2023-04-29,80,Active,Modbus RTU,10,9
+SNR-00645,EQP-00250,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-5850,v3.5.4,2020-12-26,2023-04-08,96,Active,LoRaWAN,10,10
+SNR-00646,EQP-00682,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-5594,v1.4.7,2020-12-13,2023-05-13,73,Active,NB-IoT,10,10
+SNR-00647,EQP-00032,Smart Metering Node (energy consumption),MFR-07,ELX-5225,v2.2.9,2020-12-28,2024-12-19,58,Active,NB-IoT,10,7
+SNR-00648,EQP-00179,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-4872,v3.5.4,2020-12-18,2021-07-07,87,Active,NB-IoT,10,8
+SNR-00649,EQP-00281,Smart Metering Node (energy consumption),MFR-15,ELX-2808,v4.2.5,2020-12-08,2022-06-05,76,Active,IEC 61850,10,8
+SNR-00650,EQP-00651,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-9421,v2.2.9,2021-01-07,2023-01-23,56,Active,NB-IoT,10,7
+SNR-00651,EQP-00512,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-12,ELX-9282,v1.4.7,2020-12-18,2022-02-15,79,Active,IEC 61850,10,9
+SNR-00652,EQP-00378,Electrical Monitoring Node (voltage/current/vibration),MFR-15,ELX-9520,v3.7.9,2020-12-07,2024-03-13,62,Active,MQTT/4G,10,8
+SNR-00653,EQP-00288,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-6806,v4.5.0,2020-12-10,2024-03-02,66,Active,LoRaWAN,10,9
+SNR-00654,EQP-00010,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-6934,v1.7.5,2021-01-06,2023-07-26,64,Active,NB-IoT,10,5
+SNR-00655,EQP-00057,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-3094,v4.7.6,2021-01-22,2024-09-21,69,Active,Modbus TCP,10,6
+SNR-00656,EQP-00441,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-1634,v3.2.6,2020-12-17,2023-09-17,53,Active,MQTT/4G,10,6
+SNR-00657,EQP-00532,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-3498,v2.8.2,2020-12-13,2022-06-25,41,Active,NB-IoT,10,8
+SNR-00658,EQP-00101,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-1420,v4.9.0,2020-12-13,2021-08-02,55,Active,MQTT/4G,10,7
+SNR-00659,EQP-00401,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-5389,v4.4.0,2020-12-04,2024-03-01,99,Active,MQTT/4G,10,7
+SNR-00660,EQP-00614,Smart Metering Node (energy consumption),MFR-06,ELX-4305,v4.8.2,2020-12-17,2021-07-31,63,Active,NB-IoT,10,9
+SNR-00661,EQP-00427,Electrical Monitoring Node (voltage/current/vibration),MFR-15,ELX-9100,v4.7.8,2020-12-13,2023-07-07,71,Faulty,MQTT/4G,10,7
+SNR-00662,EQP-00125,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-6622,v1.2.5,2020-12-16,2021-06-24,84,Active,LoRaWAN,10,9
+SNR-00663,EQP-00370,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-9392,v1.6.7,2020-12-21,2024-04-22,65,Active,IEC 61850,10,5
+SNR-00664,EQP-00061,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-9582,v2.9.1,2020-12-29,2022-04-29,83,Active,NB-IoT,10,9
+SNR-00665,EQP-00524,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-14,ELX-1083,v2.3.8,2021-01-01,2023-07-24,78,Active,NB-IoT,10,9
+SNR-00666,EQP-00006,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-4509,v2.9.6,2020-12-21,2024-10-22,81,Active,MQTT/4G,10,6
+SNR-00667,EQP-00330,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-1899,v2.7.9,2020-12-13,2023-03-14,93,Active,Modbus RTU,10,5
+SNR-00668,EQP-00142,Electrical Monitoring Node (voltage/current/vibration),MFR-07,ELX-6154,v2.3.8,2021-01-03,2023-01-13,30,Faulty,MQTT/4G,10,5
+SNR-00669,EQP-00622,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-3098,v3.1.8,2021-01-01,2022-12-13,100,Active,LoRaWAN,10,6
+SNR-00670,EQP-00153,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-9206,v1.4.6,2021-01-11,2024-03-21,60,Active,LoRaWAN,10,7
+SNR-00671,EQP-00519,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-9105,v4.3.7,2020-12-25,2023-12-10,76,Active,MQTT/4G,10,9
+SNR-00672,EQP-00534,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-9404,v4.2.8,2020-12-24,2024-03-03,39,Active,LoRaWAN,10,10
+SNR-00673,EQP-00128,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-9190,v1.6.2,2020-12-25,2021-04-26,72,Active,LoRaWAN,10,7
+SNR-00674,EQP-00526,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-12,ELX-4782,v1.3.2,2020-12-30,2024-11-01,54,Active,IEC 61850,10,10
+SNR-00675,EQP-00422,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-06,ELX-3763,v2.5.9,2021-01-10,2024-02-05,96,Active,IEC 61850,10,5
+SNR-00676,EQP-00022,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-2623,v4.5.6,2021-01-07,2024-08-04,95,Active,Modbus RTU,10,7
+SNR-00677,EQP-00138,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-5924,v2.4.9,2020-12-18,2023-07-31,26,Active,MQTT/4G,10,8
+SNR-00678,EQP-00053,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-2936,v2.3.6,2020-12-17,2021-03-02,35,Active,NB-IoT,10,10
+SNR-00679,EQP-00146,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-9533,v2.9.4,2020-12-09,2024-06-23,70,Active,NB-IoT,10,9
+SNR-00680,EQP-00432,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-12,ELX-8066,v4.3.3,2021-01-05,2021-11-25,76,Active,LoRaWAN,10,7
+SNR-00681,EQP-00578,Smart Metering Node (energy consumption),MFR-12,ELX-3780,v2.0.4,2020-12-17,2024-02-14,56,Active,MQTT/4G,10,10
+SNR-00682,EQP-00150,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-9893,v4.7.6,2020-12-31,2024-03-29,70,Active,MQTT/4G,10,5
+SNR-00683,EQP-00201,Smart Metering Node (energy consumption),MFR-11,ELX-7894,v3.8.1,2020-12-28,2023-02-01,55,Active,NB-IoT,10,6
+SNR-00684,EQP-00627,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-1228,v3.3.0,2020-12-29,2024-10-14,64,Active,Modbus RTU,10,8
+SNR-00685,EQP-00293,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-3463,v2.7.2,2021-01-03,2022-05-12,79,Active,Modbus RTU,10,9
+SNR-00686,EQP-00703,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-2702,v4.1.5,2020-12-05,2023-09-21,55,Active,Modbus RTU,10,9
+SNR-00687,EQP-00040,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-12,HYD-7041,v3.7.1,2021-01-12,2022-09-04,80,Active,Modbus RTU,10,5
+SNR-00688,EQP-00649,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-2672,v2.8.7,2020-12-29,2021-08-09,55,Active,NB-IoT,10,9
+SNR-00689,EQP-00454,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-2718,v2.5.0,2020-12-24,2021-04-23,78,Active,LoRaWAN,10,5
+SNR-00690,EQP-00155,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-2836,v3.8.4,2020-12-31,2022-12-07,48,Active,MQTT/4G,10,7
+SNR-00691,EQP-00435,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-6266,v4.8.1,2021-01-02,2022-07-18,91,Active,LoRaWAN,10,10
+SNR-00692,EQP-00206,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-4054,v4.3.9,2020-12-17,2022-09-09,72,Active,LoRaWAN,10,10
+SNR-00693,EQP-00195,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-12,HYD-4775,v3.1.4,2020-12-31,2022-08-31,75,Active,NB-IoT,10,7
+SNR-00694,EQP-00082,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-3436,v2.1.8,2020-12-27,2022-05-02,24,Active,LoRaWAN,10,10
+SNR-00695,EQP-00407,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-06,HYD-9027,v4.1.1,2021-01-07,2024-01-09,53,Active,LoRaWAN,10,9
+SNR-00696,EQP-00449,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-12,ELX-8703,v1.5.0,2020-12-20,2023-05-15,77,Active,LoRaWAN,10,6
+SNR-00697,EQP-00067,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-1761,v1.3.2,2020-12-26,2022-03-07,89,Active,MQTT/4G,10,6
+SNR-00698,EQP-00115,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-4352,v4.1.8,2020-12-28,2021-09-06,62,Active,LoRaWAN,10,9
+SNR-00699,EQP-00092,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-06,HYD-5789,v4.2.2,2020-12-07,2022-10-26,37,Faulty,NB-IoT,10,9
+SNR-00700,EQP-00037,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-1313,v4.3.8,2020-12-26,2023-02-01,71,Active,IEC 61850,10,9
+SNR-00701,EQP-00530,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-9236,v1.9.3,2021-01-01,2021-10-13,70,Active,MQTT/4G,10,10
+SNR-00702,EQP-00619,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-3286,v1.4.0,2020-12-26,2022-03-23,73,Active,NB-IoT,10,9
+SNR-00703,EQP-00588,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-6498,v3.7.6,2020-12-20,2024-10-28,74,Active,MQTT/4G,10,5
+SNR-00704,EQP-00576,Smart Metering Node (energy consumption),MFR-11,ELX-6567,v2.0.2,2021-01-06,2024-04-25,79,Active,IEC 61850,10,8
+SNR-00705,EQP-00024,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-12,HYD-9852,v4.1.5,2020-12-20,2021-09-09,60,Active,MQTT/4G,10,8
+SNR-00706,EQP-00093,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-8645,v4.9.7,2021-01-14,2024-10-14,81,Active,Modbus RTU,10,6
+SNR-00707,EQP-00013,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-9950,v2.4.8,2020-12-18,2024-04-18,89,Active,LoRaWAN,10,8
+SNR-00708,EQP-00647,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-3689,v2.8.6,2020-12-24,2022-03-25,43,Active,NB-IoT,10,10
+SNR-00709,EQP-00715,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-11,ELX-6339,v3.8.9,2020-12-30,2021-01-08,84,Faulty,Modbus TCP,10,6
+SNR-00710,EQP-00503,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-15,HYD-7032,v4.0.6,2021-01-01,2021-12-13,59,Faulty,Modbus RTU,10,8
+SNR-00711,EQP-00070,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-2974,v3.1.7,2020-12-14,2023-11-13,81,Active,Modbus RTU,10,10
+SNR-00712,EQP-00420,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-2124,v3.4.9,2020-12-07,2024-05-28,62,Active,Modbus TCP,10,10
+SNR-00713,EQP-00461,Smart Metering Node (energy consumption),MFR-14,ELX-3825,v2.9.0,2021-01-04,2022-07-12,42,Active,NB-IoT,10,5
+SNR-00714,EQP-00166,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-9459,v2.2.7,2020-12-22,2024-09-01,78,Active,LoRaWAN,10,9
+SNR-00715,EQP-00457,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-2894,v2.7.0,2020-12-29,2024-07-02,78,Active,LoRaWAN,10,5
+SNR-00716,EQP-00019,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-14,ELX-5590,v3.9.4,2020-12-11,2022-11-13,96,Active,LoRaWAN,10,8
+SNR-00717,EQP-00679,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-4128,v3.3.9,2020-12-10,2022-05-27,100,Active,MQTT/4G,10,6
+SNR-00718,EQP-00380,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-06,ELX-2764,v2.3.1,2020-12-11,2024-04-30,89,Active,LoRaWAN,10,6
+SNR-00719,EQP-00038,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-9996,v2.1.4,2021-01-02,2023-04-18,56,Active,NB-IoT,10,7
+SNR-00720,EQP-00581,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-4985,v4.0.5,2021-01-03,2022-04-20,43,Active,Modbus TCP,10,5
+SNR-00721,EQP-00182,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-3572,v4.5.2,2020-12-13,2021-11-07,25,Active,NB-IoT,10,9
+SNR-00722,EQP-00347,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-8240,v4.5.6,2020-12-24,2024-07-31,94,Active,MQTT/4G,10,10
+SNR-00723,EQP-00601,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-5698,v4.6.7,2020-12-26,2022-12-20,74,Active,LoRaWAN,10,6
+SNR-00724,EQP-00440,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-4419,v1.5.7,2021-01-02,2021-02-21,95,Active,MQTT/4G,10,10
+SNR-00725,EQP-00570,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-9574,v4.3.6,2020-12-05,2022-03-13,91,Active,NB-IoT,10,7
+SNR-00726,EQP-00443,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-2469,v4.5.9,2020-12-10,2022-10-16,37,Active,LoRaWAN,10,10
+SNR-00727,EQP-00071,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-7810,v4.8.4,2020-12-10,2022-09-03,63,Active,MQTT/4G,10,9
+SNR-00728,EQP-00655,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-8080,v1.8.9,2020-12-19,2021-11-25,77,Active,MQTT/4G,10,8
+SNR-00729,EQP-00559,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-5942,v4.3.2,2021-01-11,2023-02-22,71,Active,MQTT/4G,10,7
+SNR-00730,EQP-00417,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-06,ELX-7618,v1.7.5,2021-01-02,2024-03-18,43,Active,IEC 61850,10,9
+SNR-00731,EQP-00681,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-1578,v4.1.1,2021-01-01,2024-09-12,65,Active,LoRaWAN,10,5
+SNR-00732,EQP-00202,Smart Metering Node (energy consumption),MFR-11,ELX-8321,v3.6.2,2021-01-01,2022-08-30,76,Active,NB-IoT,10,5
+SNR-00733,EQP-00483,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-4101,v2.6.3,2020-12-23,2022-04-20,56,Active,MQTT/4G,10,6
+SNR-00734,EQP-00358,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-3759,v3.2.2,2021-01-06,2023-12-12,100,Active,Modbus TCP,10,6
+SNR-00735,EQP-00504,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-9273,v2.4.0,2021-01-17,2022-01-03,90,Active,MQTT/4G,10,7
+SNR-00736,EQP-00436,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-1340,v2.3.4,2020-12-30,2023-12-19,48,Active,MQTT/4G,10,7
+SNR-00737,EQP-00244,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-8715,v1.4.1,2020-12-17,2021-06-09,66,Active,MQTT/4G,10,6
+SNR-00738,EQP-00485,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-12,HYD-2816,v4.1.8,2021-01-30,2023-12-29,71,Active,MQTT/4G,10,6
+SNR-00739,EQP-00305,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-4052,v2.5.4,2020-12-20,2021-11-17,51,Active,MQTT/4G,10,10
+SNR-00740,EQP-00291,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-15,HYD-9444,v1.4.5,2021-01-14,2021-03-06,34,Active,Modbus RTU,10,10
+SNR-00741,EQP-00438,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-4920,v2.5.0,2020-12-28,2021-11-30,67,Active,NB-IoT,10,9
+SNR-00742,EQP-00557,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-06,HYD-1889,v4.5.4,2020-12-29,2022-01-18,59,Active,Modbus RTU,10,8
+SNR-00743,EQP-00364,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-7935,v1.4.2,2021-01-15,2024-01-01,90,Active,Modbus RTU,10,9
+SNR-00744,EQP-00427,Electrical Monitoring Node (voltage/current/vibration),MFR-07,ELX-2161,v2.7.7,2020-12-28,2023-09-01,73,Active,MQTT/4G,10,9
+SNR-00745,EQP-00213,Electrical Monitoring Node (voltage/current/vibration),MFR-15,ELX-2232,v4.0.6,2021-01-16,2022-12-15,57,Active,LoRaWAN,10,10
+SNR-00746,EQP-00013,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-4784,v4.3.5,2020-12-22,2024-02-10,68,Active,Modbus RTU,10,10
+SNR-00747,EQP-00260,Smart Metering Node (energy consumption),MFR-07,ELX-5195,v4.6.0,2020-12-09,2023-11-07,68,Active,LoRaWAN,10,9
+SNR-00748,EQP-00220,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-3453,v4.2.7,2020-12-23,2022-12-11,74,Under Maintenance,Modbus RTU,10,9
+SNR-00749,EQP-00577,Smart Metering Node (energy consumption),MFR-12,ELX-7797,v4.3.6,2020-12-16,2021-04-19,66,Active,LoRaWAN,10,6
+SNR-00750,EQP-00201,Smart Metering Node (energy consumption),MFR-07,ELX-9792,v4.5.0,2020-12-17,2022-09-08,87,Active,IEC 61850,10,9
+SNR-00751,EQP-00630,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-7425,v4.9.5,2020-12-21,2021-12-29,63,Active,MQTT/4G,10,8
+SNR-00752,EQP-00072,Smart Metering Node (energy consumption),MFR-15,ELX-3187,v3.6.0,2021-01-06,2024-11-03,75,Active,MQTT/4G,10,10
+SNR-00753,EQP-00175,Smart Metering Node (energy consumption),MFR-07,ELX-4648,v1.7.4,2020-12-26,2022-10-19,66,Active,MQTT/4G,10,5
+SNR-00754,EQP-00058,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-2231,v1.9.8,2021-01-10,2023-12-15,63,Active,IEC 61850,10,10
+SNR-00755,EQP-00677,Smart Metering Node (energy consumption),MFR-14,ELX-2272,v4.2.3,2020-12-05,2024-05-15,60,Active,NB-IoT,10,9
+SNR-00756,EQP-00449,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-12,ELX-1577,v4.7.6,2020-12-21,2023-02-23,73,Active,MQTT/4G,10,6
+SNR-00757,EQP-00245,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-9589,v2.8.2,2020-12-17,2024-11-01,60,Active,NB-IoT,10,5
+SNR-00758,EQP-00617,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-12,ELX-6372,v4.8.4,2021-01-04,2023-04-27,51,Active,LoRaWAN,10,5
+SNR-00759,EQP-00414,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-4123,v1.4.7,2020-12-06,2022-08-05,84,Active,LoRaWAN,10,9
+SNR-00760,EQP-00638,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-12,ELX-5043,v3.1.4,2021-01-08,2023-03-09,57,Active,Modbus TCP,10,5
+SNR-00761,EQP-00068,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-15,HYD-3149,v3.1.1,2020-12-21,2024-03-22,69,Active,MQTT/4G,10,8
+SNR-00762,EQP-00149,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-12,ELX-7255,v4.4.0,2020-12-21,2023-01-01,49,Active,NB-IoT,10,10
+SNR-00763,EQP-00208,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-3518,v3.7.5,2020-12-26,2023-12-14,63,Active,MQTT/4G,10,7
+SNR-00764,EQP-00259,Electrical Monitoring Node (voltage/current/vibration),MFR-06,ELX-2387,v4.5.7,2020-12-22,2023-11-08,98,Active,NB-IoT,10,8
+SNR-00765,EQP-00475,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-9639,v2.6.6,2020-12-07,2022-12-31,100,Active,MQTT/4G,10,7
+SNR-00766,EQP-00509,Smart Metering Node (energy consumption),MFR-15,ELX-6669,v3.4.9,2021-01-21,2023-03-25,84,Active,IEC 61850,10,9
+SNR-00767,EQP-00677,Smart Metering Node (energy consumption),MFR-12,ELX-5146,v3.3.9,2020-12-14,2024-09-02,77,Active,Modbus TCP,10,5
+SNR-00768,EQP-00641,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-4224,v2.5.3,2020-12-14,2024-09-03,80,Active,NB-IoT,10,5
+SNR-00769,EQP-00217,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-7160,v1.7.9,2021-01-01,2024-10-10,60,Active,MQTT/4G,10,10
+SNR-00770,EQP-00560,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-6052,v2.0.5,2021-02-04,2022-01-10,33,Active,LoRaWAN,10,6
+SNR-00771,EQP-00205,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-6739,v2.1.7,2020-12-15,2024-04-09,67,Active,MQTT/4G,10,9
+SNR-00772,EQP-00110,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-2639,v4.7.0,2021-01-27,2021-04-27,100,Active,IEC 61850,10,8
+SNR-00773,EQP-00439,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-5371,v3.0.0,2021-01-03,2022-02-23,53,Active,NB-IoT,10,8
+SNR-00774,EQP-00313,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-9032,v3.9.4,2020-12-06,2022-05-01,41,Active,LoRaWAN,10,5
+SNR-00775,EQP-00150,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-9028,v1.6.4,2021-01-05,2024-01-15,57,Active,NB-IoT,10,5
+SNR-00776,EQP-00720,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-5741,v1.7.2,2020-12-15,2021-11-17,100,Active,LoRaWAN,10,6
+SNR-00777,EQP-00580,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-5577,v2.7.1,2020-12-25,2024-11-29,79,Active,IEC 61850,10,5
+SNR-00778,EQP-00351,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-3594,v1.4.8,2021-01-09,2023-04-28,36,Active,MQTT/4G,10,7
+SNR-00779,EQP-00329,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-3374,v1.5.4,2020-12-16,2024-01-01,58,Under Maintenance,NB-IoT,10,9
+SNR-00780,EQP-00323,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-3303,v1.9.7,2020-12-28,2022-07-08,81,Active,MQTT/4G,10,8
+SNR-00781,EQP-00540,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-8672,v3.8.9,2021-01-01,2021-12-07,63,Active,Modbus RTU,10,9
+SNR-00782,EQP-00568,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-4425,v3.3.8,2020-12-13,2020-12-31,67,Active,IEC 61850,10,7
+SNR-00783,EQP-00626,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-9965,v1.0.4,2021-01-07,2024-09-07,71,Active,LoRaWAN,10,8
+SNR-00784,EQP-00697,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-3276,v4.8.1,2020-12-23,2023-09-05,59,Active,MQTT/4G,10,8
+SNR-00785,EQP-00047,Electrical Monitoring Node (voltage/current/vibration),MFR-15,ELX-1108,v3.5.7,2020-12-12,2022-04-01,79,Active,LoRaWAN,10,5
+SNR-00786,EQP-00141,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-2456,v4.7.8,2020-12-09,2024-06-07,53,Active,MQTT/4G,10,8
+SNR-00787,EQP-00512,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-3711,v4.7.6,2020-12-11,2021-05-08,53,Active,LoRaWAN,10,5
+SNR-00788,EQP-00020,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-5689,v2.3.9,2020-12-21,2024-08-05,70,Active,NB-IoT,10,5
+SNR-00789,EQP-00135,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-5406,v3.4.4,2021-01-31,2024-03-13,75,Active,LoRaWAN,10,10
+SNR-00790,EQP-00103,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-2255,v4.7.6,2020-12-13,2022-06-05,81,Active,LoRaWAN,10,8
+SNR-00791,EQP-00676,Smart Metering Node (energy consumption),MFR-12,ELX-1166,v3.8.9,2021-01-02,2022-04-30,100,Active,LoRaWAN,10,8
+SNR-00792,EQP-00442,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-2798,v1.9.7,2020-12-23,2021-12-02,71,Active,LoRaWAN,10,6
+SNR-00793,EQP-00334,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-1605,v4.6.8,2020-12-15,2024-02-05,56,Active,LoRaWAN,10,9
+SNR-00794,EQP-00703,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-4043,v4.5.8,2021-01-20,2022-05-03,40,Active,Modbus RTU,10,5
+SNR-00795,EQP-00355,Smart Metering Node (energy consumption),MFR-15,ELX-2279,v2.4.4,2020-12-26,2023-04-14,100,Active,Modbus TCP,10,10
+SNR-00796,EQP-00183,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-2256,v1.1.9,2020-12-14,2024-10-21,71,Active,LoRaWAN,10,7
+SNR-00797,EQP-00720,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-5629,v4.0.7,2021-01-05,2024-09-17,63,Active,MQTT/4G,10,6
+SNR-00798,EQP-00231,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-5677,v2.7.0,2020-12-28,2023-08-23,84,Active,IEC 61850,10,9
+SNR-00799,EQP-00661,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-2447,v1.0.6,2021-01-15,2024-06-06,94,Active,IEC 61850,10,7
+SNR-00800,EQP-00122,Smart Metering Node (energy consumption),MFR-14,ELX-9388,v2.6.1,2021-01-30,2024-03-31,52,Active,MQTT/4G,10,6
+SNR-00801,EQP-00224,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-9717,v2.8.1,2021-01-12,2021-09-20,100,Active,LoRaWAN,10,5
+SNR-00802,EQP-00021,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-7084,v4.6.6,2021-01-06,2022-03-25,83,Faulty,LoRaWAN,10,6
+SNR-00803,EQP-00176,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-12,ELX-9360,v4.4.5,2020-12-25,2021-02-18,100,Active,LoRaWAN,10,7
+SNR-00804,EQP-00469,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-9169,v4.8.3,2020-12-14,2023-09-21,52,Active,NB-IoT,10,6
+SNR-00805,EQP-00414,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-5090,v2.8.3,2020-12-10,2024-08-05,49,Active,IEC 61850,10,6
+SNR-00806,EQP-00036,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-5981,v3.5.6,2020-12-14,2021-06-22,72,Active,IEC 61850,10,5
+SNR-00807,EQP-00574,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-4689,v4.6.4,2020-12-24,2023-09-26,39,Active,LoRaWAN,10,10
+SNR-00808,EQP-00256,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-6377,v3.6.4,2020-12-28,2022-08-22,71,Active,LoRaWAN,10,5
+SNR-00809,EQP-00188,Smart Metering Node (energy consumption),MFR-14,ELX-8767,v1.4.8,2021-01-15,2022-11-04,73,Active,MQTT/4G,10,5
+SNR-00810,EQP-00105,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-7409,v3.0.8,2020-12-21,2022-03-27,53,Active,MQTT/4G,10,6
+SNR-00811,EQP-00301,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-3398,v4.8.4,2020-12-05,2024-06-29,55,Active,LoRaWAN,10,10
+SNR-00812,EQP-00501,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-1403,v1.3.6,2020-12-24,2022-09-13,65,Active,LoRaWAN,10,7
+SNR-00813,EQP-00411,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-1882,v4.2.8,2020-12-22,2024-05-16,95,Active,Modbus RTU,10,6
+SNR-00814,EQP-00476,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-9443,v2.0.7,2021-01-08,2022-06-02,92,Active,MQTT/4G,10,8
+SNR-00815,EQP-00295,Smart Metering Node (energy consumption),MFR-11,ELX-4129,v4.7.3,2020-12-06,2022-12-02,100,Active,MQTT/4G,10,9
+SNR-00816,EQP-00106,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-7263,v2.7.3,2020-12-25,2024-07-05,90,Active,Modbus RTU,10,7
+SNR-00817,EQP-00628,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-9536,v3.3.6,2020-12-28,2022-09-20,11,Active,Modbus RTU,10,10
+SNR-00818,EQP-00536,Smart Metering Node (energy consumption),MFR-12,ELX-8456,v2.8.2,2020-12-28,2022-06-05,56,Active,NB-IoT,10,7
+SNR-00819,EQP-00185,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-7453,v3.6.3,2020-12-26,2023-06-28,95,Active,Modbus RTU,10,7
+SNR-00820,EQP-00084,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-3970,v3.5.9,2020-12-05,2022-10-02,71,Active,IEC 61850,10,5
+SNR-00821,EQP-00545,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-8941,v4.4.9,2020-12-19,2022-05-22,83,Active,MQTT/4G,10,8
+SNR-00822,EQP-00625,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-2053,v1.1.8,2021-01-11,2021-09-11,50,Active,NB-IoT,10,7
+SNR-00823,EQP-00533,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-3771,v3.5.2,2020-12-17,2022-11-21,49,Active,Modbus RTU,10,8
+SNR-00824,EQP-00505,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-5190,v3.4.1,2020-12-27,2021-08-23,100,Active,Modbus RTU,10,5
+SNR-00825,EQP-00104,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-6872,v3.2.4,2020-12-10,2024-05-12,80,Active,MQTT/4G,10,9
+SNR-00826,EQP-00539,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-9511,v1.6.8,2021-01-04,2022-10-04,58,Active,LoRaWAN,10,6
+SNR-00827,EQP-00346,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-7285,v1.7.1,2020-12-23,2022-01-07,77,Active,LoRaWAN,10,5
+SNR-00828,EQP-00308,Smart Metering Node (energy consumption),MFR-07,ELX-9201,v2.0.4,2021-01-12,2024-11-14,81,Active,MQTT/4G,10,10
+SNR-00829,EQP-00086,Smart Metering Node (energy consumption),MFR-07,ELX-9328,v4.9.6,2020-12-31,2024-12-20,98,Active,MQTT/4G,10,5
+SNR-00830,EQP-00389,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-7619,v3.8.0,2020-12-27,2022-03-16,43,Active,MQTT/4G,10,7
+SNR-00831,EQP-00357,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-3100,v4.5.7,2020-12-29,2021-09-01,74,Active,NB-IoT,10,5
+SNR-00832,EQP-00655,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-4045,v1.4.8,2020-12-30,2023-11-25,69,Active,NB-IoT,10,5
+SNR-00833,EQP-00625,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-15,HYD-9377,v2.7.3,2020-12-11,2023-07-01,51,Active,MQTT/4G,10,6
+SNR-00834,EQP-00345,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-12,HYD-2808,v1.0.7,2020-12-08,2021-02-15,89,Active,LoRaWAN,10,10
+SNR-00835,EQP-00481,Smart Metering Node (energy consumption),MFR-06,ELX-1118,v1.8.2,2020-12-25,2023-12-20,57,Active,Modbus TCP,10,6
+SNR-00836,EQP-00312,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-8849,v4.7.3,2020-12-23,2022-03-02,94,Active,IEC 61850,10,6
+SNR-00837,EQP-00569,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-5399,v1.0.1,2020-12-03,2022-04-25,66,Active,MQTT/4G,10,8
+SNR-00838,EQP-00125,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-11,ELX-7121,v3.8.3,2020-12-30,2021-07-07,100,Active,IEC 61850,10,10
+SNR-00839,EQP-00176,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-06,ELX-8208,v3.5.1,2021-01-02,2022-04-28,70,Active,MQTT/4G,10,8
+SNR-00840,EQP-00373,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-1907,v1.5.3,2020-12-29,2024-03-09,100,Active,MQTT/4G,10,7
+SNR-00841,EQP-00555,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-5312,v2.7.1,2021-01-02,2023-09-18,72,Active,NB-IoT,10,6
+SNR-00842,EQP-00186,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-3967,v3.6.8,2020-12-29,2024-08-10,68,Active,IEC 61850,10,7
+SNR-00843,EQP-00111,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-9571,v3.6.2,2020-12-26,2022-12-11,74,Active,IEC 61850,10,5
+SNR-00844,EQP-00089,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-14,ELX-7541,v4.3.9,2021-01-01,2023-11-20,67,Active,MQTT/4G,10,7
+SNR-00845,EQP-00130,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-6957,v4.0.0,2020-12-23,2024-05-19,78,Active,LoRaWAN,10,5
+SNR-00846,EQP-00604,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-8993,v4.4.3,2020-12-28,2023-04-22,59,Active,NB-IoT,10,5
+SNR-00847,EQP-00098,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-4816,v1.2.3,2020-12-13,2024-05-26,100,Active,MQTT/4G,10,5
+SNR-00848,EQP-00331,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-7301,v4.3.1,2020-12-10,2021-02-03,81,Faulty,LoRaWAN,10,5
+SNR-00849,EQP-00540,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-12,HYD-1167,v1.3.8,2020-12-10,2023-08-22,32,Active,NB-IoT,10,5
+SNR-00850,EQP-00144,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-4116,v4.8.9,2020-12-31,2022-05-22,48,Faulty,MQTT/4G,10,9
+SNR-00851,EQP-00305,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-2300,v3.6.5,2020-12-30,2023-07-31,65,Active,LoRaWAN,10,10
+SNR-00852,EQP-00169,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-8389,v4.7.4,2021-01-01,2022-05-19,67,Active,LoRaWAN,10,6
+SNR-00853,EQP-00406,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-3830,v2.5.3,2021-01-09,2024-06-21,86,Active,MQTT/4G,10,10
+SNR-00854,EQP-00399,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-3661,v3.7.5,2020-12-06,2024-07-28,85,Active,NB-IoT,10,6
+SNR-00855,EQP-00304,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-15,HYD-8217,v1.4.5,2021-01-01,2024-08-11,89,Active,Modbus RTU,10,5
+SNR-00856,EQP-00396,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-11,ELX-2798,v4.7.8,2020-12-19,2023-06-06,70,Active,IEC 61850,10,5
+SNR-00857,EQP-00113,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-1519,v2.8.4,2020-12-31,2023-12-11,93,Active,MQTT/4G,10,10
+SNR-00858,EQP-00520,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-8688,v1.6.5,2020-12-28,2022-05-11,47,Active,Modbus RTU,10,6
+SNR-00859,EQP-00318,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-9254,v3.4.8,2020-12-26,2021-03-16,51,Active,Modbus RTU,10,9
+SNR-00860,EQP-00204,Smart Metering Node (energy consumption),MFR-15,ELX-4204,v1.8.1,2021-01-21,2022-11-30,91,Inactive,NB-IoT,10,6
+SNR-00861,EQP-00184,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-4697,v2.6.4,2021-01-04,2023-03-13,48,Active,NB-IoT,10,7
+SNR-00862,EQP-00562,Electrical Monitoring Node (voltage/current/vibration),MFR-15,ELX-6651,v2.7.9,2020-12-17,2022-01-10,43,Active,NB-IoT,10,8
+SNR-00863,EQP-00472,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-15,HYD-2687,v1.0.6,2020-12-19,2021-04-20,90,Active,LoRaWAN,10,10
+SNR-00864,EQP-00316,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-7691,v3.4.7,2021-01-01,2024-07-24,100,Active,LoRaWAN,10,10
+SNR-00865,EQP-00521,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-2011,v1.3.6,2021-01-01,2022-10-26,92,Active,IEC 61850,10,7
+SNR-00866,EQP-00322,Smart Metering Node (energy consumption),MFR-11,ELX-6878,v3.6.2,2020-12-12,2021-09-09,54,Active,IEC 61850,10,10
+SNR-00867,EQP-00342,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-14,ELX-8971,v3.7.1,2021-01-22,2022-08-05,85,Faulty,NB-IoT,10,9
+SNR-00868,EQP-00668,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-4993,v2.6.7,2020-12-17,2022-06-29,87,Faulty,LoRaWAN,10,6
+SNR-00869,EQP-00097,Electrical Monitoring Node (voltage/current/vibration),MFR-07,ELX-2225,v1.9.4,2020-12-11,2021-11-19,80,Active,IEC 61850,10,7
+SNR-00870,EQP-00648,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-12,ELX-7766,v2.4.7,2021-01-15,2023-09-01,62,Active,NB-IoT,10,10
+SNR-00871,EQP-00402,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-8547,v3.0.2,2021-01-02,2021-09-29,83,Active,MQTT/4G,10,7
+SNR-00872,EQP-00599,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-1064,v1.1.7,2020-12-12,2021-01-29,56,Active,MQTT/4G,10,10
+SNR-00873,EQP-00582,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-5322,v2.1.9,2020-12-20,2024-05-22,70,Active,IEC 61850,10,6
+SNR-00874,EQP-00543,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-9574,v4.5.5,2020-12-06,2021-12-20,77,Active,MQTT/4G,10,8
+SNR-00875,EQP-00034,Smart Metering Node (energy consumption),MFR-14,ELX-1932,v2.4.4,2021-01-02,2024-12-05,25,Active,IEC 61850,10,9
+SNR-00876,EQP-00033,Smart Metering Node (energy consumption),MFR-15,ELX-5058,v4.1.1,2020-12-24,2022-06-18,53,Active,LoRaWAN,10,8
+SNR-00877,EQP-00452,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-7994,v3.1.2,2020-12-05,2022-05-19,91,Faulty,NB-IoT,10,10
+SNR-00878,EQP-00026,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-8600,v3.2.1,2020-12-22,2021-02-20,51,Active,Modbus RTU,10,7
+SNR-00879,EQP-00498,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-4101,v3.3.7,2020-12-29,2023-04-23,72,Active,Modbus RTU,10,9
+SNR-00880,EQP-00129,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-06,HYD-4100,v4.9.8,2020-12-29,2023-07-14,87,Active,MQTT/4G,10,5
+SNR-00881,EQP-00291,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-2701,v4.8.8,2020-12-23,2022-12-15,81,Active,LoRaWAN,10,6
+SNR-00882,EQP-00667,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-2707,v1.3.8,2020-12-13,2021-11-17,100,Active,MQTT/4G,10,6
+SNR-00883,EQP-00630,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-5372,v3.5.4,2020-12-29,2023-06-09,24,Active,Modbus RTU,10,10
+SNR-00884,EQP-00287,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-2260,v1.7.1,2021-01-10,2021-06-07,29,Active,IEC 61850,10,7
+SNR-00885,EQP-00473,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-4949,v3.6.3,2021-01-03,2023-08-03,45,Active,MQTT/4G,10,7
+SNR-00886,EQP-00118,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-7639,v3.6.2,2020-12-19,2022-06-17,83,Active,NB-IoT,10,7
+SNR-00887,EQP-00631,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-2268,v4.6.5,2020-12-26,2022-01-13,65,Active,Modbus RTU,10,7
+SNR-00888,EQP-00087,Smart Metering Node (energy consumption),MFR-11,ELX-6314,v2.8.2,2021-01-16,2022-06-03,59,Active,MQTT/4G,10,8
+SNR-00889,EQP-00365,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-2699,v4.1.2,2020-12-23,2022-11-22,57,Active,Modbus RTU,10,10
+SNR-00890,EQP-00134,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-15,HYD-7409,v2.6.5,2020-12-15,2022-03-24,40,Active,MQTT/4G,10,6
+SNR-00891,EQP-00431,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-14,ELX-3651,v1.2.0,2021-01-13,2024-09-07,53,Active,NB-IoT,10,8
+SNR-00892,EQP-00059,Smart Metering Node (energy consumption),MFR-06,ELX-9645,v4.5.0,2021-01-09,2024-12-09,89,Under Maintenance,IEC 61850,10,9
+SNR-00893,EQP-00157,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-9634,v3.6.8,2021-01-01,2023-03-26,68,Active,NB-IoT,10,6
+SNR-00894,EQP-00421,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-11,ELX-6172,v1.1.1,2020-12-18,2022-11-22,69,Active,NB-IoT,10,9
+SNR-00895,EQP-00548,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-2639,v4.6.1,2021-01-04,2022-02-14,78,Active,LoRaWAN,10,9
+SNR-00896,EQP-00070,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-5257,v2.6.2,2020-12-24,2022-10-21,55,Active,MQTT/4G,10,9
+SNR-00897,EQP-00121,Smart Metering Node (energy consumption),MFR-14,ELX-4897,v3.3.3,2020-12-22,2021-09-25,59,Active,NB-IoT,10,5
+SNR-00898,EQP-00115,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-9958,v2.4.3,2021-01-06,2024-11-26,69,Active,NB-IoT,10,9
+SNR-00899,EQP-00516,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-7212,v3.5.0,2020-12-17,2023-10-29,97,Active,NB-IoT,10,9
+SNR-00900,EQP-00124,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-06,ELX-9420,v1.7.5,2020-12-28,2023-09-27,83,Active,NB-IoT,10,7
+SNR-00901,EQP-00114,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-7404,v2.3.5,2020-12-22,2024-06-12,74,Active,NB-IoT,10,5
+SNR-00902,EQP-00356,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-06,ELX-2985,v4.6.2,2021-01-16,2021-10-16,84,Active,NB-IoT,10,10
+SNR-00903,EQP-00286,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-8068,v2.1.1,2020-12-17,2024-05-16,62,Active,IEC 61850,10,7
+SNR-00904,EQP-00714,Smart Metering Node (energy consumption),MFR-12,ELX-8385,v1.5.2,2020-12-13,2022-11-07,56,Active,NB-IoT,10,7
+SNR-00905,EQP-00429,Smart Metering Node (energy consumption),MFR-12,ELX-5514,v4.6.6,2020-12-27,2024-05-09,47,Active,IEC 61850,10,5
+SNR-00906,EQP-00693,Smart Metering Node (energy consumption),MFR-11,ELX-6676,v4.1.2,2021-01-05,2022-10-06,46,Active,MQTT/4G,10,6
+SNR-00907,EQP-00564,Smart Metering Node (energy consumption),MFR-14,ELX-7518,v4.7.3,2020-12-19,2023-04-28,94,Active,LoRaWAN,10,6
+SNR-00908,EQP-00239,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-9720,v4.8.9,2021-01-20,2021-01-30,60,Active,NB-IoT,10,10
+SNR-00909,EQP-00096,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-3299,v3.7.5,2021-01-06,2022-05-10,93,Faulty,LoRaWAN,10,7
+SNR-00910,EQP-00435,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-14,ELX-1625,v2.5.4,2021-01-25,2022-05-03,83,Active,IEC 61850,10,7
+SNR-00911,EQP-00612,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-4186,v4.3.1,2021-01-05,2022-04-01,82,Active,Modbus TCP,10,7
+SNR-00912,EQP-00271,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-4739,v3.5.7,2021-01-05,2024-05-21,63,Active,Modbus RTU,10,8
+SNR-00913,EQP-00203,Smart Metering Node (energy consumption),MFR-07,ELX-6723,v4.5.8,2020-12-31,2023-09-11,72,Active,Modbus TCP,10,6
+SNR-00914,EQP-00054,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-3707,v1.7.8,2020-12-18,2023-07-09,56,Active,Modbus RTU,10,6
+SNR-00915,EQP-00663,Smart Metering Node (energy consumption),MFR-07,ELX-3754,v3.1.9,2020-12-17,2023-08-30,62,Active,MQTT/4G,10,5
+SNR-00916,EQP-00067,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-4492,v4.4.3,2020-12-30,2023-06-29,71,Active,MQTT/4G,10,5
+SNR-00917,EQP-00456,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-8031,v1.1.4,2020-12-25,2021-04-07,58,Active,NB-IoT,10,5
+SNR-00918,EQP-00384,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-2764,v4.0.2,2020-12-31,2023-11-02,66,Active,MQTT/4G,10,7
+SNR-00919,EQP-00546,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-1569,v1.9.7,2020-12-04,2021-09-19,100,Active,MQTT/4G,10,8
+SNR-00920,EQP-00330,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-15,HYD-3338,v3.4.5,2021-01-10,2021-04-30,38,Active,Modbus RTU,10,10
+SNR-00921,EQP-00065,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-7077,v4.2.3,2020-12-23,2023-10-17,49,Active,NB-IoT,10,10
+SNR-00922,EQP-00682,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-6387,v3.6.3,2020-12-26,2022-09-23,56,Active,NB-IoT,10,9
+SNR-00923,EQP-00629,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-8123,v3.2.5,2021-01-24,2022-01-05,100,Active,LoRaWAN,10,10
+SNR-00924,EQP-00398,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-9028,v3.0.1,2020-12-08,2021-06-03,87,Active,Modbus RTU,10,10
+SNR-00925,EQP-00173,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-5746,v2.9.8,2020-12-10,2023-08-08,59,Active,MQTT/4G,10,8
+SNR-00926,EQP-00024,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-6546,v2.3.9,2020-12-29,2023-10-24,91,Active,LoRaWAN,10,9
+SNR-00927,EQP-00255,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-6924,v2.1.7,2021-01-05,2022-10-30,64,Active,LoRaWAN,10,5
+SNR-00928,EQP-00653,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-1262,v2.0.6,2020-12-29,2023-01-10,73,Under Maintenance,LoRaWAN,10,8
+SNR-00929,EQP-00027,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-6530,v2.9.6,2020-12-27,2023-10-23,82,Active,MQTT/4G,10,10
+SNR-00930,EQP-00056,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-8181,v1.3.1,2020-12-19,2022-09-26,55,Active,NB-IoT,10,8
+SNR-00931,EQP-00551,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-8609,v2.1.7,2020-12-16,2023-06-20,86,Active,Modbus TCP,10,10
+SNR-00932,EQP-00378,Electrical Monitoring Node (voltage/current/vibration),MFR-07,ELX-2620,v4.9.6,2020-12-24,2021-11-26,69,Under Maintenance,MQTT/4G,10,7
+SNR-00933,EQP-00511,Smart Metering Node (energy consumption),MFR-15,ELX-1659,v4.5.4,2021-01-04,2022-08-22,55,Active,MQTT/4G,10,8
+SNR-00934,EQP-00675,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-2045,v2.5.4,2020-12-21,2024-09-24,71,Active,IEC 61850,10,8
+SNR-00935,EQP-00189,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-14,ELX-4993,v3.8.3,2020-12-31,2023-07-24,100,Active,NB-IoT,10,6
+SNR-00936,EQP-00604,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-6541,v3.9.4,2020-12-03,2022-12-11,80,Active,MQTT/4G,10,8
+SNR-00937,EQP-00566,Smart Metering Node (energy consumption),MFR-11,ELX-4907,v3.4.0,2020-12-19,2021-06-18,65,Active,MQTT/4G,10,9
+SNR-00938,EQP-00678,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-8501,v4.2.0,2020-12-18,2021-02-17,44,Active,Modbus TCP,10,5
+SNR-00939,EQP-00032,Smart Metering Node (energy consumption),MFR-06,ELX-8111,v1.5.8,2021-01-11,2022-01-01,71,Inactive,LoRaWAN,10,5
+SNR-00940,EQP-00538,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-6695,v3.7.4,2020-12-15,2021-08-13,38,Active,Modbus TCP,10,7
+SNR-00941,EQP-00721,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-2054,v3.2.1,2020-12-25,2022-03-15,91,Active,MQTT/4G,10,5
+SNR-00942,EQP-00200,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-5203,v2.1.4,2020-12-21,2021-12-09,75,Active,MQTT/4G,10,7
+SNR-00943,EQP-00698,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-3320,v2.9.1,2020-12-15,2023-05-20,69,Active,MQTT/4G,10,7
+SNR-00944,EQP-00590,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-7697,v3.7.7,2020-12-15,2021-08-30,96,Active,MQTT/4G,10,7
+SNR-00945,EQP-00593,Smart Metering Node (energy consumption),MFR-11,ELX-7249,v4.6.0,2021-01-01,2022-11-15,49,Inactive,MQTT/4G,10,10
+SNR-00946,EQP-00156,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-4129,v1.6.6,2020-12-19,2023-10-21,98,Active,MQTT/4G,10,9
+SNR-00947,EQP-00639,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-8487,v2.0.6,2020-12-20,2023-09-01,76,Active,Modbus TCP,10,8
+SNR-00948,EQP-00205,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-4849,v4.8.4,2020-12-19,2023-03-05,73,Active,MQTT/4G,10,10
+SNR-00949,EQP-00407,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-7149,v1.0.7,2020-12-25,2024-03-14,38,Active,NB-IoT,10,5
+SNR-00950,EQP-00085,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-5653,v4.0.8,2020-12-14,2023-01-31,74,Active,IEC 61850,10,10
+SNR-00951,EQP-00235,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-1476,v1.9.5,2020-12-11,2022-01-16,90,Under Maintenance,MQTT/4G,10,9
+SNR-00952,EQP-00550,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-4015,v4.1.9,2020-12-28,2023-09-27,76,Active,IEC 61850,10,5
+SNR-00953,EQP-00679,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-8067,v1.0.7,2020-12-29,2021-08-03,54,Faulty,LoRaWAN,10,9
+SNR-00954,EQP-00467,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-3656,v2.5.7,2020-12-31,2021-09-19,67,Active,NB-IoT,10,5
+SNR-00955,EQP-00521,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-4152,v3.9.8,2020-12-17,2024-07-21,84,Active,MQTT/4G,10,7
+SNR-00956,EQP-00684,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-3033,v1.6.0,2020-12-27,2022-03-07,77,Under Maintenance,NB-IoT,10,6
+SNR-00957,EQP-00544,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-1574,v2.3.4,2020-12-07,2022-04-15,60,Active,NB-IoT,10,7
+SNR-00958,EQP-00210,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-2552,v1.0.1,2020-12-19,2024-02-14,56,Active,MQTT/4G,10,6
+SNR-00959,EQP-00668,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-5337,v1.0.9,2021-01-03,2022-10-13,88,Active,MQTT/4G,10,6
+SNR-00960,EQP-00640,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-7293,v3.8.5,2021-01-20,2023-02-28,74,Active,NB-IoT,10,7
+SNR-00961,EQP-00674,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-2947,v4.3.4,2021-01-01,2023-07-21,56,Active,LoRaWAN,10,6
+SNR-00962,EQP-00315,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-5029,v1.9.6,2020-12-21,2024-08-03,100,Active,LoRaWAN,10,6
+SNR-00963,EQP-00409,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-12,HYD-1475,v3.3.5,2020-12-25,2021-04-16,77,Active,MQTT/4G,10,5
+SNR-00964,EQP-00199,Electrical Monitoring Node (voltage/current/vibration),MFR-06,ELX-9966,v2.3.3,2021-01-02,2024-04-16,36,Active,NB-IoT,10,7
+SNR-00965,EQP-00069,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-1709,v3.9.3,2020-12-24,2022-11-18,59,Active,Modbus RTU,10,10
+SNR-00966,EQP-00513,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-1949,v4.3.7,2020-12-09,2023-03-16,51,Active,LoRaWAN,10,9
+SNR-00967,EQP-00273,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-8056,v2.2.1,2020-12-14,2024-09-20,97,Active,LoRaWAN,10,7
+SNR-00968,EQP-00212,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-6957,v3.7.1,2020-12-14,2024-09-17,55,Active,LoRaWAN,10,8
+SNR-00969,EQP-00122,Smart Metering Node (energy consumption),MFR-15,ELX-3048,v4.7.7,2020-12-30,2022-03-21,44,Active,Modbus TCP,10,10
+SNR-00970,EQP-00364,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-4393,v1.4.8,2020-12-22,2022-08-17,65,Active,Modbus RTU,10,7
+SNR-00971,EQP-00707,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-3514,v1.7.3,2020-12-09,2022-09-21,53,Faulty,MQTT/4G,10,7
+SNR-00972,EQP-00715,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-2415,v3.2.9,2020-12-14,2021-04-28,76,Active,IEC 61850,10,6
+SNR-00973,EQP-00704,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-4597,v3.0.6,2020-12-08,2024-02-15,69,Active,NB-IoT,10,8
+SNR-00974,EQP-00587,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-12,HYD-2232,v4.0.2,2020-12-15,2021-12-21,64,Active,MQTT/4G,10,10
+SNR-00975,EQP-00391,Smart Metering Node (energy consumption),MFR-06,ELX-7483,v3.4.2,2020-12-18,2024-12-10,91,Active,NB-IoT,10,5
+SNR-00976,EQP-00079,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-1328,v1.3.4,2021-01-09,2022-05-21,54,Active,Modbus RTU,10,5
+SNR-00977,EQP-00035,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-5124,v4.9.0,2021-01-04,2021-01-05,100,Active,IEC 61850,10,7
+SNR-00978,EQP-00253,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-7063,v4.7.0,2020-12-21,2024-10-07,39,Under Maintenance,Modbus RTU,10,10
+SNR-00979,EQP-00039,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-12,ELX-4641,v4.1.7,2020-12-12,2022-07-19,51,Active,IEC 61850,10,10
+SNR-00980,EQP-00051,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-1658,v2.1.0,2020-12-11,2024-05-24,69,Active,IEC 61850,10,6
+SNR-00981,EQP-00428,Smart Metering Node (energy consumption),MFR-15,ELX-3150,v2.5.1,2021-01-02,2024-07-17,30,Faulty,LoRaWAN,10,7
+SNR-00982,EQP-00048,Electrical Monitoring Node (voltage/current/vibration),MFR-06,ELX-2847,v1.7.5,2020-12-23,2022-11-25,41,Active,IEC 61850,10,6
+SNR-00983,EQP-00541,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-4189,v4.6.2,2021-01-08,2024-09-20,56,Active,MQTT/4G,10,6
+SNR-00984,EQP-00053,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-1535,v3.6.8,2021-01-17,2024-06-28,69,Active,Modbus TCP,10,7
+SNR-00985,EQP-00520,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-1223,v4.2.7,2020-12-25,2024-07-30,54,Active,NB-IoT,10,10
+SNR-00986,EQP-00507,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-3623,v3.6.0,2020-12-26,2022-10-08,55,Active,LoRaWAN,10,8
+SNR-00987,EQP-00230,Smart Metering Node (energy consumption),MFR-06,ELX-6152,v3.3.8,2021-01-12,2023-01-30,100,Active,MQTT/4G,10,9
+SNR-00988,EQP-00386,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-5012,v3.8.2,2020-12-17,2021-10-27,74,Active,Modbus RTU,10,6
+SNR-00989,EQP-00445,Electrical Monitoring Node (voltage/current/vibration),MFR-06,ELX-9292,v4.6.5,2021-01-01,2023-07-15,42,Active,IEC 61850,10,5
+SNR-00990,EQP-00236,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-2804,v4.8.4,2021-01-24,2022-03-28,66,Active,NB-IoT,10,9
+SNR-00991,EQP-00030,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-7867,v4.5.4,2021-01-04,2022-01-14,62,Faulty,NB-IoT,10,6
+SNR-00992,EQP-00583,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-12,ELX-2785,v1.4.1,2020-12-11,2022-06-20,57,Active,MQTT/4G,10,8
+SNR-00993,EQP-00674,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-7247,v2.1.2,2020-12-19,2022-10-24,76,Active,Modbus RTU,10,5
+SNR-00994,EQP-00052,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-3671,v1.6.8,2020-12-29,2021-10-15,100,Active,IEC 61850,10,7
+SNR-00995,EQP-00551,Electrical Monitoring Node (voltage/current/vibration),MFR-07,ELX-7515,v3.5.0,2020-12-25,2022-03-28,44,Active,IEC 61850,10,7
+SNR-00996,EQP-00027,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-5099,v4.0.1,2021-01-01,2021-03-04,75,Active,NB-IoT,10,9
+SNR-00997,EQP-00264,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-5345,v3.4.2,2021-01-30,2021-06-20,91,Active,LoRaWAN,10,9
+SNR-00998,EQP-00184,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-9963,v3.2.8,2020-12-17,2022-04-06,87,Active,MQTT/4G,10,7
+SNR-00999,EQP-00006,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-9258,v1.2.2,2020-12-10,2022-11-17,85,Active,NB-IoT,10,7
+SNR-01000,EQP-00301,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-06,HYD-2473,v3.7.2,2020-12-29,2021-09-22,71,Active,MQTT/4G,10,7
+SNR-01001,EQP-00422,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-8217,v4.4.7,2020-12-20,2022-07-05,98,Active,MQTT/4G,10,8
+SNR-01002,EQP-00001,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-5389,v1.3.4,2020-12-30,2023-07-28,91,Active,LoRaWAN,10,10
+SNR-01003,EQP-00303,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-6917,v3.9.7,2020-12-20,2021-08-15,65,Active,Modbus RTU,10,9
+SNR-01004,EQP-00600,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-06,HYD-7739,v3.3.8,2020-12-16,2022-05-15,61,Active,Modbus RTU,10,9
+SNR-01005,EQP-00186,Electrical Monitoring Node (voltage/current/vibration),MFR-15,ELX-7102,v2.8.2,2021-01-04,2024-08-04,69,Under Maintenance,IEC 61850,10,8
+SNR-01006,EQP-00280,Smart Metering Node (energy consumption),MFR-06,ELX-7808,v4.1.0,2020-12-25,2024-11-08,47,Active,LoRaWAN,10,7
+SNR-01007,EQP-00069,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-8031,v4.5.6,2020-12-15,2023-08-26,58,Active,MQTT/4G,10,7
+SNR-01008,EQP-00437,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-9334,v2.7.4,2021-01-08,2023-05-03,72,Active,MQTT/4G,10,6
+SNR-01009,EQP-00015,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-9348,v2.9.8,2020-12-19,2023-06-15,57,Active,NB-IoT,10,10
+SNR-01010,EQP-00397,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-3731,v2.3.9,2020-12-12,2021-06-18,54,Active,Modbus TCP,10,5
+SNR-01011,EQP-00470,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-12,HYD-4593,v4.3.8,2020-12-20,2024-10-31,50,Active,LoRaWAN,10,9
+SNR-01012,EQP-00396,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-11,ELX-9547,v4.8.2,2021-01-04,2022-05-23,89,Active,IEC 61850,10,10
+SNR-01013,EQP-00214,Smart Metering Node (energy consumption),MFR-12,ELX-5601,v4.0.5,2020-12-16,2024-12-01,77,Active,MQTT/4G,10,9
+SNR-01014,EQP-00010,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-12,ELX-1117,v2.5.8,2020-12-24,2022-08-26,48,Active,Modbus TCP,10,5
+SNR-01015,EQP-00303,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-4272,v3.9.2,2020-12-19,2022-01-25,59,Active,NB-IoT,10,8
+SNR-01016,EQP-00245,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-7590,v1.2.4,2020-12-08,2024-10-06,71,Active,NB-IoT,10,8
+SNR-01017,EQP-00713,Smart Metering Node (energy consumption),MFR-11,ELX-8667,v4.3.1,2021-01-08,2023-09-10,85,Active,IEC 61850,10,10
+SNR-01018,EQP-00091,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-14,ELX-5543,v4.5.8,2020-12-25,2022-01-14,57,Active,MQTT/4G,10,8
+SNR-01019,EQP-00574,Hydraulic Monitoring Node (pressure/level/temperature),MFR-07,HYD-3113,v3.2.0,2020-12-23,2021-12-09,34,Active,MQTT/4G,10,10
+SNR-01020,EQP-00131,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-7531,v3.8.5,2020-12-30,2024-03-30,40,Active,MQTT/4G,10,10
+SNR-01021,EQP-00080,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-4025,v2.4.0,2021-01-13,2022-01-24,50,Active,MQTT/4G,10,7
+SNR-01022,EQP-00289,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-06,HYD-6986,v1.5.4,2021-01-16,2021-07-14,62,Active,LoRaWAN,10,9
+SNR-01023,EQP-00317,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-15,HYD-3920,v1.1.3,2020-12-22,2021-11-26,66,Active,MQTT/4G,10,8
+SNR-01024,EQP-00310,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-6657,v4.2.8,2020-12-08,2022-02-24,62,Inactive,MQTT/4G,10,7
+SNR-01025,EQP-00117,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-4002,v2.4.2,2020-12-16,2023-03-07,77,Active,NB-IoT,10,7
+SNR-01026,EQP-00127,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-1763,v2.2.8,2021-01-04,2024-07-14,68,Active,LoRaWAN,10,7
+SNR-01027,EQP-00413,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-8717,v2.0.9,2021-01-28,2022-11-25,86,Active,NB-IoT,10,6
+SNR-01028,EQP-00025,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-06,HYD-2870,v3.2.2,2020-12-12,2024-11-04,79,Active,Modbus RTU,10,5
+SNR-01029,EQP-00260,Smart Metering Node (energy consumption),MFR-07,ELX-5014,v1.8.2,2020-12-30,2024-10-13,67,Active,NB-IoT,10,9
+SNR-01030,EQP-00701,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-1240,v1.5.4,2021-01-08,2023-10-16,64,Active,LoRaWAN,10,5
+SNR-01031,EQP-00563,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-7231,v3.4.6,2021-01-11,2024-09-12,87,Active,LoRaWAN,10,5
+SNR-01032,EQP-00487,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-3445,v3.1.9,2021-01-12,2024-05-06,62,Active,MQTT/4G,10,6
+SNR-01033,EQP-00218,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-3671,v2.1.0,2020-12-17,2022-05-18,45,Active,IEC 61850,10,5
+SNR-01034,EQP-00097,Electrical Monitoring Node (voltage/current/vibration),MFR-07,ELX-6310,v4.7.0,2020-12-31,2022-07-12,93,Active,MQTT/4G,10,9
+SNR-01035,EQP-00461,Smart Metering Node (energy consumption),MFR-11,ELX-7754,v1.9.1,2020-12-26,2024-04-11,40,Active,IEC 61850,10,9
+SNR-01036,EQP-00170,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-5230,v1.5.4,2021-01-04,2021-03-19,69,Active,LoRaWAN,10,9
+SNR-01037,EQP-00093,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-4882,v4.6.8,2020-12-13,2021-10-26,60,Active,Modbus RTU,10,10
+SNR-01038,EQP-00683,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-12,HYD-5468,v1.8.3,2021-01-12,2022-03-04,55,Active,LoRaWAN,10,6
+SNR-01039,EQP-00337,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-7698,v4.4.6,2021-01-05,2023-10-27,67,Active,Modbus TCP,10,9
+SNR-01040,EQP-00444,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-8322,v4.7.9,2020-12-13,2022-05-29,74,Active,MQTT/4G,10,8
+SNR-01041,EQP-00326,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-6122,v3.7.5,2020-12-19,2022-12-21,86,Active,Modbus RTU,10,6
+SNR-01042,EQP-00683,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-1649,v1.4.4,2020-12-11,2023-09-03,91,Active,Modbus RTU,10,5
+SNR-01043,EQP-00225,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-8526,v1.9.1,2021-01-01,2023-03-14,56,Active,LoRaWAN,10,10
+SNR-01044,EQP-00476,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-7835,v2.8.5,2020-12-22,2023-05-19,79,Active,NB-IoT,10,5
+SNR-01045,EQP-00641,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-8909,v2.7.6,2020-12-29,2023-11-17,84,Active,MQTT/4G,10,8
+SNR-01046,EQP-00386,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-8907,v4.5.5,2021-01-03,2024-03-17,64,Active,NB-IoT,10,7
+SNR-01047,EQP-00490,Electrical Monitoring Node (voltage/current/vibration),MFR-06,ELX-3816,v3.5.2,2020-12-10,2024-12-22,77,Active,MQTT/4G,10,8
+SNR-01048,EQP-00502,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-9386,v3.0.7,2020-12-26,2024-09-16,84,Active,LoRaWAN,10,6
+SNR-01049,EQP-00606,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-4365,v2.6.6,2020-12-26,2021-03-31,74,Active,NB-IoT,10,8
+SNR-01050,EQP-00038,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-4824,v4.1.2,2020-12-23,2023-10-19,100,Active,IEC 61850,10,10
+SNR-01051,EQP-00241,Smart Metering Node (energy consumption),MFR-07,ELX-6011,v1.5.5,2021-01-04,2023-09-09,70,Active,MQTT/4G,10,7
+SNR-01052,EQP-00023,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-06,HYD-7925,v2.6.1,2020-12-09,2022-02-05,85,Active,LoRaWAN,10,10
+SNR-01053,EQP-00175,Smart Metering Node (energy consumption),MFR-15,ELX-2230,v3.7.7,2020-12-26,2024-04-23,72,Active,NB-IoT,10,5
+SNR-01054,EQP-00090,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-3709,v2.2.9,2020-12-13,2024-11-20,77,Active,LoRaWAN,10,9
+SNR-01055,EQP-00189,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-5287,v1.7.2,2020-12-10,2021-05-21,65,Faulty,IEC 61850,10,5
+SNR-01056,EQP-00690,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-3201,v2.4.5,2020-12-17,2022-12-07,35,Active,Modbus TCP,10,6
+SNR-01057,EQP-00461,Smart Metering Node (energy consumption),MFR-15,ELX-2551,v2.8.9,2021-01-17,2024-01-09,59,Active,NB-IoT,10,7
+SNR-01058,EQP-00652,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-2347,v4.8.1,2020-12-22,2021-02-28,77,Active,Modbus RTU,10,9
+SNR-01059,EQP-00271,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-6671,v2.7.5,2020-12-26,2021-12-17,83,Active,LoRaWAN,10,6
+SNR-01060,EQP-00423,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-1321,v3.2.5,2021-01-03,2022-11-28,58,Active,MQTT/4G,10,5
+SNR-01061,EQP-00553,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-9609,v1.4.3,2020-12-10,2024-01-10,67,Active,NB-IoT,10,7
+SNR-01062,EQP-00572,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-6646,v2.7.1,2020-12-10,2021-03-19,68,Active,LoRaWAN,10,8
+SNR-01063,EQP-00456,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-6789,v1.2.4,2020-12-23,2024-06-20,69,Active,LoRaWAN,10,8
+SNR-01064,EQP-00415,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-6946,v4.8.5,2020-12-08,2023-05-20,59,Active,IEC 61850,10,6
+SNR-01065,EQP-00223,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-9317,v4.7.0,2020-12-11,2024-08-20,69,Active,LoRaWAN,10,5
+SNR-01066,EQP-00190,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-11,ELX-5809,v4.6.7,2020-12-23,2021-02-28,56,Active,NB-IoT,10,7
+SNR-01067,EQP-00538,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-12,ELX-9842,v1.4.8,2021-01-13,2022-04-24,73,Inactive,IEC 61850,10,5
+SNR-01068,EQP-00214,Smart Metering Node (energy consumption),MFR-14,ELX-3035,v2.8.2,2021-01-01,2024-07-19,43,Active,MQTT/4G,10,5
+SNR-01069,EQP-00119,Electrical Monitoring Node (voltage/current/vibration),MFR-06,ELX-7476,v4.0.2,2021-01-08,2024-11-25,94,Active,NB-IoT,10,8
+SNR-01070,EQP-00513,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-4961,v3.8.7,2020-12-30,2023-03-01,61,Active,LoRaWAN,10,5
+SNR-01071,EQP-00368,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-11,ELX-7449,v1.1.4,2020-12-22,2022-11-26,64,Active,IEC 61850,10,6
+SNR-01072,EQP-00434,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-11,ELX-6717,v2.5.2,2020-12-17,2024-08-12,69,Active,MQTT/4G,10,8
+SNR-01073,EQP-00037,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-7121,v2.4.1,2020-12-16,2021-07-16,75,Active,LoRaWAN,10,5
+SNR-01074,EQP-00645,Smart Metering Node (energy consumption),MFR-15,ELX-7168,v4.1.4,2020-12-09,2023-07-27,58,Active,MQTT/4G,10,8
+SNR-01075,EQP-00608,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-4824,v4.7.0,2021-01-04,2021-05-29,54,Active,LoRaWAN,10,8
+SNR-01076,EQP-00433,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-8056,v1.3.4,2020-12-15,2023-11-26,50,Active,NB-IoT,10,9
+SNR-01077,EQP-00571,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-7270,v1.1.8,2021-01-07,2023-04-17,83,Active,LoRaWAN,10,5
+SNR-01078,EQP-00666,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-14,ELX-2135,v3.5.9,2021-01-12,2024-01-06,66,Active,MQTT/4G,10,9
+SNR-01079,EQP-00324,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-06,ELX-9871,v2.3.2,2021-01-06,2021-09-19,73,Active,Modbus TCP,10,8
+SNR-01080,EQP-00195,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-5202,v4.0.6,2021-01-01,2021-04-02,52,Active,LoRaWAN,10,5
+SNR-01081,EQP-00172,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-8955,v2.1.7,2020-12-25,2021-04-15,56,Active,MQTT/4G,10,5
+SNR-01082,EQP-00167,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-8785,v2.2.3,2020-12-26,2024-01-29,68,Active,LoRaWAN,10,6
+SNR-01083,EQP-00048,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-8988,v2.3.8,2021-01-01,2021-03-07,89,Active,IEC 61850,10,8
+SNR-01084,EQP-00400,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-2983,v2.4.2,2020-12-26,2021-05-19,83,Active,MQTT/4G,10,10
+SNR-01085,EQP-00346,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-4708,v2.3.5,2020-12-24,2021-08-12,41,Active,Modbus RTU,10,7
+SNR-01086,EQP-00336,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-2049,v3.2.8,2021-01-08,2024-11-03,46,Active,LoRaWAN,10,7
+SNR-01087,EQP-00204,Smart Metering Node (energy consumption),MFR-14,ELX-9208,v4.5.3,2021-01-04,2023-08-14,56,Active,LoRaWAN,10,9
+SNR-01088,EQP-00557,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-12,HYD-5234,v3.3.9,2020-12-12,2021-08-06,45,Active,Modbus RTU,10,10
+SNR-01089,EQP-00605,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-3409,v3.4.8,2020-12-16,2021-06-25,50,Inactive,LoRaWAN,10,9
+SNR-01090,EQP-00019,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-11,ELX-6208,v4.9.5,2020-12-04,2023-10-15,92,Active,LoRaWAN,10,7
+SNR-01091,EQP-00659,Electrical Monitoring Node (voltage/current/vibration),MFR-06,ELX-2232,v1.4.5,2020-12-13,2022-03-28,82,Active,MQTT/4G,10,10
+SNR-01092,EQP-00297,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-14,ELX-2014,v4.6.0,2020-12-13,2020-12-16,46,Active,Modbus TCP,10,10
+SNR-01093,EQP-00255,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-4388,v2.5.1,2020-12-18,2021-02-10,80,Active,NB-IoT,10,5
+SNR-01094,EQP-00254,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-7208,v2.3.4,2021-01-01,2021-05-03,65,Active,MQTT/4G,10,9
+SNR-01095,EQP-00129,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-8836,v3.2.2,2020-12-10,2022-10-30,61,Active,NB-IoT,10,8
+SNR-01096,EQP-00283,Smart Metering Node (energy consumption),MFR-15,ELX-4543,v1.8.7,2021-01-03,2021-01-11,37,Active,NB-IoT,10,7
+SNR-01097,EQP-00454,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-3681,v1.5.4,2020-12-29,2022-01-06,77,Active,LoRaWAN,10,7
+SNR-01098,EQP-00094,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-3944,v3.9.8,2020-12-21,2023-02-06,72,Active,NB-IoT,10,7
+SNR-01099,EQP-00712,Smart Metering Node (energy consumption),MFR-06,ELX-4018,v4.2.8,2021-01-07,2024-03-23,48,Active,LoRaWAN,10,6
+SNR-01100,EQP-00663,Smart Metering Node (energy consumption),MFR-12,ELX-3823,v2.2.4,2020-12-19,2023-07-04,95,Active,NB-IoT,10,9
+SNR-01101,EQP-00648,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-2396,v2.3.3,2020-12-19,2021-05-20,100,Active,IEC 61850,10,6
+SNR-01102,EQP-00182,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-5873,v4.6.8,2021-01-01,2023-06-20,47,Active,NB-IoT,10,10
+SNR-01103,EQP-00636,Smart Metering Node (energy consumption),MFR-11,ELX-2115,v3.8.8,2021-01-04,2023-07-17,73,Active,NB-IoT,10,8
+SNR-01104,EQP-00268,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-5043,v2.7.1,2020-12-06,2021-08-05,100,Active,Modbus RTU,10,8
+SNR-01105,EQP-00572,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-8624,v1.1.7,2020-12-27,2023-01-10,59,Active,NB-IoT,10,5
+SNR-01106,EQP-00367,Smart Metering Node (energy consumption),MFR-15,ELX-6160,v2.7.5,2020-12-23,2022-08-29,61,Active,IEC 61850,10,5
+SNR-01107,EQP-00150,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-12,HYD-8173,v1.1.0,2021-01-22,2021-05-01,25,Active,MQTT/4G,10,6
+SNR-01108,EQP-00159,Electrical Monitoring Node (voltage/current/vibration),MFR-06,ELX-4748,v2.0.4,2020-12-16,2022-02-08,100,Faulty,IEC 61850,10,10
+SNR-01109,EQP-00100,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-14,ELX-9255,v3.4.3,2020-12-30,2023-09-28,70,Active,LoRaWAN,10,6
+SNR-01110,EQP-00510,Smart Metering Node (energy consumption),MFR-15,ELX-9280,v3.6.5,2021-01-07,2023-11-16,42,Active,LoRaWAN,10,10
+SNR-01111,EQP-00363,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-9649,v2.1.4,2020-12-14,2021-10-16,64,Active,Modbus RTU,10,7
+SNR-01112,EQP-00602,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-9976,v1.0.3,2020-12-29,2022-09-24,60,Active,Modbus RTU,10,7
+SNR-01113,EQP-00362,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-1439,v2.2.2,2021-01-16,2022-11-22,74,Active,Modbus RTU,10,7
+SNR-01114,EQP-00590,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-7621,v2.1.5,2021-01-23,2021-02-17,81,Inactive,NB-IoT,10,10
+SNR-01115,EQP-00656,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-2843,v3.6.8,2020-12-24,2021-12-17,65,Active,MQTT/4G,10,5
+SNR-01116,EQP-00157,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-4652,v3.7.1,2020-12-19,2022-06-13,75,Active,MQTT/4G,10,9
+SNR-01117,EQP-00030,Electrical Monitoring Node (voltage/current/vibration),MFR-07,ELX-6536,v1.0.3,2020-12-11,2024-02-04,87,Active,NB-IoT,10,6
+SNR-01118,EQP-00482,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-07,ELX-6808,v2.6.6,2020-12-17,2022-05-24,80,Active,NB-IoT,10,9
+SNR-01119,EQP-00694,Smart Metering Node (energy consumption),MFR-12,ELX-4234,v2.3.6,2020-12-28,2022-12-16,100,Active,Modbus TCP,10,10
+SNR-01120,EQP-00082,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-8368,v4.0.8,2020-12-03,2023-09-03,75,Active,NB-IoT,10,9
+SNR-01121,EQP-00076,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-06,HYD-8144,v4.9.9,2020-12-30,2023-12-22,32,Active,NB-IoT,10,10
+SNR-01122,EQP-00375,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-12,HYD-9049,v3.5.3,2020-12-12,2021-01-26,64,Active,NB-IoT,10,6
+SNR-01123,EQP-00400,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-8118,v2.6.6,2020-12-09,2023-02-03,74,Active,MQTT/4G,10,5
+SNR-01124,EQP-00333,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-1120,v1.8.6,2021-01-05,2024-10-19,42,Active,Modbus RTU,10,5
+SNR-01125,EQP-00342,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-06,ELX-5220,v2.7.5,2021-01-03,2023-09-25,84,Active,MQTT/4G,10,7
+SNR-01126,EQP-00304,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-3542,v2.1.7,2020-12-26,2022-11-19,91,Active,LoRaWAN,10,10
+SNR-01127,EQP-00506,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-4585,v4.3.4,2020-12-19,2021-08-04,68,Faulty,NB-IoT,10,5
+SNR-01128,EQP-00002,Smart Metering Node (energy consumption),MFR-07,ELX-1372,v1.7.6,2020-12-26,2023-11-21,100,Active,NB-IoT,10,8
+SNR-01129,EQP-00492,Smart Metering Node (energy consumption),MFR-07,ELX-5909,v2.6.6,2020-12-18,2021-10-24,56,Faulty,MQTT/4G,10,6
+SNR-01130,EQP-00648,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-7140,v3.8.8,2021-01-02,2021-07-10,100,Active,Modbus TCP,10,8
+SNR-01131,EQP-00556,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-5476,v4.4.6,2020-12-27,2021-05-13,77,Active,LoRaWAN,10,10
+SNR-01132,EQP-00435,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-4706,v1.2.9,2020-12-11,2024-02-22,38,Active,NB-IoT,10,10
+SNR-01133,EQP-00486,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-4250,v1.4.1,2021-01-17,2022-06-27,100,Active,Modbus RTU,10,8
+SNR-01134,EQP-00527,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-06,HYD-6063,v2.9.2,2020-12-22,2024-11-09,68,Active,NB-IoT,10,6
+SNR-01135,EQP-00099,Smart Metering Node (energy consumption),MFR-07,ELX-1339,v4.4.1,2021-01-11,2023-04-01,66,Active,Modbus TCP,10,6
+SNR-01136,EQP-00448,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-12,ELX-5768,v2.4.2,2020-12-25,2021-01-20,51,Active,Modbus TCP,10,10
+SNR-01137,EQP-00269,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-9693,v4.1.9,2020-12-06,2021-12-24,93,Active,MQTT/4G,10,9
+SNR-01138,EQP-00418,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-15,ELX-5261,v3.4.2,2021-01-06,2021-12-21,68,Active,LoRaWAN,10,8
+SNR-01139,EQP-00014,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-5940,v3.7.0,2021-01-06,2024-08-17,92,Active,Modbus RTU,10,5
+SNR-01140,EQP-00314,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-5139,v2.2.8,2020-12-14,2021-10-18,31,Active,NB-IoT,10,9
+SNR-01141,EQP-00237,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-2600,v3.7.6,2021-01-22,2022-11-26,75,Active,MQTT/4G,10,7
+SNR-01142,EQP-00177,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-12,ELX-4123,v2.5.7,2020-12-09,2021-02-03,36,Active,LoRaWAN,10,7
+SNR-01143,EQP-00332,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-1782,v2.3.1,2020-12-14,2021-12-12,58,Active,NB-IoT,10,7
+SNR-01144,EQP-00240,Electrical Monitoring Node (voltage/current/vibration),MFR-15,ELX-2187,v3.1.5,2021-01-10,2021-02-23,92,Active,NB-IoT,10,9
+SNR-01145,EQP-00671,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-14,HYD-9021,v1.4.4,2020-12-30,2024-09-01,73,Active,LoRaWAN,10,8
+SNR-01146,EQP-00018,Smart Metering Node (energy consumption),MFR-06,ELX-2318,v1.1.5,2020-12-12,2021-12-20,60,Active,LoRaWAN,10,8
+SNR-01147,EQP-00460,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-2926,v1.4.3,2020-12-28,2024-08-14,81,Active,MQTT/4G,10,6
+SNR-01148,EQP-00517,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-15,HYD-1987,v3.1.5,2020-12-19,2024-09-26,77,Active,NB-IoT,10,7
+SNR-01149,EQP-00318,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-2951,v3.5.6,2020-12-20,2021-03-20,99,Active,Modbus RTU,10,8
+SNR-01150,EQP-00248,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-2548,v1.6.6,2021-01-06,2021-11-17,44,Active,MQTT/4G,10,10
+SNR-01151,EQP-00052,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-14,ELX-5337,v1.7.5,2020-12-09,2024-12-23,30,Active,NB-IoT,10,8
+SNR-01152,EQP-00699,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-06,HYD-3491,v1.6.1,2020-12-30,2022-11-06,62,Active,MQTT/4G,10,9
+SNR-01153,EQP-00177,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-14,ELX-9399,v1.6.4,2020-12-20,2024-07-17,75,Active,NB-IoT,10,5
+SNR-01154,EQP-00233,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-2286,v4.9.5,2021-01-22,2024-11-16,87,Active,NB-IoT,10,10
+SNR-01155,EQP-00018,Smart Metering Node (energy consumption),MFR-15,ELX-5313,v3.0.5,2020-12-27,2022-07-25,46,Active,MQTT/4G,10,8
+SNR-01156,EQP-00593,Smart Metering Node (energy consumption),MFR-12,ELX-8756,v3.8.5,2020-12-16,2024-10-25,60,Active,LoRaWAN,10,8
+SNR-01157,EQP-00294,Electrical Monitoring Node (voltage/current/vibration),MFR-07,ELX-3880,v4.8.6,2021-01-05,2023-04-24,47,Active,Modbus TCP,10,8
+SNR-01158,EQP-00249,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-7289,v4.7.6,2020-12-08,2022-06-15,39,Active,MQTT/4G,10,9
+SNR-01159,EQP-00236,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-15,HYD-4377,v3.0.2,2020-12-11,2022-04-15,84,Active,NB-IoT,10,10
+SNR-01160,EQP-00047,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-4809,v4.6.8,2020-12-07,2022-09-06,92,Active,MQTT/4G,10,5
+SNR-01161,EQP-00703,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-11,HYD-8956,v1.6.8,2020-12-14,2024-08-17,83,Active,MQTT/4G,10,8
+SNR-01162,EQP-00344,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-06,HYD-5625,v4.4.3,2020-12-23,2021-12-18,100,Active,NB-IoT,10,10
+SNR-01163,EQP-00009,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-07,ELX-4352,v3.0.8,2020-12-26,2021-03-06,50,Active,IEC 61850,10,10
+SNR-01164,EQP-00051,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-11,ELX-7033,v3.9.9,2021-01-08,2022-07-09,64,Active,LoRaWAN,10,9
+SNR-01165,EQP-00562,Electrical Monitoring Node (voltage/current/vibration),MFR-11,ELX-3144,v1.0.4,2020-12-10,2022-07-07,77,Active,MQTT/4G,10,7
+SNR-01166,EQP-00095,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-5933,v4.9.0,2020-12-19,2023-02-12,83,Active,NB-IoT,10,7
+SNR-01167,EQP-00222,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-07,HYD-1789,v1.3.9,2020-12-29,2024-07-29,82,Active,MQTT/4G,10,9
+SNR-01168,EQP-00152,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-9143,v4.4.5,2020-12-16,2024-09-01,55,Active,LoRaWAN,10,8
+SNR-01169,EQP-00145,Smart Metering Node (energy consumption),MFR-11,ELX-5732,v3.0.0,2021-01-12,2021-06-06,91,Faulty,NB-IoT,10,10
+SNR-01170,EQP-00497,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-6784,v4.2.6,2020-12-17,2022-10-10,73,Inactive,NB-IoT,10,10
+SNR-01171,EQP-00560,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-3459,v3.8.1,2020-12-06,2024-06-15,60,Active,LoRaWAN,10,6
+SNR-01172,EQP-00221,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-14,HYD-6408,v4.3.4,2021-01-02,2022-02-26,49,Inactive,LoRaWAN,10,8
+SNR-01173,EQP-00589,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-5944,v1.9.7,2020-12-06,2024-03-08,60,Active,LoRaWAN,10,7
+SNR-01174,EQP-00114,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-5595,v3.1.9,2020-12-18,2024-10-20,57,Active,Modbus RTU,10,5
+SNR-01175,EQP-00273,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-9293,v2.8.2,2020-12-30,2021-11-01,92,Faulty,Modbus RTU,10,8
+SNR-01176,EQP-00258,Electrical Monitoring Node (voltage/current/vibration),MFR-15,ELX-2683,v3.7.8,2020-12-12,2023-11-03,62,Active,NB-IoT,10,9
+SNR-01177,EQP-00564,Smart Metering Node (energy consumption),MFR-11,ELX-7809,v3.4.1,2020-12-16,2023-07-25,94,Active,LoRaWAN,10,9
+SNR-01178,EQP-00408,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-07,HYD-3566,v3.0.7,2021-01-15,2024-10-02,70,Active,Modbus RTU,10,5
+SNR-01179,EQP-00112,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-12,ELX-3372,v4.7.3,2020-12-07,2024-07-01,82,Active,IEC 61850,10,6
+SNR-01180,EQP-00493,Electrical Monitoring Node (voltage/current/power-factor/temperature),MFR-14,ELX-1846,v2.3.0,2020-12-26,2022-03-15,29,Active,NB-IoT,10,7
+SNR-01181,EQP-00178,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-12,HYD-2324,v2.7.1,2020-12-26,2023-07-16,49,Active,LoRaWAN,10,6
+SNR-01182,EQP-00561,Hydraulic Monitoring Node (pressure/level/temperature),MFR-06,HYD-2073,v3.5.6,2020-12-21,2021-05-10,55,Under Maintenance,LoRaWAN,10,10
+SNR-01183,EQP-00674,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-5559,v2.9.9,2021-01-26,2022-01-17,41,Active,LoRaWAN,10,9
+SNR-01184,EQP-00654,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-5575,v3.2.8,2021-01-06,2024-04-05,70,Active,NB-IoT,10,9
+SNR-01185,EQP-00259,Electrical Monitoring Node (voltage/current/vibration),MFR-12,ELX-6882,v2.8.9,2021-01-03,2023-09-20,63,Active,MQTT/4G,10,6
+SNR-01186,EQP-00636,Smart Metering Node (energy consumption),MFR-12,ELX-6198,v3.2.3,2020-12-31,2021-02-07,100,Active,MQTT/4G,10,6
+SNR-01187,EQP-00063,Hydraulic Monitoring Node (pressure/flow/vibration),MFR-11,HYD-7624,v4.9.1,2020-12-25,2023-07-06,62,Active,LoRaWAN,10,9
+SNR-01188,EQP-00061,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-11,ELX-8999,v2.2.8,2020-12-21,2024-02-18,74,Active,IEC 61850,10,6
+SNR-01189,EQP-00136,Hydraulic Monitoring Node (pressure/level/temperature),MFR-11,HYD-6072,v4.7.2,2020-12-26,2021-02-24,83,Active,MQTT/4G,10,8
+SNR-01190,EQP-00680,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-15,ELX-6236,v2.9.7,2021-01-07,2024-09-27,49,Active,LoRaWAN,10,6
+SNR-01191,EQP-00352,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-9643,v4.5.9,2020-12-27,2023-12-05,86,Active,Modbus TCP,10,7
+SNR-01192,EQP-00628,Hydraulic Monitoring Node (pressure/flow/vibration/temperature),MFR-06,HYD-2845,v4.9.4,2020-12-06,2022-11-06,64,Active,Modbus RTU,10,7
+SNR-01193,EQP-00443,Hydraulic Monitoring Node (pressure/level/temperature),MFR-15,HYD-9629,v2.6.0,2021-01-04,2022-01-13,50,Active,LoRaWAN,10,10
+SNR-01194,EQP-00031,Electrical Monitoring Node (voltage/current/vibration),MFR-14,ELX-1226,v1.8.8,2020-12-21,2024-07-05,50,Active,IEC 61850,10,6
+SNR-01195,EQP-00535,Electrical Monitoring Node (voltage/current/vibration),MFR-15,ELX-3232,v2.5.6,2021-02-04,2024-10-20,67,Active,IEC 61850,10,6
+SNR-01196,EQP-00488,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-4686,v3.1.8,2020-12-08,2024-09-02,83,Active,Modbus RTU,10,10
+SNR-01197,EQP-00171,Hydraulic Monitoring Node (pressure/level/temperature),MFR-12,HYD-1916,v3.4.5,2020-12-26,2024-04-26,80,Active,NB-IoT,10,7
+SNR-01198,EQP-00305,Hydraulic Monitoring Node (pressure/level/temperature),MFR-14,HYD-8817,v3.7.6,2020-12-18,2023-01-19,97,Active,LoRaWAN,10,8
+SNR-01199,EQP-00539,Electrical Monitoring Node (voltage/current/vibration/temperature),MFR-12,ELX-3582,v3.9.2,2020-12-22,2023-02-08,71,Active,IEC 61850,10,5

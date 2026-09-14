@@ -1,0 +1,16 @@
+manufacturer_id,manufacturer_name,country,website,speciality
+MFR-01,ABB,Switzerland,abb.com,Electrical Equipment
+MFR-02,Siemens,Germany,siemens.com,Electrical Equipment
+MFR-03,Schneider Electric,France,se.com,Electrical Equipment
+MFR-04,General Electric,USA,ge.com,Electrical Equipment
+MFR-05,Hitachi Energy,Japan,hitachienergy.com,Electrical Equipment
+MFR-06,Honeywell,USA,honeywell.com,IoT Sensors & Metering
+MFR-07,Emerson,USA,emerson.com,IoT Sensors & Metering
+MFR-08,Legrand,France,legrand.com,Electrical Equipment
+MFR-09,Xylem,USA,xylem.com,Water Equipment
+MFR-10,Grundfos,Denmark,grundfos.com,Water Equipment
+MFR-11,Itron,USA,itron.com,IoT Sensors & Metering
+MFR-12,Sensus (Xylem),UK,sensus.com,IoT Sensors & Metering
+MFR-13,Mueller Water Products,USA,muellerwaterproducts.com,Water Equipment
+MFR-14,Endress+Hauser,Switzerland,endress.com,IoT Sensors & Metering
+MFR-15,Badger Meter,USA,badgermeter.com,IoT Sensors & Metering

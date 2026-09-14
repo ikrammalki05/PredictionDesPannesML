@@ -1,0 +1,33 @@
+# Python and Streamlit caches
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+
+# Local environments and editor settings
+venv/
+.venv/
+.vscode/
+.idea/
+
+# Notebook and model-training artefacts
+.ipynb_checkpoints/
+catboost_info/
+
+# Training-only files: the Streamlit dashboard never reads these.
+data/raw/
+data/processed/X_train_*.csv
+data/processed/y_train_*.csv
+data/processed/electricity_enhanced.csv
+data/processed/electricity_preprocessed.csv
+data/processed/water_preprocessed.csv
+X_train_elec.csv
+y_train_elec.csv
+models/rf_electricity_precision_recall_balanced.pkl
+models/xgboost_electricity_optimized.pkl
+models/xgboost_electricity.pkl
+models/notebook08_results.csv
+models/*_threshold.txt
+data/processed/rf_electricity_recall_optimized.pkl
+data/processed/rf_electricity_optimal_threshold.txt
