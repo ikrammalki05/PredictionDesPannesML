@@ -17,13 +17,13 @@ import streamlit as st
 from utils.data_loader import CITY_COORDS, load_equipments, load_failures
 from utils.styling import apply_css, metric_card, page_header, section_title
 
-st.set_page_config(page_title="Analyse des Pannes — ONEE", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Analyse des Pannes — ONEE", page_icon="", layout="wide")
 apply_css()
 
 with st.sidebar:
     st.markdown("""
     <div class="sidebar-logo">
-        <h2>⚡ ONEE Smart Grid</h2>
+        <h2> ONEE Predictive System</h2>
         <p>Analyse des Pannes</p>
     </div>
     """, unsafe_allow_html=True)
@@ -33,7 +33,7 @@ with st.sidebar:
     city_filter     = st.multiselect("Ville", list(CITY_COORDS.keys()), default=[])
     year_filter     = st.multiselect("Année", [2021, 2022, 2023, 2024], default=[2021, 2022, 2023, 2024])
 
-st.markdown(page_header("📊 Analyse des Pannes",
+st.markdown(page_header(" Analyse des Pannes",
                          "Exploration approfondie des incidents sur le réseau ONEE"),
             unsafe_allow_html=True)
 
@@ -72,10 +72,10 @@ avg_down   = df["downtime_hours"].mean() if "downtime_hours" in df.columns else 
 avg_repair = df["repair_duration_hours"].mean() if "repair_duration_hours" in df.columns else 0
 n_types    = df["failure_type"].nunique() if "failure_type" in df.columns else 0
 
-with k1: st.markdown(metric_card("💥", f"{len(df):,}", "Pannes filtrées"), unsafe_allow_html=True)
-with k2: st.markdown(metric_card("💰", f"{total_cost/1e6:.1f}M MAD", "Coût total réparations"), unsafe_allow_html=True)
+with k1: st.markdown(metric_card("", f"{len(df):,}", "Pannes filtrées"), unsafe_allow_html=True)
+with k2: st.markdown(metric_card("", f"{total_cost/1e6:.1f}M MAD", "Coût total réparations"), unsafe_allow_html=True)
 with k3: st.markdown(metric_card("⏱️", f"{avg_down:.1f}h", "Durée arrêt moyenne"), unsafe_allow_html=True)
-with k4: st.markdown(metric_card("🔧", f"{n_types}", "Types de pannes distincts"), unsafe_allow_html=True)
+with k4: st.markdown(metric_card("", f"{n_types}", "Types de pannes distincts"), unsafe_allow_html=True)
 
 st.markdown("<br>", unsafe_allow_html=True)
 
@@ -83,7 +83,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 col_left, col_right = st.columns(2, gap="large")
 
 with col_left:
-    st.markdown(section_title("💥 Répartition par type de panne"), unsafe_allow_html=True)
+    st.markdown(section_title(" Répartition par type de panne"), unsafe_allow_html=True)
     if "failure_type" in df.columns:
         type_data = df["failure_type"].value_counts().reset_index()
         type_data.columns = ["type", "count"]
@@ -103,7 +103,7 @@ with col_left:
         st.plotly_chart(fig_type, use_container_width=True)
 
 with col_right:
-    st.markdown(section_title("🔍 Causes principales"), unsafe_allow_html=True)
+    st.markdown(section_title(" Causes principales"), unsafe_allow_html=True)
     if "failure_cause" in df.columns:
         cause_data = df["failure_cause"].value_counts().head(8).reset_index()
         cause_data.columns = ["cause", "count"]
@@ -119,7 +119,7 @@ with col_right:
         st.plotly_chart(fig_cause, use_container_width=True)
 
 # ─── Temporal heatmap ─────────────────────────────────────────────────────────
-st.markdown(section_title("🗓️ Heatmap temporelle — Pannes par mois et heure"), unsafe_allow_html=True)
+st.markdown(section_title("️ Heatmap temporelle — Pannes par mois et heure"), unsafe_allow_html=True)
 
 if "failure_date" in df.columns:
     df_h = df.dropna(subset=["failure_date"]).copy()
@@ -150,7 +150,7 @@ if "failure_date" in df.columns:
 col_s, col_c = st.columns(2, gap="large")
 
 with col_s:
-    st.markdown(section_title("💰 Coût vs Durée d'arrêt"), unsafe_allow_html=True)
+    st.markdown(section_title(" Coût vs Durée d'arrêt"), unsafe_allow_html=True)
     if "repair_cost_MAD" in df.columns and "downtime_hours" in df.columns:
         sample = df.dropna(subset=["repair_cost_MAD", "downtime_hours"]).sample(min(2000, len(df)), random_state=42)
         color_col = "severity" if "severity" in sample.columns else None
@@ -174,7 +174,7 @@ with col_s:
         st.plotly_chart(fig_sc, use_container_width=True)
 
 with col_c:
-    st.markdown(section_title("🏙️ Pannes par ville"), unsafe_allow_html=True)
+    st.markdown(section_title("️ Pannes par ville"), unsafe_allow_html=True)
     if "city" in df.columns:
         city_data = df["city"].value_counts().reset_index()
         city_data.columns = ["city", "count"]
@@ -194,7 +194,7 @@ with col_c:
         st.plotly_chart(fig_city, use_container_width=True)
 
 # ─── Detail table ─────────────────────────────────────────────────────────────
-st.markdown(section_title("📋 Tableau détaillé des pannes"), unsafe_allow_html=True)
+st.markdown(section_title(" Tableau détaillé des pannes"), unsafe_allow_html=True)
 display_cols = [c for c in ["failure_id", "equipment_id", "city", "failure_date",
                               "failure_type", "failure_cause", "severity",
                               "repair_cost_MAD", "downtime_hours", "resolved"]
@@ -204,4 +204,4 @@ st.dataframe(
     use_container_width=True, hide_index=True,
 )
 
-st.markdown('<div class="main-footer">ONEE Smart Grid Intelligence Platform · 2021–2024</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-footer">ONEE Predictive System Intelligence Platform · 2021–2024</div>', unsafe_allow_html=True)

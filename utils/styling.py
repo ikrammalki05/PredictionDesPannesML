@@ -1,5 +1,5 @@
 """
-ONEE Smart Grid — Global CSS styling for Streamlit
+ONEE Predictive System — Global CSS styling for Streamlit
 """
 
 ONEE_CSS = """

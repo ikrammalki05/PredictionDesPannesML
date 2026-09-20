@@ -22,19 +22,19 @@ from utils.data_loader import (
 )
 from utils.styling import apply_css, page_header, risk_badge, section_title
 
-st.set_page_config(page_title="Prévention Électricité — ONEE", page_icon="⚡", layout="wide")
+st.set_page_config(page_title="Prévention Électricité — ONEE", page_icon="", layout="wide")
 apply_css()
 
 with st.sidebar:
     st.markdown("""
     <div class="sidebar-logo">
-        <h2>⚡ ONEE Smart Grid</h2>
+        <h2> ONEE Predictive System</h2>
         <p>Prédiction en Temps Réel</p>
     </div>
     """, unsafe_allow_html=True)
 
     model_choice = st.selectbox(
-        "🤖 Modèle ML (Électricité)",
+        " Modèle ML (Électricité)",
         [
             "XGBoost — Électricité",
             "LightGBM — Électricité",
@@ -45,7 +45,7 @@ with st.sidebar:
     st.divider()
     st.caption("Le modèle analyse les mesures capteurs et renvoie la probabilité de panne dans les prochaines heures.")
 
-st.markdown(page_header("⚡ Prévention des Pannes — Réseau Électrique",
+st.markdown(page_header(" Prévention des Pannes — Réseau Électrique",
                          "Saisissez les mesures capteurs pour obtenir une estimation du risque de panne électrique"),
             unsafe_allow_html=True)
 
@@ -63,11 +63,11 @@ else:
 features   = ELEC_FEATURES
 
 # ─── Input form ───────────────────────────────────────────────────────────────
-st.markdown(section_title("🎛️ Paramètres de l'équipement et capteurs"), unsafe_allow_html=True)
+st.markdown(section_title("️ Paramètres de l'équipement et capteurs"), unsafe_allow_html=True)
 
 with st.form("prediction_form"):
     tab_sensor, tab_context, tab_env, tab_location = st.tabs(
-        ["📡 Mesures capteurs", "⚙️ Contexte équipement", "🌦️ Environnement", "📍 Localisation"]
+        [" Mesures capteurs", "️ Contexte équipement", "️ Environnement", " Localisation"]
     )
 
     with tab_sensor:
@@ -139,7 +139,7 @@ with st.form("prediction_form"):
             dow_val  = st.slider("Jour semaine (0=lundi)", 0, 6, 2)
             month_val= st.slider("Mois (1–12)", 1, 12, 6)
 
-    submitted = st.form_submit_button("🚀 Lancer la prédiction", use_container_width=True)
+    submitted = st.form_submit_button(" Lancer la prédiction", use_container_width=True)
 
 # ─── Prediction logic ─────────────────────────────────────────────────────────
 if submitted:
@@ -215,13 +215,13 @@ if submitted:
 
             # Risk level
             if proba < 0.30:
-                risk, risk_css, emoji = "Low", "#00e676", "✅"
+                risk, risk_css, emoji = "Low", "#00e676", ""
                 recommendation = "Aucune action immédiate requise. Surveiller normalement."
             elif proba < 0.60:
-                risk, risk_css, emoji = "Medium", "#ff9800", "⚠️"
+                risk, risk_css, emoji = "Medium", "#ff9800", "️"
                 recommendation = "Planifier une inspection dans les 7 prochains jours."
             else:
-                risk, risk_css, emoji = "High", "#ff5252", "🚨"
+                risk, risk_css, emoji = "High", "#ff5252", ""
                 recommendation = "Intervention urgente requise ! Envoyer un technicien sous 48 h."
 
             # ─── Result display ───────────────────────────────────────────────
@@ -273,14 +273,14 @@ if submitted:
                     <hr style="border-color:rgba(255,255,255,0.1); margin:1rem 0;">
                     <div style="font-size:0.78rem; color:#8b9cbd;">
                         <b>Modèle :</b> {model_choice}<br>
-                        <b>Décision :</b> {"⚠️ Panne probable" if pred == 1 else "✅ Pas de panne prévue"}
+                        <b>Décision :</b> {"️ Panne probable" if pred == 1 else " Pas de panne prévue"}
                     </div>
                 </div>
                 """, unsafe_allow_html=True)
 
             # Top contributing features (RF only)
             if hasattr(model, "feature_importances_"):
-                st.markdown(section_title("📊 Facteurs contributeurs (Top 10)"), unsafe_allow_html=True)
+                st.markdown(section_title(" Facteurs contributeurs (Top 10)"), unsafe_allow_html=True)
                 imp = pd.DataFrame({
                     "feature": model_cols,
                     "importance": model.feature_importances_,
@@ -311,8 +311,8 @@ if submitted:
                 st.plotly_chart(fig_imp, use_container_width=True)
 
         except Exception as e:
-            st.error(f"❌ Erreur lors de la prédiction : {e}")
+            st.error(f" Erreur lors de la prédiction : {e}")
     else:
-        st.error("❌ Impossible de charger le modèle. Vérifiez que le fichier `.pkl` est présent dans `models/`.")
+        st.error(" Impossible de charger le modèle. Vérifiez que le fichier `.pkl` est présent dans `models/`.")
 
-st.markdown('<div class="main-footer">ONEE Smart Grid Intelligence Platform · 2021–2024</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-footer">ONEE Predictive System Intelligence Platform · 2021–2024</div>', unsafe_allow_html=True)

@@ -23,14 +23,14 @@ from utils.data_loader import (
 )
 from utils.styling import apply_css, metric_card, page_header, section_title
 
-st.set_page_config(page_title="Tableau de bord — ONEE", page_icon="🏠", layout="wide")
+st.set_page_config(page_title="Tableau de bord — ONEE", page_icon="", layout="wide")
 apply_css()
 
 # ─── Sidebar ──────────────────────────────────────────────────────────────────
 with st.sidebar:
     st.markdown("""
     <div class="sidebar-logo">
-        <h2>⚡ ONEE Smart Grid</h2>
+        <h2> ONEE Predictive System</h2>
         <p>Tableau de Bord Global</p>
     </div>
     """, unsafe_allow_html=True)
@@ -62,7 +62,7 @@ if not failures.empty and equip_ids:
     fail_filtered = failures[failures["equipment_id"].isin(equip_ids)]
 
 # ─── Page header ──────────────────────────────────────────────────────────────
-st.markdown(page_header("🏠 Tableau de Bord Global", "Vue consolidée du réseau ONEE — Eau & Électricité"), unsafe_allow_html=True)
+st.markdown(page_header(" Tableau de Bord Global", "Vue consolidée du réseau ONEE — Eau & Électricité"), unsafe_allow_html=True)
 
 # ─── KPI row ──────────────────────────────────────────────────────────────────
 n_equip    = len(eq_filtered)
@@ -73,11 +73,11 @@ resolved_pct = int(fail_filtered["resolved"].astype(str).str.lower().eq("true").
 avg_cost   = f"{fail_filtered['repair_cost_MAD'].mean():,.0f}" if not fail_filtered.empty and "repair_cost_MAD" in fail_filtered.columns else "N/A"
 
 k1, k2, k3, k4, k5 = st.columns(5)
-with k1: st.markdown(metric_card("🏭", f"{n_equip:,}", "Équipements"), unsafe_allow_html=True)
-with k2: st.markdown(metric_card("💥", f"{n_failures:,}", "Pannes totales", "↓ en amélioration", "up"), unsafe_allow_html=True)
-with k3: st.markdown(metric_card("✅", f"{resolved_pct} %", "Pannes résolues"), unsafe_allow_html=True)
-with k4: st.markdown(metric_card("🔔", f"{n_alerts:,}", "Alertes"), unsafe_allow_html=True)
-with k5: st.markdown(metric_card("💰", f"{avg_cost} MAD", "Coût moy. réparation"), unsafe_allow_html=True)
+with k1: st.markdown(metric_card("", f"{n_equip:,}", "Équipements"), unsafe_allow_html=True)
+with k2: st.markdown(metric_card("", f"{n_failures:,}", "Pannes totales", "↓ en amélioration", "up"), unsafe_allow_html=True)
+with k3: st.markdown(metric_card("", f"{resolved_pct} %", "Pannes résolues"), unsafe_allow_html=True)
+with k4: st.markdown(metric_card("", f"{n_alerts:,}", "Alertes"), unsafe_allow_html=True)
+with k5: st.markdown(metric_card("", f"{avg_cost} MAD", "Coût moy. réparation"), unsafe_allow_html=True)
 
 st.markdown("<br>", unsafe_allow_html=True)
 
@@ -85,7 +85,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 col_map, col_bar = st.columns([1.4, 1], gap="large")
 
 with col_map:
-    st.markdown(section_title("🗺️ Carte des équipements par ville"), unsafe_allow_html=True)
+    st.markdown(section_title("️ Carte des équipements par ville"), unsafe_allow_html=True)
 
     if not equips.empty and "city" in equips.columns:
         city_counts = equips.groupby("city").size().reset_index(name="nb_equip")
@@ -130,7 +130,7 @@ with col_map:
         st.info("Données de carte indisponibles.")
 
 with col_bar:
-    st.markdown(section_title("📊 Pannes par type d'équipement"), unsafe_allow_html=True)
+    st.markdown(section_title(" Pannes par type d'équipement"), unsafe_allow_html=True)
 
     if not fail_filtered.empty and not equips.empty and "equipment_id" in fail_filtered.columns:
         merged = fail_filtered.merge(equips[["equipment_id", "equipment_type"]], on="equipment_id", how="left")
@@ -158,7 +158,7 @@ with col_bar:
             fig_bar.update_traces(marker_line_width=0)
             st.plotly_chart(fig_bar, use_container_width=True)
 
-    st.markdown(section_title("🔴 Sévérité des pannes"), unsafe_allow_html=True)
+    st.markdown(section_title(" Sévérité des pannes"), unsafe_allow_html=True)
     if not fail_filtered.empty and "severity" in fail_filtered.columns:
         sev = fail_filtered["severity"].value_counts()
         colors = {"High": "#ff5252", "Medium": "#ff9800", "Low": "#00e676", "Critical": "#d500f9"}
@@ -181,7 +181,7 @@ with col_bar:
         st.plotly_chart(fig_pie, use_container_width=True)
 
 # ─── Failure trend ────────────────────────────────────────────────────────────
-st.markdown(section_title("📈 Évolution mensuelle des pannes (2021–2024)"), unsafe_allow_html=True)
+st.markdown(section_title(" Évolution mensuelle des pannes (2021–2024)"), unsafe_allow_html=True)
 
 if not fail_filtered.empty and "failure_date" in fail_filtered.columns:
     monthly = (
@@ -218,7 +218,7 @@ else:
     st.info("Données de tendance indisponibles.")
 
 # ─── Recent alerts table ──────────────────────────────────────────────────────
-st.markdown(section_title("🔔 Dernières alertes actives"), unsafe_allow_html=True)
+st.markdown(section_title(" Dernières alertes actives"), unsafe_allow_html=True)
 
 if not alerts.empty:
     recent = (
@@ -237,4 +237,4 @@ if not alerts.empty:
 else:
     st.info("Aucune alerte disponible.")
 
-st.markdown('<div class="main-footer">ONEE Smart Grid Intelligence Platform · 2021–2024</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-footer">ONEE Predictive System Intelligence Platform · 2021–2024</div>', unsafe_allow_html=True)

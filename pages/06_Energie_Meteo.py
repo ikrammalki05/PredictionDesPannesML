@@ -18,13 +18,13 @@ import streamlit as st
 from utils.data_loader import CITY_COORDS, load_energy, load_failures, load_weather
 from utils.styling import apply_css, metric_card, page_header, section_title
 
-st.set_page_config(page_title="Énergie & Météo — ONEE", page_icon="⚡", layout="wide")
+st.set_page_config(page_title="Énergie & Météo — ONEE", page_icon="", layout="wide")
 apply_css()
 
 with st.sidebar:
     st.markdown("""
     <div class="sidebar-logo">
-        <h2>⚡ ONEE Smart Grid</h2>
+        <h2> ONEE Predictive System</h2>
         <p>Énergie &amp; Météo</p>
     </div>
     """, unsafe_allow_html=True)
@@ -34,7 +34,7 @@ with st.sidebar:
     season_sel = st.multiselect("Saison", ["Winter", "Spring", "Summer", "Autumn"],
                                  default=["Winter", "Spring", "Summer", "Autumn"])
 
-st.markdown(page_header("⚡ Énergie & Météo",
+st.markdown(page_header(" Énergie & Météo",
                          "Analyse de la consommation énergétique et corrélations avec les conditions météorologiques"),
             unsafe_allow_html=True)
 
@@ -58,23 +58,23 @@ if not weather.empty:
     avg_hum  = wf["avg_humidity_percent"].mean() if "avg_humidity_percent" in wf.columns else 0
     avg_wind = wf["avg_wind_speed"].mean() if "avg_wind_speed" in wf.columns else 0
 
-    with k1: st.markdown(metric_card("🌡️", f"{avg_temp:.1f}°C", "Temp. moyenne"), unsafe_allow_html=True)
-    with k2: st.markdown(metric_card("🌧️", f"{avg_rain:.1f}mm", "Pluie moyenne/jour"), unsafe_allow_html=True)
-    with k3: st.markdown(metric_card("💧", f"{avg_hum:.1f}%", "Humidité moyenne"), unsafe_allow_html=True)
-    with k4: st.markdown(metric_card("💨", f"{avg_wind:.1f}km/h", "Vent moyen"), unsafe_allow_html=True)
+    with k1: st.markdown(metric_card("️", f"{avg_temp:.1f}°C", "Temp. moyenne"), unsafe_allow_html=True)
+    with k2: st.markdown(metric_card("️", f"{avg_rain:.1f}mm", "Pluie moyenne/jour"), unsafe_allow_html=True)
+    with k3: st.markdown(metric_card("", f"{avg_hum:.1f}%", "Humidité moyenne"), unsafe_allow_html=True)
+    with k4: st.markdown(metric_card("", f"{avg_wind:.1f}km/h", "Vent moyen"), unsafe_allow_html=True)
 
     st.markdown("<br>", unsafe_allow_html=True)
 
 # ─── Energy consumption heatmap ───────────────────────────────────────────────
-st.markdown(section_title("⚡ Consommation énergétique par heure et ville"), unsafe_allow_html=True)
+st.markdown(section_title(" Consommation énergétique par heure et ville"), unsafe_allow_html=True)
 
 if not energy.empty:
     ef = energy.copy()
     if city_sel and "city" in ef.columns:
         ef = ef[ef["city"].isin(city_sel)]
-    if "hour" in ef.columns and "city" in ef.columns and "consumption_kwh" in ef.columns:
-        pivot = ef.groupby(["city", "hour"])["consumption_kwh"].mean().reset_index()
-        pivot_matrix = pivot.pivot(index="city", columns="hour", values="consumption_kwh")
+    if "hour" in ef.columns and "city" in ef.columns and "total_electricity_demand_kWh" in ef.columns:
+        pivot = ef.groupby(["city", "hour"])["total_electricity_demand_kWh"].mean().reset_index()
+        pivot_matrix = pivot.pivot(index="city", columns="hour", values="total_electricity_demand_kWh")
         fig_eheat = go.Figure(go.Heatmap(
             z=pivot_matrix.values,
             x=[f"{h:02d}h" for h in pivot_matrix.columns],
@@ -90,12 +90,12 @@ if not energy.empty:
             yaxis=dict(title=""),
         )
         st.plotly_chart(fig_eheat, use_container_width=True)
-    elif "hour" in ef.columns and "consumption_kwh" in ef.columns:
-        hourly = ef.groupby("hour")["consumption_kwh"].mean().reset_index()
-        fig_hour = px.bar(hourly, x="hour", y="consumption_kwh",
-                          color="consumption_kwh",
+    elif "hour" in ef.columns and "total_electricity_demand_kWh" in ef.columns:
+        hourly = ef.groupby("hour")["total_electricity_demand_kWh"].mean().reset_index()
+        fig_hour = px.bar(hourly, x="hour", y="total_electricity_demand_kWh",
+                          color="total_electricity_demand_kWh",
                           color_continuous_scale=[[0,"#1a6fff"],[1,"#00d4ff"]],
-                          labels={"hour": "Heure", "consumption_kwh": "kWh moyen"})
+                          labels={"hour": "Heure", "total_electricity_demand_kWh": "kWh moyen"})
         fig_hour.update_layout(paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
                                 font=dict(color="#8b9cbd"), coloraxis_showscale=False,
                                 height=300, margin=dict(l=0,r=0,t=10,b=0),
@@ -103,7 +103,7 @@ if not energy.empty:
                                 yaxis=dict(gridcolor="rgba(255,255,255,0.06)"))
         st.plotly_chart(fig_hour, use_container_width=True)
     else:
-        st.info("Colonnes de consommation (`consumption_kwh`, `hour`) non trouvées.")
+        st.info("Colonnes de consommation (`total_electricity_demand_kWh`, `hour`) non trouvées.")
 else:
     st.info("Données de consommation énergétique indisponibles.")
 
@@ -111,7 +111,7 @@ else:
 col_temp, col_rain = st.columns(2, gap="large")
 
 with col_temp:
-    st.markdown(section_title("🌡️ Évolution de la température par ville"), unsafe_allow_html=True)
+    st.markdown(section_title("️ Évolution de la température par ville"), unsafe_allow_html=True)
     if not weather.empty and "observation_date" in weather.columns and "avg_temperature_C" in weather.columns:
         wf2 = weather.copy()
         if city_sel and "city" in wf2.columns:
@@ -140,7 +140,7 @@ with col_temp:
         st.plotly_chart(fig_temp, use_container_width=True)
 
 with col_rain:
-    st.markdown(section_title("🌧️ Précipitations cumulées par saison"), unsafe_allow_html=True)
+    st.markdown(section_title("️ Précipitations cumulées par saison"), unsafe_allow_html=True)
     if not weather.empty and "season" in weather.columns and "total_rainfall_mm" in weather.columns:
         wf3 = weather.copy()
         if season_sel and "season" in wf3.columns:
@@ -163,7 +163,7 @@ with col_rain:
         st.plotly_chart(fig_rain, use_container_width=True)
 
 # ─── Correlation heatmap: weather vs failure ───────────────────────────────────
-st.markdown(section_title("🔗 Corrélation météo ↔ pannes (par ville)"), unsafe_allow_html=True)
+st.markdown(section_title(" Corrélation météo ↔ pannes (par ville)"), unsafe_allow_html=True)
 
 if not weather.empty and not failures.empty and "observation_date" in weather.columns:
     try:
@@ -212,4 +212,4 @@ if not weather.empty and not failures.empty and "observation_date" in weather.co
 else:
     st.info("Données météo ou pannes indisponibles pour la corrélation.")
 
-st.markdown('<div class="main-footer">ONEE Smart Grid Intelligence Platform · 2021–2024</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-footer">ONEE Predictive System Intelligence Platform · 2021–2024</div>', unsafe_allow_html=True)

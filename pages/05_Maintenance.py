@@ -18,13 +18,13 @@ import streamlit as st
 from utils.data_loader import CITY_COORDS, load_equipments, load_maintenance, load_technicians
 from utils.styling import apply_css, metric_card, page_header, section_title
 
-st.set_page_config(page_title="Maintenance — ONEE", page_icon="🔧", layout="wide")
+st.set_page_config(page_title="Maintenance — ONEE", page_icon="", layout="wide")
 apply_css()
 
 with st.sidebar:
     st.markdown("""
     <div class="sidebar-logo">
-        <h2>⚡ ONEE Smart Grid</h2>
+        <h2> ONEE Predictive System</h2>
         <p>Gestion de la Maintenance</p>
     </div>
     """, unsafe_allow_html=True)
@@ -33,7 +33,7 @@ with st.sidebar:
     year_filter       = st.multiselect("Année", [2021, 2022, 2023, 2024], default=[2021, 2022, 2023, 2024])
     result_filter     = st.selectbox("Résultat", ["Tous", "OK - No issues found", "Minor issue fixed", "Major repair needed"])
 
-st.markdown(page_header("🔧 Maintenance du Réseau",
+st.markdown(page_header(" Maintenance du Réseau",
                          "Suivi des interventions préventives et correctives sur les équipements"),
             unsafe_allow_html=True)
 
@@ -72,10 +72,10 @@ avg_dur    = df["duration_hours"].mean() if "duration_hours" in df.columns else 
 n_prev     = (df["maintenance_type"] == "Preventive").sum() if "maintenance_type" in df.columns else 0
 n_corr     = (df["maintenance_type"] == "Corrective").sum() if "maintenance_type" in df.columns else 0
 
-with k1: st.markdown(metric_card("📋", f"{len(df):,}", "Interventions filtrées"), unsafe_allow_html=True)
-with k2: st.markdown(metric_card("💰", f"{total_cost/1e6:.1f}M MAD", "Coût total"), unsafe_allow_html=True)
-with k3: st.markdown(metric_card("🛡️", f"{n_prev:,}", "Préventives"), unsafe_allow_html=True)
-with k4: st.markdown(metric_card("🔨", f"{n_corr:,}", "Correctives"), unsafe_allow_html=True)
+with k1: st.markdown(metric_card("", f"{len(df):,}", "Interventions filtrées"), unsafe_allow_html=True)
+with k2: st.markdown(metric_card("", f"{total_cost/1e6:.1f}M MAD", "Coût total"), unsafe_allow_html=True)
+with k3: st.markdown(metric_card("️", f"{n_prev:,}", "Préventives"), unsafe_allow_html=True)
+with k4: st.markdown(metric_card("", f"{n_corr:,}", "Correctives"), unsafe_allow_html=True)
 
 st.markdown("<br>", unsafe_allow_html=True)
 
@@ -83,7 +83,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 col_trend, col_type = st.columns([1.6, 1], gap="large")
 
 with col_trend:
-    st.markdown(section_title("📈 Évolution mensuelle des interventions"), unsafe_allow_html=True)
+    st.markdown(section_title(" Évolution mensuelle des interventions"), unsafe_allow_html=True)
     if "maintenance_date" in df.columns and "maintenance_type" in df.columns:
         monthly = (
             df.dropna(subset=["maintenance_date"])
@@ -114,7 +114,7 @@ with col_trend:
 
 
 with col_type:
-    st.markdown(section_title("⚖️ Répartition préventif / correctif"), unsafe_allow_html=True)
+    st.markdown(section_title("️ Répartition préventif / correctif"), unsafe_allow_html=True)
     if "maintenance_type" in df.columns:
         type_counts = df["maintenance_type"].value_counts()
         fig_donut = go.Figure(go.Pie(
@@ -138,7 +138,7 @@ with col_type:
 col_city, col_result = st.columns(2, gap="large")
 
 with col_city:
-    st.markdown(section_title("🏙️ Coût moyen de maintenance par ville"), unsafe_allow_html=True)
+    st.markdown(section_title("️ Coût moyen de maintenance par ville"), unsafe_allow_html=True)
     if "city" in df.columns and "maintenance_cost_MAD" in df.columns:
         city_cost = df.groupby("city")["maintenance_cost_MAD"].mean().reset_index()
         city_cost.columns = ["city", "avg_cost"]
@@ -158,7 +158,7 @@ with col_city:
         st.plotly_chart(fig_c, use_container_width=True)
 
 with col_result:
-    st.markdown(section_title("✅ Distribution des résultats"), unsafe_allow_html=True)
+    st.markdown(section_title(" Distribution des résultats"), unsafe_allow_html=True)
     if "result" in df.columns:
         res_counts = df["result"].value_counts().reset_index()
         res_counts.columns = ["result", "count"]
@@ -181,7 +181,7 @@ with col_result:
         st.plotly_chart(fig_res, use_container_width=True)
 
 # ─── Technician table ─────────────────────────────────────────────────────────
-st.markdown(section_title("👷 Top 10 techniciens les plus actifs"), unsafe_allow_html=True)
+st.markdown(section_title(" Top 10 techniciens les plus actifs"), unsafe_allow_html=True)
 if "technician_id" in df.columns:
     tech_activity = df["technician_id"].value_counts().head(10).reset_index()
     tech_activity.columns = ["technician_id", "nb_interventions"]
@@ -190,7 +190,7 @@ if "technician_id" in df.columns:
     st.dataframe(tech_activity.reset_index(drop=True), use_container_width=True, hide_index=True)
 
 # ─── Detail table ─────────────────────────────────────────────────────────────
-with st.expander("📋 Voir le tableau complet des interventions (200 dernières)"):
+with st.expander(" Voir le tableau complet des interventions (200 dernières)"):
     display_cols = [c for c in ["maintenance_id", "equipment_id", "city", "technician_id",
                                   "maintenance_date", "maintenance_type", "maintenance_cost_MAD",
                                   "duration_hours", "result", "next_maintenance"]
@@ -200,4 +200,4 @@ with st.expander("📋 Voir le tableau complet des interventions (200 dernières
         use_container_width=True, hide_index=True,
     )
 
-st.markdown('<div class="main-footer">ONEE Smart Grid Intelligence Platform · 2021–2024</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-footer">ONEE Predictive System Intelligence Platform · 2021–2024</div>', unsafe_allow_html=True)

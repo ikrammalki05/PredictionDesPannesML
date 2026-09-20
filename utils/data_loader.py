@@ -1,5 +1,5 @@
 """
-ONEE Smart Grid — Centralized data loading with caching and error resilience.
+ONEE Predictive System — Centralized data loading with caching and error resilience.
 All loaders use @st.cache_data to avoid repeated I/O on re-runs.
 """
 
@@ -26,7 +26,7 @@ def _safe_read(path: Path, **kwargs) -> pd.DataFrame:
     try:
         return pd.read_csv(path, **kwargs)
     except Exception as exc:
-        st.warning(f"⚠️  Could not load `{path.name}`: {exc}", icon="⚠️")
+        st.warning(f"️  Could not load `{path.name}`: {exc}", icon="️")
         return pd.DataFrame()
 
 
@@ -119,12 +119,12 @@ def load_model(name: str):
     import joblib
     path = MODELS / name
     if not path.exists():
-        st.warning(f"⚠️  Model file not found: `{name}`")
+        st.warning(f"️  Model file not found: `{name}`")
         return None
     try:
         return joblib.load(path)
     except Exception as exc:
-        st.error(f"❌ Failed to load model `{name}`: {exc}")
+        st.error(f" Failed to load model `{name}`: {exc}")
         return None
 
 
